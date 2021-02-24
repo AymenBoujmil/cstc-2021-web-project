@@ -2612,6 +2612,9 @@ nav {
 		margin-top: 70px;
 	}
 }
+.footer-text {
+	color: rgb(193, 193, 193);
+}
 .footer-text a,
 .footer-text i {
 	color: #ea0763;
