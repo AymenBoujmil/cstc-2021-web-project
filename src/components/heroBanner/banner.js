@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {countdown as Countdown} from '../countdown/countdown';
 export const banner = () => {
 	return (
 		<div>
@@ -10,6 +10,7 @@ export const banner = () => {
 					</span>
 					<p>08 - 11 April 2021, Hammamet City</p>
 					<h1>CSTC 2021</h1>
+					<Countdown></Countdown>
 					<a class='button button-header' href='#'>
 						About CSTC
 					</a>
