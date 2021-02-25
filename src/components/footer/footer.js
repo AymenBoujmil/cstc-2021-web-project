@@ -1,4 +1,5 @@
 import React from 'react';
+
 export const footer = () => {
 	return (
 		<div>
@@ -64,49 +65,49 @@ export const footer = () => {
 											src='https://www.facebook.com/images/fb_icon_325x325.png
                                             '
 											alt='poop'
-										width="50" height="50"></img>
+										></img>
 									</li>
 									<li>
 										<img
 											src='https://www.facebook.com/images/fb_icon_325x325.png
                                             '
-											alt='poop' width="50" height="50"
+											alt='poop'
 										></img>
 									</li>
 									<li>
 										<image
-											src={require('../../assets/images/social_media/snap.png')}
-											alt='poop' width="50" height="50"
+											src='../../assets/images/social_media/fb.png'
+											alt='poop'
 										></image>
 									</li>
 									<li>
 										<image
 											src='../../assets/images/social_media/fb.png'
-											alt='' width="50" height="50"
+											alt=''
 										></image>
 									</li>
 									<li>
 										<image
 											src='../../assets/images/social_media/fb.png'
-											alt='' width="50" height="50"
+											alt=''
 										></image>
 									</li>
 									<li>
 										<image
 											src='../../assets/images/social_media/fb.png'
-											alt='' width="50" height="50"
+											alt=''
 										></image>
 									</li>
 									<li>
 										<image
 											src='../../assets/images/social_media/fb.png'
-											alt='' width="50" height="50"
+											alt=''
 										></image>
 									</li>
 									<li>
 										<image
 											src='../../assets/images/social media/fb.png'
-											alt='' width="50" height="50"
+											alt=''
 										></image>
 									</li>
 								</ul>
@@ -141,4 +142,3 @@ export const footer = () => {
 		</div>
 	);
 };
-
