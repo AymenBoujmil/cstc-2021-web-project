@@ -1,5 +1,5 @@
 import React from 'react';
-import { countdown as Countdown } from '../countdown/countdown';
+import { Countdown } from '../countdown/countdown';
 export const banner = () => {
 	return (
 		<div>
