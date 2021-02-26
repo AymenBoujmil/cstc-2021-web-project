@@ -135,6 +135,7 @@ h4,
 }
 .tab-pane.active {
 	animation: slide-down 0.5s ease-out;
+	animation-iteration-count: 1;
 }
 @keyframes slide-down {
 	0% {
@@ -145,6 +146,17 @@ h4,
 		opacity: 1;
 		transform: translateY(0);
 	}
+}
+@keyframes reactive {
+	to {
+		width: auto;
+	}
+}
+.tab-pane.active:checked {
+	animation-name: reactive;
+}
+.tab-pane.non-active {
+	animation: none;
 }
 .header_area {
 	width: 100%;

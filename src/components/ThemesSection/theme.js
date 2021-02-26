@@ -7,9 +7,9 @@ export const Theme = (props) => {
 
 	return (
 		<div>
-			<div class='card-feature mb-5 mb-lg-0'>
-				<div class='feature-icon'>
-					<i class={props.theme.icon} aria-hidden='true'></i>
+			<div className='card-feature mb-5 mb-lg-0'>
+				<div className='feature-icon'>
+					<i className={props.theme.icon} aria-hidden='true'></i>
 				</div>
 				<h3>{props.theme.title}</h3>
 				<p>{props.theme.text}</p>
