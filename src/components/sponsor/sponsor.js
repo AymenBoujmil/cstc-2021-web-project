@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 //import '../../assets/css/sponsor';
 //import '../../_utils/sponsor/sponsor.json';
-export const Sponsor = ()=> {
+
             /*const [sponsor,setSponsor]=useState([]);
             const getData=()=>{
     fetch('data.json'
@@ -118,7 +118,7 @@ const CarouselSlideItem = ({ pos, idx, activeIdx }) => {
 
 const keys = Array.from(Array(_items.length).keys())
 
-const Carousel = () => {
+export const Sponsor = () => {
     const [items, setItems] = React.useState(keys)
     const [isTicking, setIsTicking] = React.useState(false)
     const [activeIdx, setActiveIdx] = React.useState(0)
@@ -196,5 +196,3 @@ const Carousel = () => {
         </div>
     )
 }
-
-} 
