@@ -43,11 +43,6 @@ export const Countdown = () => {
     }
   };
 
-
-
-
-
-
 	return (
 		<div className='size1  flex-c-m  p-b-55 p-l-15 p-r-15'>
 			<div className='wsize1'>
