@@ -6,6 +6,10 @@ import { footer as Footer } from './components/footer/footer';
 import { Themes } from './components/ThemesSection/Themes';
 import { Schedule } from './components/schedule/Schedule';
 import { Sponsor } from './components/sponsor/sponsor';
+
+
+
+
 function App() {
 	return (
 		<div>
