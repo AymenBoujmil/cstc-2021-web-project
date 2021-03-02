@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import {sponsorImage} from "../../assets/css/sponsor.css"
+import {sponsor} from "../../assets/css/sponsor.css"
 import data  from "../../_utils/sponsor/sponsor.json"
 export const Sponsor = () => {
      const [sponsors, setSponsors] = useState(data.sponsors);
