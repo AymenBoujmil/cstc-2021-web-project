@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 
-export const ContactUS = () => {
+export const ContactUs = () => {
   
   const { register, errors, handleSubmit, reset } = useForm();
   const toastifySuccess = () => {

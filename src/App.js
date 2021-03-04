@@ -7,6 +7,8 @@ import { Themes } from './components/ThemesSection/Themes';
 import { Schedule } from './components/schedule/Schedule';
 import { Speakers } from './components/speakers/speakers';
 import { AboutUs } from './components/AboutUs/AboutUs';
+import { ContactUs } from './components/ContactUs/ContactUs'
+import { Sponsor } from './components/sponsor/sponsor'
 
 function App() {
 	return (
@@ -16,7 +18,9 @@ function App() {
 			<AboutUs></AboutUs>
 			<Themes></Themes>
 			<Schedule></Schedule>
+			<ContactUs></ContactUs>
 			<Speakers></Speakers>
+			<Sponsor></Sponsor>
 			<Footer></Footer>
 		</div>
 	);
