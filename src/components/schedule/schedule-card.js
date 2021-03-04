@@ -1,5 +1,8 @@
 import React from 'react';
 
+const cg = {
+	color: '#838383',
+};
 export const Schedule_card = (props) => {
 	return (
 		<div>
@@ -17,7 +20,7 @@ export const Schedule_card = (props) => {
 							<a className='schedule-title' href='#'>
 								<h3>{props.day.title}</h3>
 							</a>
-							<p>{props.day.content}</p>
+							<p style={cg}>{props.day.content}</p>
 						</div>
 					</div>
 				</div>
