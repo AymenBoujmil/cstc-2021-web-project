@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
 
+const styleIcon = {
+	color: 'rgba(234, 7, 99, 1)',
+};
+
 export const Speaker = (props) => {
 	const affiche = () => {
 		console.log(props.speaker);
@@ -17,22 +21,18 @@ export const Speaker = (props) => {
 					<ul class='speaker-social'>
 						<li>
 							<a href='#'>
-								<i class='ti-facebook'></i>
+								<i class='fab fa-facebook-f' style={styleIcon}></i>
 							</a>
 						</li>
 						<li>
 							<a href='#'>
-								<i class='ti-twitter-alt'></i>
+								<i class='fab fa-linkedin-in' style={styleIcon}></i>
 							</a>
 						</li>
+
 						<li>
 							<a href='#'>
-								<i class='ti-instagram'></i>
-							</a>
-						</li>
-						<li>
-							<a href='#'>
-								<i class='ti-skype'></i>
+								<i class='fab fa-instagram' style={styleIcon}></i>
 							</a>
 						</li>
 					</ul>

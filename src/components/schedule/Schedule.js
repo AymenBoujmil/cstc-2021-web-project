@@ -66,7 +66,7 @@ export const Schedule = () => {
 			<section className='section-margin mb-5 pb-5'>
 				<div className='container'>
 					<div className='section-intro text-center pb-98px'>
-						<p className='section-intro__title'>Join the event</p>
+						{/* <p className='section-intro__title'>Join the event</p> */}
 						<h2 className='primary-text'>Conference Schedule</h2>
 					</div>
 

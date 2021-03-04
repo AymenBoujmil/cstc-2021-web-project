@@ -7,13 +7,16 @@ export const Speakers = () => {
 	const affiche = () => {
 		console.log(speakers);
 	};
+	const primary_text = {
+		color: '#f50136',
+	};
 	return (
 		<div>
 			<section class='speaker-bg section-padding'>
 				<div class='container'>
 					<div class='section-intro section-intro-white text-center pb-98px'>
-						<p class='section-intro__title'>Join the event</p>
-						<h2 class='primary-text text-dark' onClick={affiche}>
+						{/* <p class='section-intro__title'>Join the event</p> */}
+						<h2 class='primary-text' style={primary_text} onClick={affiche}>
 							Meet The Speakers
 						</h2>
 					</div>
