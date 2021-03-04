@@ -1,0 +1,34 @@
+{
+	"speakers": [
+		{
+			"name": "Donald Markin",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-2.png"
+		},
+		{
+			"name": "Jhon Leonar",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-1.png"
+		},
+		{
+			"name": "Jhon Leonar",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-3.png"
+		},
+		{
+			"name": "Jhon Leonar",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-1.png"
+		},
+		{
+			"name": "Jhon Leonar",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-2.png"
+		},
+		{
+			"name": "Jhon Leonar",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-3.png"
+		}
+	]
+}

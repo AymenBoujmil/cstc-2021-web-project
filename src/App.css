@@ -217,7 +217,7 @@ nav {
 	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
-	color: rgb(255, 132, 0);
+	color: #ee8425;
 }
 .header_area .navbar .nav .nav-item {
 	margin-right: 38px;
@@ -235,7 +235,8 @@ nav {
 }
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-	color: #dd5607;
+	color: #ee8425;
+
 	opacity: 1;
 }
 .header_area .navbar .nav .nav-item.submenu {
@@ -955,7 +956,8 @@ nav {
 }
 .speaker-bg {
 	/* background: url(../img/home/speaker-bg.png) left center no-repeat; */
-	background-size: cover;
+	/* background-size: cover; */
+	background-color: #f7f7f7;
 }
 .card-speaker {
 	border: 10px solid #fff;
@@ -968,7 +970,9 @@ nav {
 	left: 0;
 	width: 100%;
 	text-align: center;
-	background: rgba(59, 29, 130, 0.9);
+	/* background: rgba(59, 29, 130, 0.9); */
+	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
+		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
 	padding: 22px 5px;
 	z-index: 2;
 	transition: all 0.7s ease;
