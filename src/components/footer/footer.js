@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { MdEmail, MdPhone, MdPinDrop } from 'react-icons/md';
+import { MdEmail, MdPhone, MdPinDrop, MdCopyright } from 'react-icons/md';
 export const footer = () => {
 	const copyRStyle = {
 		padding: '4px',
@@ -36,13 +36,13 @@ export const footer = () => {
 												<a href='#'>Home</a>
 											</li>
 											<li>
-												<a href='#'>Feature</a>
+												<a href='#'>about</a>
 											</li>
 											<li>
-												<a href='#'>Services</a>
+												<a href='#'>Themes</a>
 											</li>
 											<li>
-												<a href='#'>Portfolio</a>
+												<a href='#'>Speakers</a>
 											</li>
 										</ul>
 									</div>
@@ -52,10 +52,10 @@ export const footer = () => {
 												<a href='#'>Team</a>
 											</li>
 											<li>
-												<a href='#'>Pricing</a>
+												<a href='#'>Schedule</a>
 											</li>
 											<li>
-												<a href='#'>Blog</a>
+												<a href='#'>Hotel</a>
 											</li>
 											<li>
 												<a href='#'>Contact</a>
@@ -65,7 +65,7 @@ export const footer = () => {
 								</div>
 							</div>
 						</div>
-						<div className='col-lg-4  col-md-6 col-sm-6'>
+						<div className='col-lg-4 p-3  col-md-6 col-sm-6'>
 							<IconContext.Provider
 								value={{
 									color: '#797979',
@@ -92,6 +92,7 @@ export const footer = () => {
 										<li>
 											<div className='row'>
 												<MdEmail></MdEmail>
+
 												<p>hello@youremail.com</p>
 											</div>
 										</li>
@@ -104,16 +105,15 @@ export const footer = () => {
 				<IconContext.Provider
 					value={{
 						color: '#797979',
-						size: '20px',
-						style: { padding: '2px 3px 0 0 ', fontSize: '36px' },
+						size: '23px',
+						style: { padding: '0 3px 4px 0 ', fontSize: '40px' },
 					}}
 				>
 					<div className='footer-bottom'>
 						<div className='container'>
 							<div className='row align-items-center'>
 								<p className='col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left'>
-									<i className='fa fa-copyright' style={copyRStyle}></i>
-									Copyright All rights{' '}
+									<MdCopyright></MdCopyright> Copyright All rights{' '}
 								</p>
 								<div className='col-lg-4 col-sm-12 footer-social text-center text-lg-right'>
 									<a href='#'>
