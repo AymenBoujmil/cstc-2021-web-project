@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 const styleIcon = {
-	color: 'rgba(234, 7, 99, 1)',
+	color: '#fff',
 };
 
 export const Speaker = (props) => {

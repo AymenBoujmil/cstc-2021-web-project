@@ -557,6 +557,12 @@ nav {
 	.footer_area .col-sm-6 {
 		margin-bottom: 30px;
 	}
+	.footer-area div {
+		
+			overflow-x: auto;
+			overflow-y: auto ;
+		
+	}
 	.footer_area .footer_inner {
 		margin-bottom: -30px;
 	}
