@@ -7,7 +7,7 @@ import { Themes } from '../components/ThemesSection/Themes';
 import { Schedule } from '../components/schedule/Schedule';
 import { Speakers } from '../components/speakers/speakers';
 import { AboutUs } from '../components/AboutUs/AboutUs';
-import { ContactUs } from '../components/ContactUs/ContactUs';
+import { ContactUs } from './ContactUs/ContactUs';
 import { Sponsor } from '../components/sponsor/sponsor';
 
 function App() {
