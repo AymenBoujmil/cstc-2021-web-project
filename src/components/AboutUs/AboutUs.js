@@ -97,18 +97,12 @@ export const AboutUs = () => {
 
 					<div className='row justify-content-center mt30'>
 						<div className='col-12 col-md-6 col-lg-3'>
-<<<<<<< HEAD
-							<div className='icon_box_one'>
-									<br></br>
-								<i className='fas fa-microphone'></i>
-=======
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverMic}
 								onMouseOver={onMouseOutMic}
 							>
 								<GiMicrophone size='120px' style={styleMic} />{' '}
->>>>>>> a2d26e7acb89be8eccbd4ab62423aec38c5811ed
 								<div className='content'>
 									<h4>9 Speakers</h4>
 									<p className='aboutUsP'>
@@ -119,18 +113,12 @@ export const AboutUs = () => {
 							</div>
 						</div>
 						<div className='col-12 col-md-6 col-lg-3'>
-<<<<<<< HEAD
-							<div className='icon_box_one'>
-									<br></br>
-								<i className='fas fa-rocket'></i>{' '}
-=======
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverRocket}
 								onMouseOver={onMouseOutrocket}
 							>
 								<IoRocket size='120px' style={styleRocket}></IoRocket>{' '}
->>>>>>> a2d26e7acb89be8eccbd4ab62423aec38c5811ed
 								<div className='content'>
 									<h4>8 hrs Marathon</h4>
 									<p className='aboutUsP'>
@@ -141,18 +129,13 @@ export const AboutUs = () => {
 							</div>
 						</div>
 						<div className='col-12 col-md-6 col-lg-3'>
-<<<<<<< HEAD
-							<div className='icon_box_one'>
-									<br></br>
-								<i className='fas fa-bullhorn'></i>{' '}
-=======
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverBull}
 								onMouseOver={onMouseOutBull}
 							>
 								<ImBullhorn size='120px' style={styleBullhorn}></ImBullhorn>
->>>>>>> a2d26e7acb89be8eccbd4ab62423aec38c5811ed
+
 								<div className='content'>
 									<h4>Live Broadcast</h4>
 									<p className='aboutUsP'>
@@ -164,31 +147,13 @@ export const AboutUs = () => {
 						</div>
 
 						<div className='col-12 col-md-6 col-lg-3'>
-<<<<<<< HEAD
-							<div className='icon_box_one'>
-									<br></br>
-								<i className='far fa-clock'></i>{' '}
-								<div className='content'>
-									<h4>Early Bird</h4>
-									<p className='aboutUsP'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-										rhoncus massa nec graviante.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div className='col-12 col-md-6 col-lg-3'>
-							<div className='icon_box_one'>
-									<br></br>
-								<i className='far fa-clock'></i>{' '}
-=======
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOver}
 								onMouseOver={onMouseOut}
 							>
 								<IoIosClock size='120px' style={styleAlarm}></IoIosClock>
->>>>>>> a2d26e7acb89be8eccbd4ab62423aec38c5811ed
+
 								<div className='content'>
 									<h4>Early Bird</h4>
 									<p className='aboutUsP'>
