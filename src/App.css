@@ -721,6 +721,14 @@ nav {
 	position: relative;
 	padding: 70px 0;
 	background: url('./assets/images/hero-banner.png') left center no-repeat !important;
+	/* background: url('./assets/images/conference.png') left center no-repeat !important; */
+	background-size: cover;
+}
+.hero-banner::before {
+	position: absolute;
+	padding: 70px 0;
+	background: linear-gradient(120deg, #ee8425 0%, hsl(337, 94%, 63%) 100%),
+		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
 	background-size: cover;
 }
 @media (min-width: 768px) {
