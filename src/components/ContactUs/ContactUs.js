@@ -87,6 +87,14 @@ export const ContactUs = () => {
 
 
 					<div class="container-contact100-form-btn">
+          <hr></hr>
+          <hr></hr>
+          <hr></hr>
+          <hr></hr>
+           <hr></hr>
+          <hr></hr>
+          <hr></hr>
+          <hr></hr>
 						<button class="contact100-form-btn" type='submit'>
 							Send
 						</button>
