@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import '../../assets/css/navbar.css';
-export const navbar = () => {
+export const Navbar = () => {
+	const [Shadow, setShadow] = useState(false);
+	const [home, setHome] = useState(false);
+	const [about, setAbout] = useState(false);
+	const [speakers, setSpeakers] = useState(false);
+	const [team, setTeam] = useState(false);
+	const [schedule, setSchedule] = useState(false);
+	const [sponsor, setSponsor] = useState(false);
+	const [contact, setContact] = useState(false);
+	const changeShadow = () => {
+		console.log(window.scrollY);
+		if (window.scrollY > 550) {
+			setShadow(true);
+		} else setShadow(false);
+	};
+	window.addEventListener('scroll', changeShadow);
+	const active = (e) => {};
 	return (
 		<div>
 			<div classNameName='container'>
-				<header className='header_area'>
+				<header className={Shadow ? 'header_area box-shadow' : 'header_area '}>
 					<div className='main_menu'>
 						<nav className='navbar navbar-expand-lg  '>
 							<div className='container box_1620'>
@@ -80,4 +96,3 @@ export const navbar = () => {
 		</div>
 	);
 };
-

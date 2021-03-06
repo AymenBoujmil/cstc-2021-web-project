@@ -162,9 +162,13 @@ h4,
 	animation: none;
 }
 .header_area {
+	position: fixed;
 	width: 100%;
 	z-index: 99;
 	transition: background 0.4s, all 0.3s linear;
+}
+.box-shadow {
+	box-shadow: -30px 10px 10px rgba(0, 0, 0, 0.2);
 }
 nav {
 	background-color: #fff !important;
@@ -199,13 +203,13 @@ nav {
 }
 .header_area .navbar-social li a:hover i,
 .header_area .navbar-social li span {
-	color: #3b1d82;
+	color: #ea0763;
 }
 .header_area .menu_nav {
 	width: 100%;
 }
 .header_area .navbar {
-	background: transparent;
+	background: #fff;
 	border: 0px;
 	border-radius: 0px;
 	width: 100%;
@@ -220,7 +224,7 @@ nav {
 	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
-	color: #ee8425;
+	color: #ea0763;
 }
 .header_area .navbar .nav .nav-item {
 	margin-right: 38px;
@@ -229,7 +233,7 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	color: #242424;
 	text-transform: capitalize;
-	font-weight: 400;
+	font-weight: 500;
 	padding: 33px 0;
 	display: inline-block;
 }
@@ -238,8 +242,7 @@ nav {
 }
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-	color: #ee8425;
-
+	color: #ea0763;
 	opacity: 1;
 }
 .header_area .navbar .nav .nav-item.submenu {
@@ -721,6 +724,14 @@ nav {
 	position: relative;
 	padding: 70px 0;
 	background: url('./assets/images/hero-banner.png') left center no-repeat !important;
+	/* background: url('./assets/images/conference.png') left center no-repeat !important; */
+	background-size: cover;
+}
+.hero-banner::before {
+	position: absolute;
+	padding: 70px 0;
+	background: linear-gradient(120deg, #ee8425 0%, hsl(337, 94%, 63%) 100%),
+		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
 	background-size: cover;
 }
 @media (min-width: 768px) {
@@ -2580,11 +2591,11 @@ nav {
 	color: #ea0763;
 }
 .single-footer-widget ::-moz-selection {
-	background-color: #3b1d82;
+	background-color: #ea0763;
 	color: #797979;
 }
 .single-footer-widget ::selection {
-	background-color: #3b1d82;
+	background-color: #ea0763;
 	color: #797979;
 }
 .single-footer-widget ::-webkit-input-placeholder {
@@ -2628,7 +2639,7 @@ nav {
 	transition: all 0.3s ease 0s;
 }
 .single-footer-widget ul li a:hover {
-	color: #3b1d82;
+	color: #ea0763;
 }
 .footer-bottom {
 	padding: 20px 0;

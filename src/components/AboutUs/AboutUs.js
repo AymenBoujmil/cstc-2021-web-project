@@ -1,5 +1,7 @@
 import React from 'react';
 import './aboutUs.css';
+import { IoIosClock } from 'react-icons/io';
+
 const primary_text = {
 	color: '#f50136',
 };
@@ -64,6 +66,18 @@ export const AboutUs = () => {
 								<i className='fas fa-bullhorn'></i>{' '}
 								<div className='content'>
 									<h4>Live Broadcast</h4>
+									<p className='aboutUsP'>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+										rhoncus massa nec graviante.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className='col-12 col-md-6 col-lg-3'>
+							<div className='icon_box_one'>
+								<i className='far fa-clock'></i>{' '}
+								<div className='content'>
+									<h4>Early Bird</h4>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
 										rhoncus massa nec graviante.
