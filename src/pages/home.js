@@ -10,7 +10,7 @@ import { AboutUs } from '../components/AboutUs/AboutUs';
 import { ContactUs } from './ContactUs/ContactUs';
 import { Sponsor } from '../components/sponsor/sponsor';
 
-function App() {
+export default function Home() {
 	return (
 		<div>
 			<Banner></Banner>
@@ -22,5 +22,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 // import '../../assets/css/navbar.css';
 export const Navbar = () => {
 	const [Shadow, setShadow] = useState(false);
@@ -51,9 +52,12 @@ export const Navbar = () => {
 								>
 									<ul className='nav navbar-nav menu_nav justify-content-end'>
 										<li className='nav-item active'>
-											<a className='nav-link' href='index.html'>
+											{/* <a className='nav-link' href='index.html'>
 												Home
-											</a>
+											</a> */}
+											<Link to='/' className='nav-link'>
+												Home
+											</Link>
 										</li>
 										<li className='nav-item'>
 											<a className='nav-link' href='about.html'>
@@ -82,9 +86,12 @@ export const Navbar = () => {
 											</a>
 										</li>
 										<li className='nav-item'>
-											<a className='nav-link' href='contact.html'>
+											{/* <a className='nav-link' href='contact.html'>
 												Contact
-											</a>
+											</a> */}
+											<Link to='/contact' className='nav-link'>
+												Contact
+											</Link>
 										</li>
 									</ul>
 								</div>

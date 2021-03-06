@@ -1,27 +1,22 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {  Navbar } from './components/navbar/navbar';
-import { banner as Banner } from './components/heroBanner/banner';
+import { Navbar } from './components/navbar/navbar';
 import { footer as Footer } from './components/footer/footer';
-import { Themes } from './components/ThemesSection/Themes';
-import { Schedule } from './components/schedule/Schedule';
-import { Speakers } from './components/speakers/speakers';
-import { AboutUs } from './components/AboutUs/AboutUs';
-import { ContactUs } from './components/ContactUs/ContactUs'
-import { Sponsor } from './components/sponsor/sponsor'
+import { ContactUs } from './pages/ContactUs/ContactUs';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages/home';
 
 function App() {
 	return (
 		<div>
-			<Navbar></Navbar>
-			<Banner></Banner>
-			<AboutUs></AboutUs>
-			<Themes></Themes>
-			<Schedule></Schedule>
-			<ContactUs></ContactUs>
-			<Speakers></Speakers>
-			<Sponsor></Sponsor>
-			<Footer></Footer>
+			<Router>
+				<Navbar></Navbar>
+				<Switch>
+					<Route path='/' exact component={Home} />
+					<Route path='/Contact' component={ContactUs} />
+				</Switch>
+				<Footer></Footer>
+			</Router>
 		</div>
 	);
 }
