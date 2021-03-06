@@ -72,6 +72,7 @@ h3,
 		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
+	
 }
 .lnr-mic:before {
 	content: 'fas fa-microphone';

@@ -1,5 +1,15 @@
 import React from 'react';
+import { IconContext } from 'react-icons';
+import { MdEmail, MdPhone, MdPinDrop } from 'react-icons/md';
 export const footer = () => {
+	const copyRStyle = {
+		padding: '4px',
+		color: '#797979',
+	};
+	const contactStyle = {
+		padding: '1px  6px 0 0',
+		color: '#797979',
+	};
 	return (
 		<div>
 			<footer className='footer-area'>
@@ -56,103 +66,73 @@ export const footer = () => {
 							</div>
 						</div>
 						<div className='col-lg-4  col-md-6 col-sm-6'>
-							<div className='single-footer-widget mail-chimp'>
-								<h6 className='mb-20'>InstaFeed</h6>
-								<ul className='instafeed d-flex flex-wrap'>
-									<li>
-										<img
-											src='https://www.facebook.com/images/fb_icon_325x325.png
-                                            '
-											alt='poop'
-											width='50'
-											height='50'
-										></img>
-									</li>
-									<li>
-										<img
-											src='https://www.facebook.com/images/fb_icon_325x325.png
-                                            '
-											alt='poop'
-											width='50'
-											height='50'
-										></img>
-									</li>
-									<li>
-										<image
-											src={require('../../assets/images/social_media/snap.png')}
-											alt='poop'
-											width='50'
-											height='50'
-										></image>
-									</li>
-									<li>
-										<image
-											src='../../assets/images/social_media/fb.png'
-											alt=''
-											width='50'
-											height='50'
-										></image>
-									</li>
-									<li>
-										<image
-											src='../../assets/images/social_media/fb.png'
-											alt=''
-											width='50'
-											height='50'
-										></image>
-									</li>
-									<li>
-										<image
-											src='../../assets/images/social_media/fb.png'
-											alt=''
-											width='50'
-											height='50'
-										></image>
-									</li>
-									<li>
-										<image
-											src='../../assets/images/social_media/fb.png'
-											alt=''
-											width='50'
-											height='50'
-										></image>
-									</li>
-									<li>
-										<image
-											src='../../assets/images/social media/fb.png'
-											alt=''
-											width='50'
-											height='50'
-										></image>
-									</li>
-								</ul>
-							</div>
+							<IconContext.Provider
+								value={{
+									color: '#797979',
+									size: '22px',
+									style: { padding: '2px 3px 0 0 ' },
+								}}
+							>
+								<div class='single-footer-widget'>
+									<h6>Contact</h6>
+									<ul>
+										<li>
+											<div className='row'>
+												{/* <i class={MdEmail} style={contactStyle}></i>{' '} */}
+												<MdPinDrop></MdPinDrop>
+												<p>676 INSAT Centre Urbain Nord BP، Tunis Cedex 1080</p>
+											</div>
+										</li>
+										<li>
+											<div className='row'>
+												<MdPhone></MdPhone>
+												<p>99-999-999</p>
+											</div>
+										</li>
+										<li>
+											<div className='row'>
+												<MdEmail></MdEmail>
+												<p>hello@youremail.com</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</IconContext.Provider>
 						</div>
 					</div>
 				</div>
-				<div className='footer-bottom'>
-					<div className='container'>
-						<div className='row align-items-center'>
-							<p className='col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left'>
-								Copyright All rights{' '}
-							</p>
-							<div className='col-lg-4 col-sm-12 footer-social text-center text-lg-right'>
-								<a href='#'>
-									<i className='fab fa-facebook-f'></i>
-								</a>
-								<a href='#'>
-									<i className='fab fa-twitter'></i>
-								</a>
-								<a href='#'>
-									<i className='fab fa-dribbble'></i>
-								</a>
-								<a href='#'>
-									<i className='fab fa-behance'></i>
-								</a>
+				<IconContext.Provider
+					value={{
+						color: '#797979',
+						size: '20px',
+						style: { padding: '2px 3px 0 0 ', fontSize: '36px' },
+					}}
+				>
+					<div className='footer-bottom'>
+						<div className='container'>
+							<div className='row align-items-center'>
+								<p className='col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left'>
+									<i className='fa fa-copyright' style={copyRStyle}></i>
+									Copyright All rights{' '}
+								</p>
+								<div className='col-lg-4 col-sm-12 footer-social text-center text-lg-right'>
+									<a href='#'>
+										<i className='fab fa-facebook-f'></i>
+									</a>
+									<a href='#'>
+										<i className='fab fa-twitter'></i>
+									</a>
+									<a href='#'>
+										<i className='fab fa-dribbble'></i>
+									</a>
+									<a href='#'>
+										<i className='fab fa-behance'></i>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</IconContext.Provider>
 			</footer>
 		</div>
 	);
