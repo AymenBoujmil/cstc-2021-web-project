@@ -39,6 +39,7 @@ export const AboutUs = () => {
 					<div className='row justify-content-center mt30'>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div className='icon_box_one'>
+									<br></br>
 								<i className='fas fa-microphone'></i>
 								<div className='content'>
 									<h4>9 Speakers</h4>
@@ -51,6 +52,7 @@ export const AboutUs = () => {
 						</div>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div className='icon_box_one'>
+									<br></br>
 								<i className='fas fa-rocket'></i>{' '}
 								<div className='content'>
 									<h4>8 hrs Marathon</h4>
@@ -63,6 +65,7 @@ export const AboutUs = () => {
 						</div>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div className='icon_box_one'>
+									<br></br>
 								<i className='fas fa-bullhorn'></i>{' '}
 								<div className='content'>
 									<h4>Live Broadcast</h4>
@@ -75,6 +78,7 @@ export const AboutUs = () => {
 						</div>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div className='icon_box_one'>
+									<br></br>
 								<i className='far fa-clock'></i>{' '}
 								<div className='content'>
 									<h4>Early Bird</h4>
@@ -87,6 +91,7 @@ export const AboutUs = () => {
 						</div>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div className='icon_box_one'>
+									<br></br>
 								<i className='far fa-clock'></i>{' '}
 								<div className='content'>
 									<h4>Early Bird</h4>

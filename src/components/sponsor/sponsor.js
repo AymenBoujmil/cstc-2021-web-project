@@ -9,7 +9,7 @@ export const Sponsor = () => {
 
 
         return (
-        <div>
+        <div class="main-sponsor">
           <section class="section-padding--small sponsor-bg">
             <div class="container">
               <div class="section-intro text-center pb-80px">

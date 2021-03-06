@@ -6,6 +6,9 @@
 	height: 300px;
 	position: relative;
 }
+.main-sponsor {
+	width: 100%;
+}
 .list,
 .list-bis {
 	width: 3700px;
@@ -34,6 +37,10 @@
 	width: 350px;
 	text-align: center;
 	padding-top: 50px;*/
+}
+div {
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 @keyframes pan {
