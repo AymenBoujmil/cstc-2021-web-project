@@ -54,20 +54,20 @@ export const ContactUs = () => {
         <div>    
         <div class="container">
               <div class="section-intro text-center pb-80px">
-                <h2 class="primary-text"> ContactUS </h2> 
+                <h3 class="primary-text"> ContactUS </h3> 
               </div>
             </div>
             	<div class="bg-contact100" >
 		            <div class="container-contact100">
 			            <div class="wrap-contact100">
 				            <div class="contact100-pic js-tilt" data-tilt>
-				        	    <img src="image/ContactUs/ContacImage.png" alt="IMG"></img>
+				        	    <img src="image/ContactUs/ContactMail.png" alt="IMG"></img>
 		        	    	</div>
                            
 
 				           <form class="contact100-form validate-form"  id='contact-form' onSubmit={handleSubmit(onSubmit)}>
                                 <span class="contact100-form-title">
-										<i class="fas fa-envelope-open-text"></i> Email Us
+									<h2>	<i class="fas fa-envelope-open-text"></i> Email Us</h2>
 								</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -85,11 +85,6 @@ export const ContactUs = () => {
                        
 					</div>
 
-                    <hr></hr>
-                    <br></br>
-                    
-                    <hr></hr>
-                    <br></br>
 
 					<div class="container-contact100-form-btn">
 						<button class="contact100-form-btn" type='submit'>

@@ -135,6 +135,7 @@ export const AboutUs = () => {
 								onMouseOver={onMouseOutBull}
 							>
 								<ImBullhorn size='120px' style={styleBullhorn}></ImBullhorn>
+
 								<div className='content'>
 									<h4>Live Broadcast</h4>
 									<p className='aboutUsP'>
@@ -152,6 +153,7 @@ export const AboutUs = () => {
 								onMouseOver={onMouseOut}
 							>
 								<IoIosClock size='120px' style={styleAlarm}></IoIosClock>
+
 								<div className='content'>
 									<h4>Early Bird</h4>
 									<p className='aboutUsP'>
