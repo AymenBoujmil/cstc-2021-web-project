@@ -11,7 +11,7 @@ export const Speakers = () => {
 		color: '#f50136',
 	};
 	return (
-		<div>
+		<div id='speakers'>
 			<section class='speaker-bg section-padding'>
 				<div class='container'>
 					<div class='section-intro section-intro-white text-center pb-98px'>

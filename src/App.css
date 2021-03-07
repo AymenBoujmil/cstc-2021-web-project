@@ -231,6 +231,7 @@ nav {
 }
 .header_area .navbar .nav .nav-item .nav-link {
 	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
 	color: #242424;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -255,6 +256,14 @@ nav {
 	box-shadow: none;
 	margin: 0px;
 	background: #fff;
+}
+.nav-item > .active {
+	color: #ea0763;
+	opacity: 1;
+}
+.nav-active {
+	color: #ea0763;
+	opacity: 1;
 }
 @media (min-width: 992px) {
 	.header_area .navbar .nav .nav-item.submenu ul {
@@ -558,10 +567,8 @@ nav {
 		margin-bottom: 30px;
 	}
 	.footer-area div {
-		
-			overflow-x: auto;
-			overflow-y: auto ;
-		
+		overflow-x: auto;
+		overflow-y: auto;
 	}
 	.footer_area .footer_inner {
 		margin-bottom: -30px;
