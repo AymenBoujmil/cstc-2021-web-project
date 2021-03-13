@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 // import '../../assets/css/navbar.css';
 export const Navbar = () => {
 	const [Shadow, setShadow] = useState(false);
-	const [home, setHome] = useState(false);
-	const [about, setAbout] = useState(false);
-	const [speakers, setSpeakers] = useState(false);
-	const [team, setTeam] = useState(false);
-	const [schedule, setSchedule] = useState(false);
-	const [sponsor, setSponsor] = useState(false);
-	const [contact, setContact] = useState(false);
+	// const [home, setHome] = useState(false);
+	// const [about, setAbout] = useState(false);
+	// const [speakers, setSpeakers] = useState(false);
+	// const [team, setTeam] = useState(false);
+	// const [schedule, setSchedule] = useState(false);
+	// const [sponsor, setSponsor] = useState(false);
+	// const [contact, setContact] = useState(false);
 	const changeShadow = () => {
 		console.log(window.scrollY);
 		if (window.scrollY > 550) {
@@ -51,47 +52,92 @@ export const Navbar = () => {
 									id='navbarSupportedContent'
 								>
 									<ul className='nav navbar-nav menu_nav justify-content-end'>
-										<li className='nav-item active'>
+										<li className='nav-item '>
 											{/* <a className='nav-link' href='index.html'>
 												Home
 											</a> */}
-											<Link to='/' className='nav-link'>
+											<NavLink
+												to='/'
+												className='nav-link'
+												activeClassName='nav-active'
+											>
 												Home
-											</Link>
+											</NavLink>
 										</li>
 										<li className='nav-item'>
-											<a className='nav-link' href='about.html'>
+											<ScrollLink
+												className='nav-link'
+												activeClass='nav-active'
+												to='about'
+												spy={true}
+												smooth={true}
+												hashSpy={true}
+												offset={0}
+												duration={1000}
+												isDynamic={true}
+											>
 												About
-											</a>
+											</ScrollLink>
 										</li>
 										<li className='nav-item'>
-											<a className='nav-link' href='speaker.html'>
-												Speakers
-											</a>
-										</li>
-										<li className='nav-item'>
-											<a className='nav-link' href='contact.html'>
+											<ScrollLink
+												className='nav-link'
+												activeClass='nav-active'
+												to='schedule'
+												spy={true}
+												smooth={true}
+												hashSpy={true}
+												offset={0}
+												duration={1000}
+												isDynamic={true}
+											>
 												Schedule
-											</a>
+											</ScrollLink>
+										</li>
+										<li className='nav-item'>
+											<ScrollLink
+												className='nav-link'
+												activeClass='nav-active'
+												to='speakers'
+												spy={true}
+												smooth={true}
+												hashSpy={true}
+												offset={0}
+												duration={1000}
+												isDynamic={true}
+											>
+												Speakers
+											</ScrollLink>
 										</li>
 
 										<li className='nav-item'>
-											<a className='nav-link' href='contact.html'>
+											<a className='nav-link' href='#'>
 												Team
 											</a>
 										</li>
 										<li className='nav-item'>
-											<a className='nav-link' href='contact.html'>
+											<ScrollLink
+												className='nav-link'
+												activeClass='nav-active'
+												to='sponsors'
+												spy={true}
+												smooth={true}
+												hashSpy={true}
+												offset={0}
+												duration={1000}
+												isDynamic={true}
+											>
 												Sponsors
-											</a>
+											</ScrollLink>
 										</li>
 										<li className='nav-item'>
-											{/* <a className='nav-link' href='contact.html'>
+											<NavLink
+												to='/contact'
+												className='nav-link'
+												activeClassName='nav-active'
+											>
 												Contact
-											</a> */}
-											<Link to='/contact' className='nav-link'>
-												Contact
-											</Link>
+											</NavLink>
 										</li>
 									</ul>
 								</div>

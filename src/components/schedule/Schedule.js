@@ -62,7 +62,7 @@ export const Schedule = () => {
 		a.classList.add('active');
 	};
 	return (
-		<div>
+		<div id='schedule'>
 			<section className='section-margin mb-5 pb-5'>
 				<div className='container'>
 					<div className='section-intro text-center pb-98px'>

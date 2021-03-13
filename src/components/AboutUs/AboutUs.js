@@ -66,7 +66,7 @@ export const AboutUs = () => {
 	};
 
 	return (
-		<div>
+		<div id='about'>
 			<section className='pt100 pb100'>
 				<div className='container'>
 					<div className='section_title text-center'>

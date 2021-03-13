@@ -9,7 +9,7 @@ export const Themes = () => {
 
 	const [themes, setthemes] = useState(data.themes);
 	return (
-		<div>
+		<div id='themes'>
 			<section className='section-margin bg-gray themes'>
 				<div className='container'>
 					<div className='section-intro text-center pb-98px '>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Countdown } from '../countdown/countdown';
 export const banner = () => {
 	return (
-		<div>
+		<div id="home">
 			<section className='hero-banner'>
 				<div className='container text-center'>
 					<span className='hero-banner-icon'>
