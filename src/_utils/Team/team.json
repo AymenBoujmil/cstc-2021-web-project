@@ -1,0 +1,23 @@
+{
+  "Team" : [
+      {"name": "Aymen",
+            "position":"web dev",
+			"image": "image/Team/teammate1.jpg"},
+            {"name": "amin",
+            "position":"dev",
+			"image": "image/Team/teammate2.jpg"},
+            {"name": "aymen",
+            "position":"web dev",
+			"image": "image/Team/teammate3.jpg"},
+            {"name": "amin",
+            "position":"dev",
+			"image": "image/Team/teammate4.jpg"},
+            {"name": "aymen",
+            "position":"web dev",
+			"image": "image/Team/teammate5.jpg"},
+            {"name": "amin",
+            "position":"dev",
+			"image": "image/Team/teammate6.jpg"}
+     
+        ]
+}

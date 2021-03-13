@@ -9,6 +9,7 @@ import { Speakers } from '../components/speakers/speakers';
 import { AboutUs } from '../components/AboutUs/AboutUs';
 import { ContactUs } from './ContactUs/ContactUs';
 import { Sponsor } from '../components/sponsor/sponsor';
+import { Team } from '../components/Team/Team';
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<Themes></Themes>
 			<Schedule></Schedule>
 			<Speakers></Speakers>
+			<Team></Team>
 			<Sponsor></Sponsor>
 		</div>
 	);

@@ -12,6 +12,7 @@ export const Navbar = () => {
 	// const [schedule, setSchedule] = useState(false);
 	// const [sponsor, setSponsor] = useState(false);
 	// const [contact, setContact] = useState(false);
+	// const [team, setTeam] = useState(false);
 	const changeShadow = () => {
 		console.log(window.scrollY);
 		if (window.scrollY > 550) {
@@ -111,9 +112,21 @@ export const Navbar = () => {
 										</li>
 
 										<li className='nav-item'>
-											<a className='nav-link' href='#'>
+												<ScrollLink
+												className='nav-link'
+												activeClass='nav-active'
+												to='team'
+												spy={true}
+												smooth={true}
+												hashSpy={true}
+												offset={0}
+												duration={1000}
+												isDynamic={true}
+												>
 												Team
-											</a>
+												</ScrollLink>
+												
+										
 										</li>
 										<li className='nav-item'>
 											<ScrollLink
