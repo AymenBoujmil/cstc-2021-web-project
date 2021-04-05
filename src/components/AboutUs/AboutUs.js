@@ -7,10 +7,6 @@ import { ImBullhorn } from 'react-icons/im';
 import { GiMicrophone } from 'react-icons/gi';
 import { IoRocket } from 'react-icons/io5';
 
-const primary_text = {
-	color: '#f50136',
-};
-
 export const AboutUs = () => {
 	const onStyle = {
 		padding: '0 10px',
@@ -70,9 +66,7 @@ export const AboutUs = () => {
 			<section className='pt100 pb100'>
 				<div className='container'>
 					<div className='section_title text-center'>
-						<h3 className='title' style={primary_text}>
-							About the event
-						</h3>
+						<h3 className='title primary-text'>About the event</h3>
 					</div>
 					<div className='row justify-content-center'>
 						<div className='col-12 col-md-6'>

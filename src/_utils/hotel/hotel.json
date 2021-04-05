@@ -1,0 +1,19 @@
+{
+	"Hotel": [
+		{
+			"image": "image/hotel/hotel1.jpg"
+		},
+		{
+			"image": "image/hotel/hotel2.jpg"
+		},
+		{
+			"image": "image/hotel/hotel3.jpg"
+		},
+		{
+			"image": "image/hotel/hotel4.jpg"
+		},
+		{
+			"image": "image/hotel/hotel3.jpg"
+		}
+	]
+}

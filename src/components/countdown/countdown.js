@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../../assets/css/countdown.css';
 export const Countdown = () => {
-	 const [countdownDate, setCountdownDate] = useState(new Date('4/10/2021').getTime());
+	 const [countdownDate, setCountdownDate] = useState(new Date('6/14/2021').getTime());
   const [state, setState] = useState({
     days: 0,
     hours: 0,
