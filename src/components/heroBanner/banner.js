@@ -5,15 +5,16 @@ export const banner = () => {
 		<div id="home">
 			<section className='hero-banner'>
 				<div className='container text-center'>
-					<span className='hero-banner-icon'>
-						<i className='flaticon-sing'></i>
-					</span>
-					<p>08 - 11 April 2021, Hammamet City</p>
+					
+					<div className="around">
+						<p>08 - 11 April 2021, Hammamet City</p>
 					<h1>CSTC 2021</h1>
 					<Countdown></Countdown>
 					<a className='button button-header' href='#'>
 						About CSTC
 					</a>
+					</div>
+					
 				</div>
 			</section>
 		</div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './aboutUs.css';
-
+import {LearnUs} from '../LearnAboutUs/LearnUs'
 import { IoIosClock } from 'react-icons/io';
 import { ImBullhorn } from 'react-icons/im';
 
@@ -70,7 +70,7 @@ export const AboutUs = () => {
 					</div>
 					<div className='row justify-content-center'>
 						<div className='col-12 col-md-6'>
-							<p className='aboutUsP'>
+							<p className='text-part'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
 								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
 								accumsan. Pellentesque convallis consectetur tortor id placerat.
@@ -79,7 +79,7 @@ export const AboutUs = () => {
 							</p>
 						</div>
 						<div className='col-12 col-md-6'>
-							<p className='aboutUsP'>
+							<p className='text-part'>
 								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
 								accumsan. Pellentesque convallis consectetur tortor id placerat.
 								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
@@ -88,7 +88,11 @@ export const AboutUs = () => {
 							</p>
 						</div>
 					</div>
-
+						<br></br>
+						<div className="space-p">
+						<LearnUs></LearnUs>
+						</div>
+						<br></br>
 					<div className='row justify-content-center mt30'>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div

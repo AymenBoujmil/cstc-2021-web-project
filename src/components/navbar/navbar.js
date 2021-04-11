@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IconContext } from 'react-icons';
 import { NavLink } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
+import { useLocation } from 'react-router-dom';
+
 import {
 	HiOutlineHome,
 	HiOutlineNewspaper,
@@ -13,7 +14,8 @@ import { FaRegCalendarAlt, FaHotel } from 'react-icons/fa';
 
 export const Navbar = () => {
 	const [Shadow, setShadow] = useState(false);
-
+	const [Place ,setPlace] = useState(false) ;
+	const [Width , setWidth] = useState(false);
 	const changeShadow = () => {
 		console.log(window.scrollY);
 		if (window.scrollY > 550) {
@@ -30,7 +32,28 @@ export const Navbar = () => {
 		}
 	};
 	window.addEventListener('scroll', changeNavbarColor);
+	const changeWidth = () => {
+		console.log(window.innerWidth)
+		if (window.innerWidth < 1000) {
+				setWidth(true)
+		}else
+		setWidth(false)
+	} 
+		window.addEventListener('resize', changeWidth);
 	const active = (e) => {};
+	 const location = useLocation();
+  useEffect(() => {
+    const currentPath = location.pathname;
+   
+	if (currentPath !== '/') {
+		setPlace(true)
+	} else 
+	{
+		setPlace(false)
+	}
+	console.log(currentPath)
+  }, [location]);
+
 	return (
 		<div>
 			<div classNameName='container'>
@@ -38,7 +61,7 @@ export const Navbar = () => {
 					<div className='main_menu'>
 						<nav
 							className={
-								colorChange
+								(colorChange || Width || Place)
 									? 'navbar navbar-expand-lg'
 									: 'navbar navbar-expand-lg bg-transparent'
 							}
