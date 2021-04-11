@@ -9,8 +9,8 @@ export const Hotel_banner = () => {
 					<div class='row align-items-center'>
 						<div class='col-md-5'>
 							<div class='banner_text'>
-								<div class='banner_text_iner'>
-									<h1>Best quality pillow</h1>
+								<div class='banner_text_iner '>
+									<h1 className='primary-text2'>Best quality pillow</h1>
 									<p>
 										Seamlessly empower fully researched growth strategies and
 										interoperable internal Lorem ipsum dolor sit amet

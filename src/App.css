@@ -60,16 +60,16 @@ h4,
 	margin: 0;
 }
 .primary-text2 {
-	color: #f50136;
+	color: #36a871;
 }
 .primary-text {
-	color: #ea0763;
+	color: #36e7f1;
 	font-weight: 600;
 	padding: 20px;
 }
 .primary-bg {
 	/* background-color: #f50136; */
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
+	background-image: linear-gradient(120deg, #0d1130 0%, #7affbe 100%),
 		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
 }
 .bg-gray {
@@ -173,7 +173,7 @@ h4,
 	box-shadow: -30px 10px 10px rgba(0, 0, 0, 0.2);
 }
 nav {
-	background-color: #fff !important;
+	background-color: #0d1130 !important;
 }
 .header_area .navbar-right {
 	min-width: 200px;
@@ -194,24 +194,25 @@ nav {
 }
 .header_area .navbar-social li {
 	margin-right: 12px;
+	color: #7affbe;
 }
 .header_area .navbar-social li i,
 .header_area .navbar-social li span {
 	font-size: 13px;
-	color: #242429;
+	color: #7affbe;
 }
 .header_area .navbar-social li:last-child {
 	margin-right: 0;
 }
 .header_area .navbar-social li a:hover i,
 .header_area .navbar-social li span {
-	color: #ea0763;
+	color: #7affbe;
 }
 .header_area .menu_nav {
 	width: 100%;
 }
 .header_area .navbar {
-	background: #fff;
+	background: #0d1130;
 	border: 0px;
 	border-radius: 0px;
 	width: 100%;
@@ -226,7 +227,7 @@ nav {
 	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
-	color: #ea0763;
+	color: #7affbe;
 }
 .header_area .navbar .nav .nav-item {
 	margin-right: 38px;
@@ -234,7 +235,7 @@ nav {
 .header_area .navbar .nav .nav-item .nav-link {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
-	color: #242424;
+	color: #36e7f1;
 	text-transform: capitalize;
 	font-weight: 500;
 	padding: 33px 0;
@@ -245,7 +246,7 @@ nav {
 }
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-	color: #ea0763;
+	color: #7affbe;
 	opacity: 1;
 }
 .header_area .navbar .nav .nav-item.submenu {
@@ -259,7 +260,7 @@ nav {
 	margin: 0px;
 	background: #fff;
 }
-.nav-item > .active {
+.nav-item:active {
 	color: #ea0763;
 	opacity: 1;
 }
@@ -349,7 +350,8 @@ nav {
 	top: -70px;
 	left: 0;
 	right: 0;
-	background: #fff;
+	/* background: #fff; */
+	background: #0d1130;
 	z-index: 99;
 	transform: translateY(70px);
 	transition: transform 500ms ease, background 500ms ease;

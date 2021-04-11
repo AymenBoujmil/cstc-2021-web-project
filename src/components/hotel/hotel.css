@@ -34,7 +34,7 @@
 	content: '';
 	left: 0;
 	bottom: 0;
-	background-color: #ee8425;
+	background-color: #0d1130;
 	width: 196px;
 	height: 618px;
 }
@@ -70,7 +70,7 @@
 }
 
 .banner_part .banner_text h1 {
-	color: #f9488b;
+	color: #36a871;
 	font-size: 68px;
 	font-weight: 500;
 	line-height: 78px;
@@ -257,4 +257,8 @@
 
 .about-img {
 	position: relative;
+}
+
+.card-text {
+	left: 0% !important;
 }

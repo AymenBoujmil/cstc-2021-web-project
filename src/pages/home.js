@@ -18,7 +18,7 @@ export default function Home() {
 			<AboutUs></AboutUs>
 			<Themes></Themes>
 			<Schedule></Schedule>
-			<Speakers></Speakers>
+			
 			<Team></Team>
 			<Sponsor></Sponsor>
 		</div>

@@ -10,7 +10,7 @@ export const AboutHotel = () => {
 	return (
 		<div className='p'>
 			<div className='section_title text-center'>
-				<h3 className='title primary-text'>About the event</h3>
+				<h3 className='title primary-text2'>About the event</h3>
 			</div>
 			<OwlCarousel className='owl-theme' loop margin={10}>
 				{hotel.map((img, index) => (
