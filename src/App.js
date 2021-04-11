@@ -8,6 +8,7 @@ import Home from './pages/home';
 import { Hotel } from './pages/Hotel/Hotel';
 import { Speakers } from './components/speakers/speakers';
 import speakerInfo from './components/speakers/speakerInfo';
+import { Schedule } from './components/schedule/Schedule';
 
 function App() {
 	return (
@@ -16,9 +17,9 @@ function App() {
 				<Navbar></Navbar>
 				<Switch>
 					<Route path='/' exact component={Home} />
-					<Route path='/Contact' component={ContactUs} />
-					<Route path='/spearkerInfo' component={speakerInfo}></Route>
+					<Route path='/aboutUs' exact component={Home} />
 					<Route path='/speakers' component={Speakers} />
+					<Route path='/schedule' component={Schedule} />
 					<Route path='/hotel' component={Hotel} />
 				</Switch>
 				<Footer></Footer>
