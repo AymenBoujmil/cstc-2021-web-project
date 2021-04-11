@@ -10,12 +10,14 @@ import { AboutUs } from '../components/AboutUs/AboutUs';
 import { ContactUs } from './ContactUs/ContactUs';
 import { Sponsor } from '../components/sponsor/sponsor';
 import { Team } from '../components/Team/Team';
+import { LearnUs } from '../components/LearnAboutUs/LearnUs';
 
 export default function Home() {
 	return (
 		<div>
 			<Banner></Banner>
 			<AboutUs></AboutUs>
+			<LearnUs></LearnUs>
 			<Themes></Themes>
 			<Schedule></Schedule>
 			
