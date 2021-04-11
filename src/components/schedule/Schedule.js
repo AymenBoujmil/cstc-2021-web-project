@@ -65,9 +65,12 @@ export const Schedule = () => {
 		<div id='schedule'>
 			<section className='section-margin mb-5 pb-5'>
 				<div className='container'>
-					<div className='section-intro text-center pb-98px'>
+					<div class='section-intro section-intro-white text-center pb-98px'>
+						{' '}
 						{/* <p className='section-intro__title'>Join the event</p> */}
-						<h2 className='primary-text'>Conference Schedule</h2>
+						<h2 className='primary-text' style={{ color: '#0d1130' }}>
+							Conference Schedule
+						</h2>
 					</div>
 
 					<div className='row'>
