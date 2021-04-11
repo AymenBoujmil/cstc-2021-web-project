@@ -1,4 +1,13 @@
 import React from 'react';
+import {
+	FaMapMarkerAlt,
+	FaFacebook,
+	FaInstagram,
+	FaPhone,
+} from 'react-icons/fa';
+import { IoMail } from 'react-icons/io5';
+
+import { IconContext } from 'react-icons';
 
 const HotelContact = () => {
 	const border0 = {
@@ -8,13 +17,41 @@ const HotelContact = () => {
 		<div className='container'>
 			<div className='row'>
 				<div className='col-lg-6 col-md-6 col-sm-12'>
-					<div class='card w-100'>
+					<div class='card w-100 h-90'>
 						<div class='card-body'>
-							<h4 class='card-title'>Contact Hotel</h4>
+							<h4 class='card-title text-primary'> Hotel Name</h4>
 
-							<p class='card-text'>Some example text. Some example text.</p>
-							<p class='card-text'>Some example text. Some example text.</p>
-							<p class='card-text'>Some example text. Some example text.</p>
+							<div className='contact-body'>
+								<IconContext.Provider
+									value={{
+										size: '22px',
+										color: '#367ef1',
+										style: { padding: '0px 12px 4px 0 ' },
+									}}
+								>
+									<p>
+										{' '}
+										<FaMapMarkerAlt />
+										795 Folsom Ave, Suite 600
+									</p>
+									<p>
+										{' '}
+										<FaFacebook />
+										facebook.com/hotelblalalalal
+									</p>
+									<p>
+										{' '}
+										<FaInstagram /> instagram.com/hotelblalalalal
+									</p>
+									<p>
+										<FaPhone /> P: (123) 456-7890
+									</p>
+									<p>
+										<IoMail />
+										first.last@example.com
+									</p>
+								</IconContext.Provider>
+							</div>
 						</div>
 					</div>
 				</div>
