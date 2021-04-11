@@ -1,0 +1,12 @@
+.section-title {
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-size: 36px;
+	color: #36a871;
+}
+.text-part {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
