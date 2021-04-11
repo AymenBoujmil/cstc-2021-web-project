@@ -24,7 +24,7 @@ const HotelContact = () => {
 							<div className='contact-body'>
 								<IconContext.Provider
 									value={{
-										size: '22px',
+										size: '28px',
 										color: '#367ef1',
 										style: { padding: '0px 12px 4px 0 ' },
 									}}
