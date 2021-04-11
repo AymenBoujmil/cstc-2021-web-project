@@ -17,7 +17,7 @@ const HotelContact = () => {
 		<div className='container'>
 			<div className='row'>
 				<div className='col-lg-6 col-md-6 col-sm-12'>
-					<div class='card w-100 h-90'>
+					<div class='card hotel-card w-100 h-90'>
 						<div class='card-body'>
 							<h4 class='card-title text-primary'> Hotel Name</h4>
 

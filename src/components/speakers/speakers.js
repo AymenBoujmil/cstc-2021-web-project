@@ -8,7 +8,7 @@ export const Speakers = () => {
 		console.log(speakers);
 	};
 	const primary_text = {
-		color: '#f50136',
+		color: '#0d1130',
 	};
 	return (
 		<div id='speakers'>

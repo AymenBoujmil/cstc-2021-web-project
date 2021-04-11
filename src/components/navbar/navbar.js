@@ -8,7 +8,8 @@ import {
 	HiOutlineNewspaper,
 	HiOutlineSpeakerphone,
 } from 'react-icons/hi';
-import { FaRegCalendarAlt } from 'react-icons/fa';
+import { RiHotelBedLine } from 'react-icons/ri';
+import { FaRegCalendarAlt, FaHotel } from 'react-icons/fa';
 
 export const Navbar = () => {
 	const [Shadow, setShadow] = useState(false);
@@ -20,33 +21,39 @@ export const Navbar = () => {
 		} else setShadow(false);
 	};
 	window.addEventListener('scroll', changeShadow);
-	 const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () =>{
-     if(window.scrollY >= 40){
-       setColorchange(true);
-     }
-     else{
-       setColorchange(false);
-     }
-  };
-  window.addEventListener('scroll', changeNavbarColor);
+	const [colorChange, setColorchange] = useState(false);
+	const changeNavbarColor = () => {
+		if (window.scrollY >= 40) {
+			setColorchange(true);
+		} else {
+			setColorchange(false);
+		}
+	};
+	window.addEventListener('scroll', changeNavbarColor);
 	const active = (e) => {};
 	return (
 		<div>
 			<div classNameName='container'>
 				<header className={Shadow ? 'header_area box-shadow' : 'header_area '}>
 					<div className='main_menu'>
-						<nav className={colorChange ? 'navbar navbar-expand-lg' : 'navbar navbar-expand-lg bg-transparent'}>
+						<nav
+							className={
+								colorChange
+									? 'navbar navbar-expand-lg'
+									: 'navbar navbar-expand-lg bg-transparent'
+							}
+						>
 							<div className='container box_1620'>
 								<a
 									className='navbar-brand logo_h'
 									href='index.html'
 									style={{ color: '#76e7f1' }}
 								>
-									{/* <image src='../../assets/images/image.png' alt=''>
-										{' '}
-									</image> */}
-									<h1 style={{ color: '#76e7f1' }}>LOGO</h1>
+									<img
+										src='image/h.png'
+										alt=''
+										style={{ maxWidth: '20%' }}
+									></img>
 								</a>
 								<button
 									className='navbar-toggler'
@@ -123,6 +130,19 @@ export const Navbar = () => {
 												>
 													<HiOutlineSpeakerphone />
 													Speakers
+												</NavLink>
+											</li>
+											<li className='nav-item'>
+												<NavLink
+													to='/hotel'
+													className='nav-link'
+													activeStyle={{
+														fontWeight: 'bold',
+														color: '#7affbe',
+													}}
+												>
+													<RiHotelBedLine />
+													Hotel
 												</NavLink>
 											</li>
 										</ul>
