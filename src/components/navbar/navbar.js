@@ -20,13 +20,23 @@ export const Navbar = () => {
 		} else setShadow(false);
 	};
 	window.addEventListener('scroll', changeShadow);
+	 const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 40){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
 	const active = (e) => {};
 	return (
 		<div>
 			<div classNameName='container'>
 				<header className={Shadow ? 'header_area box-shadow' : 'header_area '}>
 					<div className='main_menu'>
-						<nav className='navbar navbar-expand-lg  '>
+						<nav className={colorChange ? 'navbar navbar-expand-lg' : 'navbar navbar-expand-lg bg-transparent'}>
 							<div className='container box_1620'>
 								<a
 									className='navbar-brand logo_h'
