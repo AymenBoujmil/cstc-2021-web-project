@@ -20,25 +20,25 @@
 	bottom: 0;
 	content: '';
 	opacity: 0.9;
-	background: #1566ad;
-	background: -moz-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
+	background: #36a871;
+	background: -moz-linear-gradient(left, #36a871 0%, #1b9de3 100%);
 	background: -webkit-gradient(
 		left top,
 		right top,
-		color-stop(0%, #1566ad),
+		color-stop(0%, #36a871),
 		color-stop(100%, #1b9de3)
 	);
-	background: -webkit-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-	background: -o-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-	background: -ms-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
+	background: -webkit-linear-gradient(left, #36a871 0%, #1b9de3 100%);
+	background: -o-linear-gradient(left, #36a871 0%, #1b9de3 100%);
+	background: -ms-linear-gradient(left, #36a871 0%, #1b9de3 100%);
 	background: -webkit-gradient(
 		linear,
 		left top,
 		right top,
-		from(#1566ad),
+		from(#36a871),
 		to(#1b9de3)
 	);
-	background: linear-gradient(to right, #1566ad 0%, #1b9de3 100%);
+	background: linear-gradient(to right, #36a871 0%, #1b9de3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 );
 }
 .hero-wrap.hero-wrap-2 {
@@ -72,25 +72,25 @@
 	bottom: 0;
 	content: '';
 	opacity: 0.9;
-	background: #1566ad;
-	background: -moz-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
+	background: #36a871;
+	background: -moz-linear-gradient(left, #36a871 0%, #1b9de3 100%);
 	background: -webkit-gradient(
 		left top,
 		right top,
-		color-stop(0%, #1566ad),
+		color-stop(0%, #36a871),
 		color-stop(100%, #1b9de3)
 	);
-	background: -webkit-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-	background: -o-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-	background: -ms-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
+	background: -webkit-linear-gradient(left, #36a871 0%, #1b9de3 100%);
+	background: -o-linear-gradient(left, #36a871 0%, #1b9de3 100%);
+	background: -ms-linear-gradient(left, #36a871 0%, #1b9de3 100%);
 	background: -webkit-gradient(
 		linear,
 		left top,
 		right top,
-		from(#1566ad),
+		from(#36a871),
 		to(#1b9de3)
 	);
-	background: linear-gradient(to right, #1566ad 0%, #1b9de3 100%);
+	background: linear-gradient(to right, #36a871 0%, #1b9de3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 );
 }
 .slider-text-about .bread {
