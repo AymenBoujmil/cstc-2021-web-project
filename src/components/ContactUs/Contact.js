@@ -59,13 +59,7 @@ return(<div>
      <div>
      
       <div class="bg-contact100" >
-      
         <div class="container-contact100">
-         <div class="container">
-        <div class="section-intro text-center">
-          <h3 class=" color-white"> Contact Us</h3>
-        </div>
-      </div>
           <div class="wrap-contact100">
             <div class="contact100-pic js-tilt" data-tilt>
               <img src="image/ContactUs/MailImage.svg" alt="IMG"></img>
