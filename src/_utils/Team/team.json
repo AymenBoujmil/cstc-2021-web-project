@@ -1,42 +1,101 @@
 {
-  "Team" : [
-      {     "name": "Aymen",
-            "position":"web dev",
+	"Team": [
+		{
+			"name": "Aymen",
+			"position": "web dev",
 			"image": "image/Team/teammate1.jpg",
-            "facebook" :"https://www.facebook.com/",
-            "twitter" :"https://twitter.com/",
-            "instagram" :"https://instagram.com/"
-              },
-            {"name": "amin",
-            "position":"dev",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "amin",
+			"position": "dev",
 			"image": "image/Team/teammate2.jpg",
-            "facebook" :"https://www.facebook.com/",
-            "twitter" :"https://twitter.com/",
-            "instagram" :"https://instagram.com/"},
-            {"name": "aymen",
-            "position":"web dev",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "aymen",
+			"position": "web dev",
 			"image": "image/Team/teammate3.jpg",
-            "facebook" :"https://www.facebook.com/",
-            "twitter" :"https://twitter.com/",
-            "instagram" :"https://instagram.com/"},
-            {"name": "amin",
-            "position":"dev",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "amin",
+			"position": "dev",
 			"image": "image/Team/teammate4.jpg",
-            "facebook" :"https://www.facebook.com/",
-            "twitter" :"https://twitter.com/",
-            "instagram" :"https://instagram.com/"},
-            {"name": "aymen",
-            "position":"web dev",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "aymen",
+			"position": "web dev",
 			"image": "image/Team/teammate5.jpg",
-            "facebook" :"https://www.facebook.com/",
-            "twitter" :"https://twitter.com/",
-            "instagram" :"https://instagram.com/"},
-            {"name": "amin",
-            "position":"dev",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "amin",
+			"position": "dev",
 			"image": "image/Team/teammate6.jpg",
-            "facebook" :"https://www.facebook.com/",
-            "twitter" :"https://twitter.com/",
-            "instagram" :"https://instagram.com/"}
-     
-        ]
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "Aymen",
+			"position": "web dev",
+			"image": "image/Team/teammate1.jpg",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "Aymen",
+			"position": "web dev",
+			"image": "image/Team/teammate1.jpg",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "Aymen",
+			"position": "web dev",
+			"image": "image/Team/teammate1.jpg",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "Aymen",
+			"position": "web dev",
+			"image": "image/Team/teammate1.jpg",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+		{
+			"name": "Aymen",
+			"position": "web dev",
+			"image": "image/Team/teammate1.jpg",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+
+		{
+			"name": "Aymen",
+			"position": "web dev",
+			"image": "image/Team/teammate1.jpg",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		}
+	]
 }

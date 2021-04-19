@@ -68,13 +68,13 @@ h3,
 	transition: all 0.4s ease-in-out;
 }
 .icon_box_one:hover {
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
-		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(120deg, #1b9de3 0%, #233e62 100%),
+		linear-gradient(120deg, #233e62 0%, #1b9de3 100%);
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
 .lnr-mic:before {
-	content: "fas fa-microphone";
+	content: 'fas fa-microphone';
 }
 .icon_box_one i {
 	margin-top: -10px;
@@ -91,7 +91,7 @@ h3,
 }
 
 .icon_box_one .content h4 {
-	color: #18181c;
+	color: #233e62;
 	margin-bottom: 12%;
 	margin-top: 10%;
 	text-transform: capitalize;

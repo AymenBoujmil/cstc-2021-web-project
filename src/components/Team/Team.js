@@ -5,7 +5,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import data from '../../_utils/Team/team.json';
-export const Team = () => {
+export const Team2 = () => {
 	const [team, setTeam] = useState(data.Team);
 	return (
 		<div id='team'>

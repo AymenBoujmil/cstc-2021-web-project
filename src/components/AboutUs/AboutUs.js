@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './aboutUs.css';
-import {LearnUs} from '../LearnAboutUs/LearnUs'
+import { LearnUs } from '../LearnAboutUs/LearnUs';
 import { IoIosClock } from 'react-icons/io';
 import { ImBullhorn } from 'react-icons/im';
 
@@ -12,7 +12,7 @@ export const AboutUs = () => {
 		padding: '0 10px',
 		fontSize: '72px',
 		verticalAlign: 'middle',
-		color: '#f50136',
+		color: '#233e62',
 		borderRadius: '4px',
 		display: 'block',
 		marginBottom: '-2px',
@@ -88,11 +88,11 @@ export const AboutUs = () => {
 							</p>
 						</div>
 					</div>
-						<br></br>
-						<div className="space-p">
+					<br></br>
+					<div className='space-p'>
 						<LearnUs></LearnUs>
-						</div>
-						<br></br>
+					</div>
+					<br></br>
 					<div className='row justify-content-center mt30'>
 						<div className='col-12 col-md-6 col-lg-3'>
 							<div
