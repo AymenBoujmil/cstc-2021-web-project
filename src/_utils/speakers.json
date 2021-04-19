@@ -1,34 +1,76 @@
 {
 	"speakers": [
 		{
-			"name": "Donald Markin",
+			"name": "Donald Markin 1",
 			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-2.png"
+			"image": "image/speakers/speaker-2.png",
+			"theme": 1
 		},
 		{
-			"name": "Jhon Leonar",
+			"name": "Jhon Leonar2",
 			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-1.png"
+			"image": "image/speakers/speaker-1.png",
+			"theme": 2
 		},
 		{
-			"name": "Jhon Leonar",
+			"name": "Jhon Leonar 1",
 			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-3.png"
+			"image": "image/speakers/speaker-3.png",
+			"theme": 1
 		},
 		{
-			"name": "Jhon Leonar",
+			"name": "Jhon Leonar 1",
 			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-1.png"
+			"image": "image/speakers/speaker-1.png",
+			"theme": 1
 		},
 		{
-			"name": "Jhon Leonar",
+			"name": "Jhon Leonar 2",
 			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-2.png"
+			"image": "image/speakers/speaker-2.png",
+			"theme": 2
 		},
 		{
-			"name": "Jhon Leonar",
+			"name": "Jhon Leonar 2",
 			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-3.png"
+			"image": "image/speakers/speaker-3.png",
+			"theme": 2
+		},
+		{
+			"name": "Donald Markin 1",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-2.png",
+			"theme": 1
+		},
+		{
+			"name": "Jhon Leonar2",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-1.png",
+			"theme": 2
+		},
+		{
+			"name": "Jhon Leonar 1",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-3.png",
+			"theme": 3
+		},
+		{
+			"name": "Jhon Leonar 3",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-1.png",
+			"theme": 3
+		},
+		{
+			"name": "Jhon Leonar 2",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-2.png",
+			"theme": 2
+		},
+		{
+			"name": "Jhon Leonar 3",
+			"job": "UX/UI Designer Microsoft",
+			"image": "image/speakers/speaker-3.png",
+			"theme": 3
 		}
 	]
 }

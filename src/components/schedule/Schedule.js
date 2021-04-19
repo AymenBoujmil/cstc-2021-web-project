@@ -1,18 +1,81 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
 
 import { Day } from './day';
+import data from '../../_utils/themes.json';
 
 import data1 from '../../_utils/schedule/day1.json';
 import data2 from '../../_utils/schedule/day2.json';
 import data3 from '../../_utils/schedule/day3.json';
+import data12 from '../../_utils/schedule/day1-2.json';
+import data22 from '../../_utils/schedule/day2-2.json';
+import data32 from '../../_utils/schedule/day3-2.json';
+import data13 from '../../_utils/schedule/day1-3.json';
+import data23 from '../../_utils/schedule/day2-3.json';
+import data33 from '../../_utils/schedule/day3-3.json';
 
 export const Schedule = () => {
+	const [themes, setthemes] = useState(data.themes);
+	const [theme, setTheme] = useState(1);
+
 	const [day, setDay] = useState(data1.day1);
 	const [numDay, setNumDay] = useState('day1');
 	let affiche = () => {
 		console.log(day);
 	};
+
+	const changeDayTheme = (them) => {
+		let dayV = numDay.slice(0, 4);
+		console.log(dayV);
+		switch (dayV) {
+			case 'day1':
+				switch (them) {
+					case 2:
+						setDay(data12.day1);
+
+						break;
+					case 3:
+						setDay(data13.day1);
+						break;
+					default:
+						setDay(data1.day1);
+						break;
+				}
+
+				break;
+			case 'day2':
+				switch (theme) {
+					case 2:
+						setDay(data22.day2);
+						break;
+					case 3:
+						setDay(data23.day2);
+
+						break;
+					default:
+						setDay(data2.day2);
+						break;
+				}
+
+				void restartAnimation;
+				break;
+			case 'day3':
+				switch (theme) {
+					case 2:
+						setDay(data32.day3);
+						break;
+					case 3:
+						setDay(data33.day3);
+						break;
+					default:
+						setDay(data3.day3);
+						break;
+				}
+
+				void restartAnimation;
+				break;
+		}
+	};
+
 	const changeDay = (e) => {
 		let a = e.target;
 		if (e.target.nodeName != 'A') {
@@ -35,18 +98,51 @@ export const Schedule = () => {
 
 		switch (dayV) {
 			case 'day1':
-				setDay(data1.day1);
+				switch (theme) {
+					case 2:
+						setDay(data12.day1);
+						break;
+					case 3:
+						setDay(data13.day1);
+						break;
+					default:
+						setDay(data1.day1);
+						break;
+				}
 				setNumDay('day1');
 
 				break;
 			case 'day2':
-				setDay(data2.day2);
+				switch (theme) {
+					case 2:
+						setDay(data22.day2);
+						break;
+					case 3:
+						setDay(data23.day2);
+
+						break;
+					default:
+						setDay(data2.day2);
+						break;
+				}
 				setNumDay('day2');
+
 				void restartAnimation;
 				break;
 			case 'day3':
-				setDay(data3.day3);
+				switch (theme) {
+					case 2:
+						setDay(data32.day3);
+						break;
+					case 3:
+						setDay(data33.day3);
+						break;
+					default:
+						setDay(data3.day3);
+						break;
+				}
 				setNumDay('day3');
+
 				void restartAnimation;
 				break;
 		}
@@ -87,14 +183,50 @@ export const Schedule = () => {
 					</div>
 				</div>
 			</section>
+
+			<div class='wrap-about pr-md-4 ftco-animate container mt-5'>
+				<h2 class='mb-4'>Our Main Features</h2>
+				<p>
+					On her way she met a copy. The copy warned the Little Blind Text, that
+					where it came from it would have been rewritten a thousand times and
+					everything that was left from its origin would be the word. Lorem
+					ipsum, dolor sit amet consectetur adipisicing elit. Sint aliquid
+					beatae nihil eius iure necessitatibus, eos non ex. Odio voluptatibus
+					illum itaque inventore quam mollitia nisi ipsam, laborum placeat iusto
+					sed nemo, architecto, vitae alias similique quod voluptas? Aspernatur
+					adipisci qui ullam laudantium aut vel quisquam autem beatae nesciunt
+					neque?
+				</p>
+				<div id='themes'>
+					<div className='mt-5'>
+						<div className='d-lg-flex justify-content-between'>
+							{themes.map((theme) => (
+								<div
+									className='card-feature mb-5 mb-lg-0'
+									style={{ cursor: 'pointer' }}
+									onClick={() => {
+										changeDayTheme(theme.theme);
+
+										setTheme(theme.theme);
+										console.log(theme.theme);
+									}}
+								>
+									<div className='feature-icon'>
+										<i className={theme.icon} aria-hidden='true'></i>
+									</div>
+									<h3>{theme.title}</h3>
+									<p>{theme.text}</p>
+								</div>
+							))}
+						</div>
+					</div>
+				</div>
+			</div>
 			<section className='section-margin mb-5 pb-5'>
 				<div className='container'>
 					<div class='section-intro section-intro-white text-center pb-98px'>
 						{' '}
-						{/* <p className='section-intro__title'>Join the event</p> */}
-						<h2 className='primary-text' style={{ color: '#0d1130' }}>
-							Conference Schedule
-						</h2>
+						<h2 className='primary-text'>Conference Schedule</h2>
 					</div>
 
 					<div className='row'>

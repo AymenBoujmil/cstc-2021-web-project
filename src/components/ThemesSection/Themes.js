@@ -10,22 +10,13 @@ export const Themes = () => {
 	const [themes, setthemes] = useState(data.themes);
 	return (
 		<div id='themes'>
-			<section className='section-margin bg-gray themes'>
-				<div className='container'>
-					<div className='section-intro text-center pb-98px '>
-						{/* <p className='section-intro__title' onClick={affiche}>
-							Join the event
-						</p> */}
-						<h2 className='primary-text'>Why Join Us</h2>
-						{/* <img src='img/home/section-style.png' alt=''></img> */}
-					</div>
-					<div className='d-lg-flex justify-content-between'>
-						{themes.map((theme) => (
-							<Theme theme={theme}></Theme>
-						))}
-					</div>
+			<div className='mt-5'>
+				<div className='d-lg-flex justify-content-between'>
+					{themes.map((theme) => (
+						<Theme theme={theme}></Theme>
+					))}
 				</div>
-			</section>
+			</div>
 		</div>
 	);
 };

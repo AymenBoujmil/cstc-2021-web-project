@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import './aboutUs.css';
 import data from '../../_utils/hotel/hotel.json';
+
 import OwlCarousel from 'react-owl-carousel';
 
 function AboutUs() {
 	const [hotel, setHotel] = useState(data.Hotel);
+	
 
 	return (
 		<div>
@@ -208,6 +210,7 @@ function AboutUs() {
 						))}
 					</OwlCarousel>
 				</div>
+			
 			</section>
 		</div>
 	);

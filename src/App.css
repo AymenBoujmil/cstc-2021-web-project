@@ -34,7 +34,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Oswald', sans-serif;
-	color: #242424;
+	color: #233e62;
 	line-height: 1.5;
 }
 h1,
@@ -66,9 +66,9 @@ h4,
 	color: #36a871;
 }
 .primary-text {
-	color: #233e62;
+	color: #233e62 !important;
 	font-weight: 600;
-	padding: 20px;
+	padding: 10px;
 }
 .primary-bg {
 	/* background-color: #f50136; */
@@ -970,7 +970,7 @@ nav {
 .card-feature .feature-icon i,
 .card-feature .feature-icon span {
 	font-size: 38px;
-	color: #f50136;
+	color: #36a871;
 }
 .card-feature .feature-icon [class^='flaticon-']:before,
 .card-feature .feature-icon [class*=' flaticon-']:before {
@@ -1150,15 +1150,14 @@ nav {
 }
 .scheduleTab .nav-item a.active {
 	/* background: #3b1d82; */
-	background-image: linear-gradient(120deg, #0d1130 0%, #36a871 100%),
-		linear-gradient(120deg, #0d1130 0%, #36a871 100%);
+	background-image: linear-gradient(120deg, #233e62 0%, #1b9de3 100%),
+		linear-gradient(120deg, #233e62 0%, #1b9de3 100%);
 }
 .scheduleTab .nav-item a.active > * {
-	color: #fff;
+	color: #7affbe;
 }
 .card-identity {
-	background: #0d1130;
-	color: #7affbe;
+	background: #233e62;
 	text-align: center;
 	padding: 35px 10px;
 	-webkit-transition: all 0.3s ease 0s;
@@ -1169,9 +1168,12 @@ nav {
 .card-identity > * {
 	color: #7affbe;
 }
-.card-identity:hover > * {
+/* .card-identity:hover > * {
 	color: #fff;
 }
+schedule-card:hover > * {
+	color: #fff;
+} */
 .card-identity img {
 	width: 80px;
 	height: 80px;
@@ -1192,10 +1194,14 @@ nav {
 }
 .schedule-content .schedule-date {
 	font-size: 14px;
+	color: #36a871;
 }
 .schedule-content .schedule-title {
 	display: inline-block;
 	margin-bottom: 8px;
+}
+.schedule-content .schedule-title h3 {
+	color: #233e62 !important;
 }
 .schedule-card {
 	background: #f7f7f7;
@@ -1205,7 +1211,7 @@ nav {
 	margin-bottom: 0;
 }
 .schedule-card:hover .card-identity {
-	background: #36a871;
+	background: #1b9de3;
 }
 .schedule-card:last-child {
 	margin-bottom: 0;

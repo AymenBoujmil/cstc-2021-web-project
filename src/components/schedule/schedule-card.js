@@ -16,11 +16,12 @@ export const Schedule_card = (props) => {
 					</div>
 					<div className='col-md-9 align-self-center'>
 						<div className='schedule-content'>
-							<p className='schedule-date'>{props.day.date}</p>
-							<a className='schedule-title' href='#'>
+							<a className='schedule-title mb-0' href='#'>
 								<h3>{props.day.title}</h3>
 							</a>
-							<p style={cg}>{props.day.content}</p>
+							<p className='schedule-date mb-2'>{props.day.date}</p>
+
+							<p style={{}}>{props.day.content}</p>
 						</div>
 					</div>
 				</div>

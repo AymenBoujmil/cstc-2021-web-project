@@ -10,7 +10,7 @@ export const Hotel_banner = () => {
 						<div class='col-md-5'>
 							<div class='banner_text'>
 								<div class='banner_text_iner '>
-									<h1 className='primary-text2'>Best quality pillow</h1>
+									<h1 className='primary-text2'>Best hama Hotel</h1>
 									<p>
 										Seamlessly empower fully researched growth strategies and
 										interoperable internal Lorem ipsum dolor sit amet
