@@ -8,6 +8,7 @@ import { AboutUs } from '../components/AboutUs/AboutUs';
 import { ContactUs } from './ContactUs/ContactUs';
 import { Sponsor } from '../components/sponsor/sponsor';
 import { Team } from '../components/Team/Team';
+import { Contact } from '../components/ContactUs/Contact';
 
 export default function Home() {
 	return (
@@ -16,7 +17,8 @@ export default function Home() {
 			<AboutUs></AboutUs>
 			<Team></Team>
 			<Sponsor></Sponsor>
-			<ContactUs></ContactUs>
+			<Contact></Contact>
+			
 		</div>
 	);
 }
