@@ -64,8 +64,6 @@ return(<div>
             <div class="contact100-pic js-tilt" data-tilt>
               <img src="image/ContactUs/MailImage.svg" alt="IMG"></img>
             </div>
-
-
             <form class="contact100-form validate-form" id='contact-form' onSubmit={handleSubmit(onSubmit)}>
               <span class="contact100-form-title">
                 <h2>	<i class="fas fa-envelope-open-text"></i> Email us</h2>
