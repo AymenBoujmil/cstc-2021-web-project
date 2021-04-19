@@ -63,6 +63,30 @@ export const Schedule = () => {
 	};
 	return (
 		<div id='schedule'>
+			<section
+				class='hero-wrap hero-wrap-2'
+				style={{ backgroundImage: 'url(/image/bg_1.jpg)' }}
+			>
+				<div class='overlay'></div>
+				<div class='container'>
+					<div class='row m-50 no-gutters slider-text-about align-items-center justify-content-center'>
+						<div class='col-md-9 ftco-animate text-center'>
+							<h1 class='mb-2 bread'>Schedule</h1>
+							<p class='breadcrumbs'>
+								<span class='mr-2'>
+									<a href='index.html'>
+										Home <i class='ion-ios-arrow-forward'></i>
+									</a>
+								</span>{' '}
+								<span>
+									{' '}
+									Schedule <i class='ion-ios-arrow-forward'></i>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section className='section-margin mb-5 pb-5'>
 				<div className='container'>
 					<div class='section-intro section-intro-white text-center pb-98px'>

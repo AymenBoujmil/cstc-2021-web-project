@@ -3,11 +3,14 @@
 body {
 	color: #797979;
 
-	background-color: #797979 impo !important;
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-family: 'Nunito Sans', Arial, sans-serif;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 1.6;
+	line-height: 1.8;
+}
+p {
+	font-family: 'Nunito Sans', Arial, sans-serif !important;
+	color: gray;
 }
 ul {
 	list-style-type: none;
@@ -63,7 +66,7 @@ h4,
 	color: #36a871;
 }
 .primary-text {
-	color: #36e7f1;
+	color: #233e62;
 	font-weight: 600;
 	padding: 20px;
 }

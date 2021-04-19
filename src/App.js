@@ -9,6 +9,7 @@ import { Hotel } from './pages/Hotel/Hotel';
 import { Speakers } from './components/speakers/speakers';
 import speakerInfo from './components/speakers/speakerInfo';
 import { Schedule } from './components/schedule/Schedule';
+import AboutUs from './pages/About_US/aboutUs';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 					<Route path='/speakers' component={Speakers} />
 					<Route path='/schedule' component={Schedule} />
 					<Route path='/hotel' component={Hotel} />
+					<Route path='/about' component={AboutUs} />
 				</Switch>
 				<Footer></Footer>
 			</Router>
