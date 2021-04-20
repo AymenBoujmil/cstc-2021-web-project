@@ -3,7 +3,6 @@ import './aboutUs.css';
 import { LearnUs } from '../LearnAboutUs/LearnUs';
 import { IoIosClock } from 'react-icons/io';
 import { ImBullhorn } from 'react-icons/im';
-
 import { GiMicrophone } from 'react-icons/gi';
 import { IoRocket } from 'react-icons/io5';
 
@@ -66,25 +65,25 @@ export const AboutUs = () => {
 			<section className='pt100 pb100'>
 				<div className='container'>
 					<div className='section_title text-center'>
-						<h3 className='title primary-text'>About the event</h3>
+						<h3 className='title primary-text'>
+					
+						About the event 
+					</h3>
 					</div>
 					<div className='row justify-content-center'>
 						<div className='col-12 col-md-6'>
+						
 							<p className='text-part'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
 								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
-								accumsan. Pellentesque convallis consectetur tortor id placerat.
-								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
-								volutpat ligula euismod.
+								accumsan. 
 							</p>
 						</div>
 						<div className='col-12 col-md-6'>
 							<p className='text-part'>
 								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
 								accumsan. Pellentesque convallis consectetur tortor id placerat.
-								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
-								volutpat ligula euismod quis. Maecenas ornare, ex in malesuada
-								tempus.
+								
 							</p>
 						</div>
 					</div>
