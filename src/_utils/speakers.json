@@ -4,73 +4,145 @@
 			"name": "Donald Markin 1",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-2.png",
-			"theme": 1
+			"theme": 1,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar2",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-1.png",
-			"theme": 2
+			"theme": 2,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 1",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-3.png",
-			"theme": 1
+			"theme": 1,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 1",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-1.png",
-			"theme": 1
+			"theme": 1,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 2",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-2.png",
-			"theme": 2
+			"theme": 2,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 2",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-3.png",
-			"theme": 2
+			"theme": 2,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Donald Markin 1",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-2.png",
-			"theme": 1
+			"theme": 1,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar2",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-1.png",
-			"theme": 2
+			"theme": 2,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 1",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-3.png",
-			"theme": 3
+			"theme": 3,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 3",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-1.png",
-			"theme": 3
+			"theme": 3,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 2",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-2.png",
-			"theme": 2
+			"theme": 2,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		},
 		{
 			"name": "Jhon Leonar 3",
 			"job": "UX/UI Designer Microsoft",
 			"image": "image/speakers/speaker-3.png",
-			"theme": 3
+			"theme": 3,
+			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
+			"email": "kshitighelani@gmail.com",
+			"phone": "123 456 7890",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "Linkedin.com/blablabla",
+			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
 		}
 	]
 }

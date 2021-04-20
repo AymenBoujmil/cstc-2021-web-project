@@ -12,6 +12,15 @@ import './speakerInfo.css';
 import { Dialog, DialogContent, DialogTitle } from '@material-ui/core';
 
 function SpeakerInfo(props) {
+	const affiche = () => {
+		console.log(props.speaker.skills);
+		props.speaker.skills.map((skill) => {
+			console.log(skill);
+		});
+	};
+	const Affiche = (skill) => {
+		console.log(skill);
+	};
 	console.log(props);
 	return (
 		<Dialog open={props.openPopup} onClose={props.handleClose} maxWidth='md'>
@@ -22,7 +31,7 @@ function SpeakerInfo(props) {
 						<div className='col-md-4'>
 							<div className='profile-img'>
 								<img
-									src='image/speakers/speaker-1.png'
+									src={props.speaker.image}
 									alt=''
 									style={{ borderRadius: '50%' }}
 								/>
@@ -30,8 +39,8 @@ function SpeakerInfo(props) {
 						</div>
 						<div className='col-md-6'>
 							<div className='profile-head'>
-								<h5>Kshiti Ghelani</h5>
-								<h6>Web Developer and Designer</h6>
+								<h5>{props.speaker.name}</h5>
+								<h6>{props.speaker.job}</h6>
 
 								<ul className='nav nav-tabs' id='myTab' role='tablist'>
 									<li className='nav-item'>
@@ -67,17 +76,14 @@ function SpeakerInfo(props) {
 					<div className='row'>
 						<div className='col-md-4'>
 							<div className='profile-work'>
-								<p>SKILLS</p>
-								<a href=''>Web Designer</a>
-								<br />
-								<a href=''>Web Developer</a>
-								<br />
-								<a href=''>WordPress</a>
-								<br />
-								<a href=''>WooCommerce</a>
-								<br />
-								<a href=''>PHP, .Net</a>
-								<br />
+								<p onClick={affiche}>SKILLS</p>
+								{props.speaker.skills.map((skill) => (
+									<div>
+										{' '}
+										<a href=''>{skill}</a>
+										<br />{' '}
+									</div>
+								))}
 							</div>
 						</div>
 						<div className='col-md-8'>
@@ -93,7 +99,7 @@ function SpeakerInfo(props) {
 											<label>Name</label>
 										</div>
 										<div className='col-md-6'>
-											<p>Kshiti Ghelani</p>
+											<p>{props.speaker.name}</p>
 										</div>
 									</div>
 									<div className='row'>
@@ -101,7 +107,7 @@ function SpeakerInfo(props) {
 											<label>Email</label>
 										</div>
 										<div className='col-md-6'>
-											<p>kshitighelani@gmail.com</p>
+											<p> {props.speaker.email} </p>
 										</div>
 									</div>
 									<div className='row'>
@@ -109,7 +115,7 @@ function SpeakerInfo(props) {
 											<label>Phone</label>
 										</div>
 										<div className='col-md-6'>
-											<p>123 456 7890</p>
+											<p> {props.speaker.phone} </p>
 										</div>
 									</div>
 									<div className='row'>
@@ -117,23 +123,16 @@ function SpeakerInfo(props) {
 											<label>Profession</label>
 										</div>
 										<div className='col-md-6'>
-											<p>Web Developer and Designer</p>
+											<p> {props.speaker.job} </p>
 										</div>
 									</div>
-									<div className='row'>
-										<div className='col-md-6'>
-											<label>Profession</label>
-										</div>
-										<div className='col-md-6'>
-											<p>Web Developer and Designer</p>
-										</div>
-									</div>
+
 									<div className='row'>
 										<div className='col-md-6'>
 											<label>Facebook</label>
 										</div>
 										<div className='col-md-6'>
-											<p>facebook.com/blablabla</p>
+											<p>{props.speaker.facebook}</p>
 										</div>
 									</div>
 									<div className='row'>
@@ -141,7 +140,7 @@ function SpeakerInfo(props) {
 											<label>Linkedin</label>
 										</div>
 										<div className='col-md-6'>
-											<p>Linkedin.com/blablabla</p>
+											<p> {props.speaker.linkedin} </p>
 										</div>
 									</div>
 								</div>
@@ -152,21 +151,7 @@ function SpeakerInfo(props) {
 									aria-labelledby='profile-tab'
 								>
 									<h4 className='about-me'>About Me</h4>
-									<p className='about-text'>
-										Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-										Velit, possimus minus dolorem unde molestias laboriosam
-										repudiandae voluptatibus, fugiat voluptatum eos voluptatem.
-										Alias fuga reiciendis dolore at aut eum nam voluptate illum.
-										Laborum quod consequatur incidunt alias perferendis,
-										quisquam sunt omnis non officia assumenda quas! Nostrum
-										doloremque blanditiis quo aut sit. Perspiciatis explicabo
-										veritatis repudiandae ipsum omnis minima sed sit odio harum
-										id labore, totam qui aliquid ex ratione, deserunt nostrum
-										voluptatem odit cum corrupti illo! Neque similique magnam
-										ipsa in cum alias, rerum id asperiores aliquid eaque impedit
-										accusantium! Doloremque iste esse quaerat error, excepturi
-										soluta accusamus eum quidem facere!
-									</p>
+									<p className='about-text'>{props.speaker.aboutMe}</p>
 								</div>
 							</div>
 						</div>

@@ -53,6 +53,7 @@ export const Speaker = (props) => {
 			</div>
 			<SpeakerInfo
 				openPopup={openPopup}
+				speaker={props.speaker}
 				setopenPopup={setopenPopup}
 				handleClose={handleClose}
 			/>
