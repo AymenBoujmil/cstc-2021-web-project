@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import data from '../../_utils/Team/team.json';
 import './Team.css';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Team() {
 	const [team, setTeam] = useState(data.Team);
-
+	useEffect(() => {
+  AOS.init({
+    duration : 2000
+  });
+}, []);
 	return (
 		<div>
 			<section id='speakers' class='section speakers'>
@@ -17,7 +22,7 @@ function Team() {
 
 					<div class='row'>
 						{team.map((member) => (
-							<div class='col-md-3'>
+							<div class='col-md-3' data-aos="zoom-in">
 								<div class='team'>
 									<figure>
 										<img

@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './aboutUs.css';
 import { LearnUs } from '../LearnAboutUs/LearnUs';
 import { IoIosClock } from 'react-icons/io';
 import { ImBullhorn } from 'react-icons/im';
 import { GiMicrophone } from 'react-icons/gi';
 import { IoRocket } from 'react-icons/io5';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export const AboutUs = () => {
+	useEffect(() => {
+  AOS.init({
+    duration : 2000
+  });
+}, []);
 	const onStyle = {
 		padding: '0 10px',
 		fontSize: '72px',
@@ -71,18 +77,23 @@ export const AboutUs = () => {
 					</h3>
 					</div>
 					<div className='row justify-content-center'>
-						<div className='col-12 col-md-6'>
+						<div className='col-12 col-md-6' data-aos="zoom-in-right">
 						
 							<p className='text-part'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
-								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
-								accumsan. 
+                                iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
+                                accumsan. Pellentesque convallis consectetur tortor id placerat.
+                                Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
+                                volutpat ligula euismod. 
 							</p>
 						</div>
 						<div className='col-12 col-md-6'>
-							<p className='text-part'>
-								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
-								accumsan. Pellentesque convallis consectetur tortor id placerat.
+							<p className='text-part' data-aos="zoom-in-left">
+							In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
+                                accumsan. Pellentesque convallis consectetur tortor id placerat.
+                                Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
+                                volutpat ligula euismod quis. Maecenas ornare, ex in malesuada
+                                tempus.
 								
 							</p>
 						</div>
@@ -92,12 +103,13 @@ export const AboutUs = () => {
 						<LearnUs></LearnUs>
 					</div>
 					<br></br>
-					<div className='row justify-content-center mt30'>
-						<div className='col-12 col-md-6 col-lg-3'>
-							<div
+					<div className='row justify-content-center mt30' >
+						<div className='col-12 col-md-6 col-lg-3' data-aos="zoom-in-up">
+							<div 
 								className='icon_box_one'
 								onMouseOut={onMouseOverMic}
 								onMouseOver={onMouseOutMic}
+								
 							>
 								<GiMicrophone size='120px' style={styleMic} />{' '}
 								<div className='content'>
@@ -109,11 +121,12 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						<div className='col-12 col-md-6 col-lg-3'>
+						<div className='col-12 col-md-6 col-lg-3' data-aos="zoom-in-down">
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverRocket}
 								onMouseOver={onMouseOutrocket}
+								
 							>
 								<IoRocket size='120px' style={styleRocket}></IoRocket>{' '}
 								<div className='content'>
@@ -125,7 +138,7 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						<div className='col-12 col-md-6 col-lg-3'>
+						<div className='col-12 col-md-6 col-lg-3' data-aos="zoom-in-up">
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverBull}
@@ -143,7 +156,7 @@ export const AboutUs = () => {
 							</div>
 						</div>
 
-						<div className='col-12 col-md-6 col-lg-3'>
+						<div className='col-12 col-md-6 col-lg-3' data-aos="zoom-in-down">
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOver}
