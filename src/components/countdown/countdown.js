@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../../assets/css/countdown.css';
 import Fade from 'react-reveal/Fade';
 export const Countdown = () => {
-	 const [countdownDate] = useState(new Date('6/14/2021').getTime());
+	 const [countdownDate] = useState(new Date('6/12/2021').getTime());
   const [state, setState] = useState({
     days: 0,
     hours: 0,

@@ -65,7 +65,7 @@ export const footer = () => {
 								</div>
 							</div>
 						</div>
-						<div className='col-lg-4 p-3  col-md-6 col-sm-6'>
+						<div className='col-lg-4  col-md-6 col-sm-6'>
 							<IconContext.Provider
 								value={{
 									color: '#797979',
