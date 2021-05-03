@@ -1,11 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './aboutUs.css';
 import data from '../../_utils/hotel/hotel.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import OwlCarousel from 'react-owl-carousel';
 
 function AboutUs() {
 	const [hotel, setHotel] = useState(data.Hotel);
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, []);
 
 	return (
 		<div>
@@ -30,7 +37,10 @@ function AboutUs() {
 			<section class='ftco-section'>
 				<div class='container'>
 					<div class='row d-flex'>
-						<div class='col-md-5 order-md-last wrap-about align-items-stretch'>
+						<div
+							class='col-md-5 order-md-last wrap-about align-items-stretch'
+							data-aos='fade-down-left'
+						>
 							<div class='wrap-about-border'>
 								<div
 									class='img'
@@ -47,7 +57,10 @@ function AboutUs() {
 								</div>
 							</div>
 						</div>
-						<div class='col-md-7 wrap-about pr-md-4 ftco-animate'>
+						<div
+							class='col-md-7 wrap-about pr-md-4 ftco-animate'
+							data-aos='fade-down-right'
+						>
 							<h2 class='mb-4'>Welcome to Consolution</h2>
 							<p>
 								On her way she met a copy. The copy warned the Little Blind
@@ -79,7 +92,10 @@ function AboutUs() {
 			<section class='ftco-section ftco-counter'>
 				<div class='container'>
 					<div class='row justify-content-center mb-5 pb-2 d-flex'>
-						<div class='col-md-6 align-items-stretch d-flex'>
+						<div
+							class='col-md-6 align-items-stretch d-flex'
+							data-aos='zoom-in-right'
+						>
 							<div
 								class='img img-video2 d-flex align-items-center'
 								style={{ backgroundImage: 'url(images/about.jpg)' }}
@@ -103,7 +119,10 @@ function AboutUs() {
 								</div>
 							</div>
 						</div>
-						<div class='col-md-6 heading-section2 ftco-animate pl-lg-5 pt-md-0 pt-5'>
+						<div
+							class='col-md-6 heading-section2 ftco-animate pl-lg-5 pt-md-0 pt-5'
+							data-aos='zoom-in-left'
+						>
 							<h2 class='mb-4'>We Are the Best Consulting Agency</h2>
 							<p>
 								Separated they live in. A small river named Duden flows by their
@@ -138,7 +157,10 @@ function AboutUs() {
 
 			<section class='ftco-counter' id='section-counter'>
 				<div class='container'>
-					<div class='row d-md-flex align-items-center justify-content-center'>
+					<div
+						class='row d-md-flex align-items-center justify-content-center'
+						data-aos='fade-down-left'
+					>
 						<div class='wrapper'>
 							<div class='row d-md-flex align-items-center'>
 								<div class='col-md d-flex justify-content-center counter-wrap ftco-animate'>
@@ -186,7 +208,10 @@ function AboutUs() {
 					</div>
 				</div>
 				<div class='row justify-content-center mb-5 mt-5'>
-					<div class='col-md-8 text-center heading-section2 ftco-animate'>
+					<div
+						class='col-md-8 text-center heading-section2 ftco-animate'
+						data-aos='fade-down-right'
+					>
 						<h2 class='mt-4 mb-4'>Our Photos</h2>
 						<p>
 							Separated they live in. A small river named Duden flows by their
@@ -194,7 +219,12 @@ function AboutUs() {
 							paradisematic country
 						</p>
 					</div>
-					<OwlCarousel className='owl-theme mt-5' loop margin={10}>
+					<OwlCarousel
+						data-aos='zoom-in-up'
+						className='owl-theme mt-5'
+						loop
+						margin={10}
+					>
 						{hotel.map((img, index) => (
 							<div class='item' key={index}>
 								<img src={img.image} alt='' />

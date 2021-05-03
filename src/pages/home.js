@@ -1,7 +1,7 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { banner as Banner } from '../components/heroBanner/banner';
+import { Banner } from '../components/heroBanner/banner';
 
 import { AboutUs } from '../components/AboutUs/AboutUs';
 

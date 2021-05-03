@@ -71,10 +71,12 @@ export const AboutUs = () => {
 			<section className='pt100 pb100'>
 				<div className='container'>
 					<div className='section_title text-center'>
-						<h3 className='title primary-text'>About the event</h3>
+						<h3 className='title primary-text' data-aos='zoom-in-down'>
+							About the event
+						</h3>
 					</div>
 					<div className='row justify-content-center'>
-						<div className='col-12 col-md-6' data-aos='zoom-in-right'>
+						<div className='col-12 col-md-6' data-aos='fade-down-right'>
 							<p className='text-part'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
 								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
@@ -84,7 +86,7 @@ export const AboutUs = () => {
 							</p>
 						</div>
 						<div className='col-12 col-md-6'>
-							<p className='text-part' data-aos='zoom-in-left'>
+							<p className='text-part' data-aos='fade-down-left'>
 								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
 								accumsan. Pellentesque convallis consectetur tortor id placerat.
 								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at

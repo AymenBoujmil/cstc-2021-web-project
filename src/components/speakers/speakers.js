@@ -3,6 +3,8 @@ import data from '../../_utils/speakers.json';
 import data2 from '../../_utils/themes.json';
 
 import { Speaker } from './speaker';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Speakers = () => {
 	const [speakers, setSpeakers] = useState(data.speakers);
@@ -24,9 +26,13 @@ export const Speakers = () => {
 				)
 			);
 		}
-		
 	};
-	useEffect(() => {}, [theme]);
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, [theme]);
+
 	return (
 		<div id='speakers'>
 			<section
@@ -47,13 +53,15 @@ export const Speakers = () => {
 				</div>
 			</section>
 			<div class='wrap-about pr-md-4 ftco-animate container mt-5'>
-				<h2 class='mb-4'>Our Speakers</h2>
-				<p>
-					On her way she met a copy. The copy warned the Little Blind Text, that
-					where it came from it would have been rewritten a thousand times and
-					everything that was left from its origin would be the word. Lorem
-					ipsum, dolor sit amet consectetur adipisicing elit.
-				</p>
+				<div data-aos='fade-down-right'>
+					<h2 class='mb-4'>Our Speakers</h2>
+					<p>
+						On her way she met a copy. The copy warned the Little Blind Text,
+						that where it came from it would have been rewritten a thousand
+						times and everything that was left from its origin would be the
+						word. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					</p>
+				</div>
 				<div id='themes'>
 					<div className='mt-5'>
 						<div className='d-lg-flex justify-content-between'>
@@ -61,10 +69,11 @@ export const Speakers = () => {
 								<div
 									className='card-feature mb-5 mb-lg-0'
 									style={{ cursor: 'pointer' }}
+									data-aos='fade-up'
 									onClick={() => {
 										speakersByTheme(theme.theme);
-										setThemeName(theme.track);
 										setTheme(theme.theme);
+										setThemeName(theme.track);
 										console.log(theme.theme);
 									}}
 								>
@@ -81,7 +90,10 @@ export const Speakers = () => {
 			</div>
 			<section class='speaker-bg section-padding'>
 				<div class='container'>
-					<div class='section-intro section-intro-white text-center pb-80px'>
+					<div
+						class='section-intro section-intro-white text-center pb-80px'
+						data-aos='zoom-in-down'
+					>
 						{/* <p class='section-intro__title'>Join the event</p> */}
 						<h2 class='primary-text' style={primary_text} onClick={affiche}>
 							Meet The Speakers
@@ -90,7 +102,7 @@ export const Speakers = () => {
 					</div>
 					<div class='row'>
 						{speakers.map((speaker) => (
-							<Speaker speaker={speaker}></Speaker>
+							<Speaker data-aos='zoom-in' speaker={speaker}></Speaker>
 						))}
 					</div>
 				</div>

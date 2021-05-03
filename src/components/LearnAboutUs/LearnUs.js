@@ -13,7 +13,7 @@ export const LearnUs = () => {
 			<div class='container-fluid'>
 				<div class='row align-items-center'>
 					<div class='col-md-6'>
-						<div id='video-section' data-aos='zoom-in-right'>
+						<div id='video-section' data-aos='fade-up-right'>
 							<div
 								class='youtube-player '
 								id='video-place'
@@ -29,8 +29,8 @@ export const LearnUs = () => {
 							></iframe>
 						</div>
 					</div>
-					<div class='col-md-6'>
-						<p class='text-part' data-aos='zoom-in-left'>
+					<div class='col-md-6' data-aos='fade-up-left'>
+						<p class='text-part'>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
 							nec pretium mi. Curabitur facilisis ornare velit non vulputate.
 							Aliquam metus tortor, auctor id gravida condimentum, viverra quis
