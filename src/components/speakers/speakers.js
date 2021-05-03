@@ -9,7 +9,7 @@ export const Speakers = () => {
 	const [allSpeakers, setAllSpeakers] = useState(data.speakers);
 	const [themes, setThemes] = useState(data2.themes);
 	const [theme, setTheme] = useState(0);
-	const [themeName, setthemeName] = useState(' all tracks ');
+	const [themeName, setThemeName] = useState(' all tracks ');
 	const affiche = () => {
 		console.log(speakers);
 	};
@@ -24,22 +24,7 @@ export const Speakers = () => {
 				)
 			);
 		}
-		switch (theme) {
-			case 0:
-				setthemeName('all tracks');
-				break;
-			case 1:
-				setthemeName('track 1');
-				break;
-			case 2:
-				setthemeName('track 2');
-				break;
-			case 3:
-				setthemeName('track 3');
-				break;
-			default:
-				break;
-		}
+		
 	};
 	useEffect(() => {}, [theme]);
 	return (
@@ -78,6 +63,7 @@ export const Speakers = () => {
 									style={{ cursor: 'pointer' }}
 									onClick={() => {
 										speakersByTheme(theme.theme);
+										setThemeName(theme.track);
 										setTheme(theme.theme);
 										console.log(theme.theme);
 									}}
