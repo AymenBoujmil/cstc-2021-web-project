@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 body {
 	color: #797979;
 
-	font-family: "Nunito Sans", Arial, sans-serif;
+	font-family: 'Nunito Sans', Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.8;
 }
 p {
-	font-family: "Nunito Sans", Arial, sans-serif !important;
+	font-family: 'Nunito Sans', Arial, sans-serif !important;
 	color: gray;
 }
 ul {
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Oswald", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	color: #233e62;
 	line-height: 1.5;
 }
@@ -56,10 +56,10 @@ h4,
 .h4 {
 	font-size: 18px;
 }
-[class^="flaticon-"]:before,
-[class*=" flaticon-"]:before,
-[class^="flaticon-"]:after,
-[class*=" flaticon-"]:after {
+[class^='flaticon-']:before,
+[class*=' flaticon-']:before,
+[class^='flaticon-']:after,
+[class*=' flaticon-']:after {
 	margin: 0;
 }
 .primary-text2 {
@@ -231,7 +231,7 @@ nav {
 }
 .header_area .navbar .nav-right a {
 	text-transform: uppercase;
-	font-family: "Oswald", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
 	color: #7affbe;
@@ -240,9 +240,9 @@ nav {
 	margin-right: 38px;
 }
 .header_area .navbar .nav .nav-item .nav-link {
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
-	color: #36e7f1;
+	color: #fff;
 	text-transform: capitalize;
 	font-weight: 500;
 	padding: 33px 0;
@@ -294,7 +294,7 @@ nav {
 	}
 }
 .header_area .navbar .nav .nav-item.submenu ul:before {
-	content: "";
+	content: '';
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -479,18 +479,18 @@ nav {
 	.header_area .navbar .nav-item.active .nav-link {
 		color: #3b1d82 !important;
 	}
-	.navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+	.navbar-toggler[aria-expanded='false'] span:nth-child(2) {
 		opacity: 1;
 	}
-	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+	.navbar-toggler[aria-expanded='true'] span:nth-child(2) {
 		opacity: 0;
 	}
-	.navbar-toggler[aria-expanded="true"] span:first-child {
+	.navbar-toggler[aria-expanded='true'] span:first-child {
 		transform: rotate(-45deg);
 		position: relative;
 		top: 7.5px;
 	}
-	.navbar-toggler[aria-expanded="true"] span:last-child {
+	.navbar-toggler[aria-expanded='true'] span:last-child {
 		transform: rotate(45deg);
 		bottom: 6px;
 		position: relative;
@@ -499,7 +499,7 @@ nav {
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #eb0162;
+		background: #7affbe;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -751,7 +751,7 @@ nav {
 .hero-banner {
 	position: relative;
 	padding-top: 15% !important;
-	background: url("./assets/images/bg1.jpg") left center no-repeat !important;
+	background: url('./assets/images/bg1.jpg') left center no-repeat !important;
 	/* background: url('./assets/images/conference.png') left center no-repeat !important; */
 	background-size: cover;
 }
@@ -761,7 +761,7 @@ nav {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	content: "";
+	content: '';
 	opacity: 0.2;
 	background: #36a871;
 	background: -moz-linear-gradient(left, #36a871 0%, #1b9de3 100%);
@@ -860,17 +860,17 @@ nav {
 		font-size: 60px;
 	}
 }
-.hero-banner-icon [class^="flaticon-"]:before,
-.hero-banner-icon [class*=" flaticon-"]:before,
-.hero-banner-icon [class^="flaticon-"]:after,
-.hero-banner-icon [class*=" flaticon-"]:after {
+.hero-banner-icon [class^='flaticon-']:before,
+.hero-banner-icon [class*=' flaticon-']:before,
+.hero-banner-icon [class^='flaticon-']:after,
+.hero-banner-icon [class*=' flaticon-']:after {
 	font-size: 35px;
 }
 @media (min-width: 768px) {
-	.hero-banner-icon [class^="flaticon-"]:before,
-	.hero-banner-icon [class*=" flaticon-"]:before,
-	.hero-banner-icon [class^="flaticon-"]:after,
-	.hero-banner-icon [class*=" flaticon-"]:after {
+	.hero-banner-icon [class^='flaticon-']:before,
+	.hero-banner-icon [class*=' flaticon-']:before,
+	.hero-banner-icon [class^='flaticon-']:after,
+	.hero-banner-icon [class*=' flaticon-']:after {
 		font-size: 60px;
 	}
 }
@@ -1000,8 +1000,8 @@ nav {
 	font-size: 38px;
 	color: #36a871;
 }
-.card-feature .feature-icon [class^="flaticon-"]:before,
-.card-feature .feature-icon [class*=" flaticon-"]:before {
+.card-feature .feature-icon [class^='flaticon-']:before,
+.card-feature .feature-icon [class*=' flaticon-']:before {
 	font-size: 38px;
 }
 .card-feature h3 {
@@ -1116,7 +1116,7 @@ nav {
 	opacity: 0.7;
 }
 .speaker-social li::after {
-	content: "|";
+	content: '|';
 	color: #0d1130;
 	margin-left: 9px;
 	margin-right: 7px;
@@ -1389,7 +1389,7 @@ schedule-card:hover > * {
 }
 .priceTable-price span {
 	font-size: 22px;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	display: inline-block;
 }
 @media (min-width: 768px) {
@@ -1429,7 +1429,7 @@ schedule-card:hover > * {
 }
 .priceTable-list li i.negative,
 .priceTable-list li span.negative {
-	color: #ea0763;
+	color: #7affbe;
 }
 .priceTable-footer {
 	padding: 25px 9px;
@@ -1672,7 +1672,7 @@ schedule-card:hover > * {
 	bottom: 0px;
 }
 .causes_item .causes_img .c_parcent span:before {
-	content: "75%";
+	content: '75%';
 	position: absolute;
 	right: -10px;
 	bottom: 0px;
@@ -1859,7 +1859,7 @@ schedule-card:hover > * {
 	margin-right: 5px;
 }
 .blog-info-link li::after {
-	content: "|";
+	content: '|';
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -1867,7 +1867,7 @@ schedule-card:hover > * {
 	display: none;
 }
 .blog-info-link::after {
-	content: "";
+	content: '';
 	display: block;
 	clear: both;
 	display: table;
@@ -1917,7 +1917,7 @@ schedule-card:hover > * {
 	margin-bottom: 40px;
 }
 .blog_right_sidebar .widget_title::after {
-	content: "";
+	content: '';
 	display: block;
 	padding-top: 15px;
 	border-bottom: 1px solid #f0e9ff;
@@ -2613,7 +2613,7 @@ schedule-card:hover > * {
 	transition: all 0.3s ease 0s;
 }
 .footer-social a:hover i {
-	color: #ea0763;
+	color: #7affbe;
 }
 .footer-social i,
 .footer-social span {
@@ -2724,7 +2724,7 @@ schedule-card:hover > * {
 	transition: all 0.3s ease 0s;
 }
 .single-footer-widget ul li a:hover {
-	color: #ea0763;
+	color: #7affbe;
 }
 .footer-bottom {
 	padding: 20px 0;
@@ -2741,5 +2741,5 @@ schedule-card:hover > * {
 }
 .footer-text a,
 .footer-text i {
-	color: #ea0763;
+	color: #7affbe;
 }

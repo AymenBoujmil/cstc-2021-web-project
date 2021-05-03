@@ -17,12 +17,14 @@ function Team() {
 				<div class='container'>
 					<div class='section-intro section-intro-white text-center pb-98px'>
 						{/* <p class='section-intro__title'>Join the event</p> */}
-						<h2 class='primary-text mt-5'>Meet The Team </h2>
+						<h2 class='primary-text mt-5' data-aos='zoom-in-down'>
+							Meet The Team{' '}
+						</h2>
 					</div>
 
 					<div class='row'>
 						{team.map((member) => (
-							<div class='col-md-3' data-aos='zoom-in'>
+							<div class='col-lg-4 col-sm-6 mb-4 mb-lg-0' data-aos='zoom-in'>
 								<div class='team'>
 									<figure>
 										<img

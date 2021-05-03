@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { Day } from './day';
 import data from '../../_utils/themes.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import data1 from '../../_utils/schedule/day1.json';
 import data2 from '../../_utils/schedule/day2.json';
@@ -16,6 +18,7 @@ import data33 from '../../_utils/schedule/day3-3.json';
 export const Schedule = () => {
 	const [themes, setthemes] = useState(data.themes);
 	const [theme, setTheme] = useState(1);
+	const [themeName, setThemeName] = useState(' all tracks ');
 
 	const [day, setDay] = useState(data1.day1);
 	const [numDay, setNumDay] = useState('day1');
@@ -157,6 +160,13 @@ export const Schedule = () => {
 		void a.offsetWidth;
 		a.classList.add('active');
 	};
+
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, [theme]);
+
 	return (
 		<div id='schedule'>
 			<section
@@ -178,18 +188,20 @@ export const Schedule = () => {
 			</section>
 
 			<div class='wrap-about pr-md-4 ftco-animate container mt-5'>
-				<h2 class='mb-4'>Our Main Features</h2>
-				<p>
-					On her way she met a copy. The copy warned the Little Blind Text, that
-					where it came from it would have been rewritten a thousand times and
-					everything that was left from its origin would be the word. Lorem
-					ipsum, dolor sit amet consectetur adipisicing elit. Sint aliquid
-					beatae nihil eius iure necessitatibus, eos non ex. Odio voluptatibus
-					illum itaque inventore quam mollitia nisi ipsam, laborum placeat iusto
-					sed nemo, architecto, vitae alias similique quod voluptas? Aspernatur
-					adipisci qui ullam laudantium aut vel quisquam autem beatae nesciunt
-					neque?
-				</p>
+				<div data-aos='fade-down-right'>
+					<h2 class='mb-4'>Our Main Features</h2>
+					<p>
+						On her way she met a copy. The copy warned the Little Blind Text,
+						that where it came from it would have been rewritten a thousand
+						times and everything that was left from its origin would be the
+						word. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+						aliquid beatae nihil eius iure necessitatibus, eos non ex. Odio
+						voluptatibus illum itaque inventore quam mollitia nisi ipsam,
+						laborum placeat iusto sed nemo, architecto, vitae alias similique
+						quod voluptas? Aspernatur adipisci qui ullam laudantium aut vel
+						quisquam autem beatae nesciunt neque?
+					</p>
+				</div>
 				<div id='themes'>
 					<div className='mt-5'>
 						<div className='d-lg-flex justify-content-between'>
@@ -197,8 +209,10 @@ export const Schedule = () => {
 								<div
 									className='card-feature mb-5 mb-lg-0'
 									style={{ cursor: 'pointer' }}
+									data-aos='fade-up'
 									onClick={() => {
 										changeDayTheme(theme.theme);
+										setThemeName(theme.track);
 
 										setTheme(theme.theme);
 										console.log(theme.theme);
@@ -217,12 +231,16 @@ export const Schedule = () => {
 			</div>
 			<section className='section-margin mb-5 pb-5'>
 				<div className='container'>
-					<div class='section-intro section-intro-white text-center pb-98px'>
+					<div
+						class='section-intro section-intro-white text-center pb-98px'
+						data-aos='zoom-in-down'
+					>
 						{' '}
-						<h2 className='primary-text'>Conference Schedule</h2>
+						<h2 className='primary-text'>Conference Schedule</h2>{' '}
+						<h4 class='primary-text'>Track : {themeName} </h4>
 					</div>
 
-					<div className='row'>
+					<div className='row' data-aos='zoom-out'>
 						<div className='col-xl-10 offset-xl-1'>
 							<div className='scheduleTab'>
 								<ul className='nav nav-tabs'>
@@ -254,7 +272,7 @@ export const Schedule = () => {
 						</div>
 					</div>
 
-					<div className='tab-content'>
+					<div className='tab-content' data-aos='zoom-out-right'>
 						<Day day={day} numDay={numDay} affiche={affiche}></Day>
 					</div>
 				</div>

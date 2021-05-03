@@ -1,6 +1,8 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
 import { MdEmail, MdPhone, MdPinDrop, MdCopyright } from 'react-icons/md';
+import { NavLink } from 'react-router-dom';
+
 export const footer = () => {
 	const copyRStyle = {
 		padding: '4px',
@@ -21,8 +23,7 @@ export const footer = () => {
 								<p>
 									The world has become so fast paced that people don’t want to
 									stand by reading a page of information to be they would much
-									rather look at a presentation and understand the message. It
-									has come to a point where images and videos are used more to
+									rather look at a presentation and understand the message.
 								</p>
 							</div>
 						</div>
@@ -33,32 +34,71 @@ export const footer = () => {
 									<div className='col'>
 										<ul>
 											<li>
-												<a href='#'>Home</a>
+												<NavLink
+													to='/'
+													exact
+													className='nav-link'
+													activeStyle={{
+														fontWeight: 'bold',
+														color: '#7affbe',
+													}}
+												>
+													Home
+												</NavLink>
 											</li>
 											<li>
-												<a href='#'>about</a>
+												<NavLink
+													to='/about'
+													exact
+													className='nav-link'
+													activeStyle={{
+														fontWeight: 'bold',
+														color: '#7affbe',
+													}}
+												>
+													about
+												</NavLink>
 											</li>
 											<li>
-												<a href='#'>Themes</a>
-											</li>
-											<li>
-												<a href='#'>Speakers</a>
+												<NavLink
+													to='/schedule'
+													className='nav-link'
+													activeStyle={{
+														fontWeight: 'bold',
+														color: '#7affbe',
+													}}
+												>
+													Schedule
+												</NavLink>
 											</li>
 										</ul>
 									</div>
 									<div className='col'>
 										<ul>
 											<li>
-												<a href='#'>Team</a>
+												<NavLink
+													to='/speakers'
+													className='nav-link'
+													activeStyle={{
+														fontWeight: 'bold',
+														color: '#7affbe',
+													}}
+												>
+													{' '}
+													Speakers
+												</NavLink>
 											</li>
 											<li>
-												<a href='#'>Schedule</a>
-											</li>
-											<li>
-												<a href='#'>Hotel</a>
-											</li>
-											<li>
-												<a href='#'>Contact</a>
+												<NavLink
+													to='/hotel'
+													className='nav-link'
+													activeStyle={{
+														fontWeight: 'bold',
+														color: '#7affbe',
+													}}
+												>
+													Hotel
+												</NavLink>{' '}
 											</li>
 										</ul>
 									</div>
@@ -93,7 +133,7 @@ export const footer = () => {
 											<div className='row'>
 												<MdEmail></MdEmail>
 
-												<p>hello@youremail.com</p>
+												<p>cstc.donotreply@gmail.com</p>
 											</div>
 										</li>
 									</ul>

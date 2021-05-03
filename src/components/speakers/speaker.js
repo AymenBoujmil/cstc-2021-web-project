@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SpeakerInfo from './speakerInfo';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const styleIcon = {
 	color: '#7affbe',
@@ -16,9 +18,13 @@ export const Speaker = (props) => {
 	const handleClose = () => {
 		setopenPopup(false);
 	};
-
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, []);
 	return (
-		<div class='col-lg-4 col-sm-6 mb-4 mb-lg-0'>
+		<div class='col-lg-4 col-sm-6 mb-4 mb-lg-0' data-aos='zoom-in'>
 			<div
 				class='card-speaker'
 				onClick={() => {
