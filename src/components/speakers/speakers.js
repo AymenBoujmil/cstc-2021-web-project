@@ -36,15 +36,8 @@ export const Speakers = () => {
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>Speakers</h1>
 							<p class='breadcrumbs'>
-								<span class='mr-2'>
-									<a href='index.html'>
-										Home <i class='ion-ios-arrow-forward'></i>
-									</a>
-								</span>{' '}
-								<span>
-									{' '}
-									Speakers <i class='ion-ios-arrow-forward'></i>
-								</span>
+								“You only live once, but if you do it right, once is enough.” —
+								Mae West
 							</p>
 						</div>
 					</div>

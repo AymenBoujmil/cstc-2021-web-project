@@ -65,17 +65,14 @@ export const Navbar = () => {
 							}
 						>
 							<div className='container box_1620'>
-								<a
-									className='navbar-brand logo_h'
-									href='index.html'
-									style={{ color: '#76e7f1' }}
-								>
+								<NavLink to='/' className='nav-link'>
 									<img
-										src='image/h.png'
+										src='image/logo.png'
 										alt=''
-										style={{ maxWidth: '20%' }}
+										style={{ maxWidth: '15%' }}
 									></img>
-								</a>
+								</NavLink>
+
 								<button
 									className='navbar-toggler'
 									type='button'

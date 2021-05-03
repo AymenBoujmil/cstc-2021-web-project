@@ -169,15 +169,8 @@ export const Schedule = () => {
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>Schedule</h1>
 							<p class='breadcrumbs'>
-								<span class='mr-2'>
-									<a href='index.html'>
-										Home <i class='ion-ios-arrow-forward'></i>
-									</a>
-								</span>{' '}
-								<span>
-									{' '}
-									Schedule <i class='ion-ios-arrow-forward'></i>
-								</span>
+								“You only live once, but if you do it right, once is enough.” —
+								Mae West
 							</p>
 						</div>
 					</div>
