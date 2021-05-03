@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import data from '../../_utils/speakers.json';
 import data2 from '../../_utils/themes.json';
 
@@ -9,6 +9,7 @@ export const Speakers = () => {
 	const [allSpeakers, setAllSpeakers] = useState(data.speakers);
 	const [themes, setThemes] = useState(data2.themes);
 	const [theme, setTheme] = useState(0);
+	const [themeName, setthemeName] = useState(' all tracks ');
 	const affiche = () => {
 		console.log(speakers);
 	};
@@ -23,7 +24,24 @@ export const Speakers = () => {
 				)
 			);
 		}
+		switch (theme) {
+			case 0:
+				setthemeName('all tracks');
+				break;
+			case 1:
+				setthemeName('track 1');
+				break;
+			case 2:
+				setthemeName('track 2');
+				break;
+			case 3:
+				setthemeName('track 3');
+				break;
+			default:
+				break;
+		}
 	};
+	useEffect(() => {}, [theme]);
 	return (
 		<div id='speakers'>
 			<section
@@ -77,11 +95,12 @@ export const Speakers = () => {
 			</div>
 			<section class='speaker-bg section-padding'>
 				<div class='container'>
-					<div class='section-intro section-intro-white text-center pb-98px'>
+					<div class='section-intro section-intro-white text-center pb-80px'>
 						{/* <p class='section-intro__title'>Join the event</p> */}
 						<h2 class='primary-text' style={primary_text} onClick={affiche}>
 							Meet The Speakers
 						</h2>
+						<h4 class='primary-text'>Track : {themeName} </h4>
 					</div>
 					<div class='row'>
 						{speakers.map((speaker) => (
