@@ -1,3 +1,4 @@
+import { Alert } from 'bootstrap';
 import React, { useState, useEffect } from 'react';
 import data from '../../_utils/speakers.json';
 import data2 from '../../_utils/themes.json';
@@ -19,20 +20,17 @@ export const Speakers = () => {
 		color: '#0d1130',
 	};
 	const speakersByTheme = (them) => {
-		if (theme != 0) {
-			setSpeakers(
-				allSpeakers.filter(
-					(speaker) => speaker.theme.toString().localeCompare(them) == 0
-				)
-			);
-		}
+		setSpeakers(
+			allSpeakers.filter(
+				(speaker) => speaker.theme.toString().localeCompare(them) == 0
+			)
+		);
 	};
 	useEffect(() => {
 		AOS.init({
 			duration: 2000,
 		});
-	}, [theme]);
-
+	}, [speakers]);
 	return (
 		<div id='speakers'>
 			<section
@@ -71,10 +69,9 @@ export const Speakers = () => {
 									style={{ cursor: 'pointer' }}
 									data-aos='fade-up'
 									onClick={() => {
-										speakersByTheme(theme.theme);
 										setTheme(theme.theme);
+										speakersByTheme(theme.theme);
 										setThemeName(theme.track);
-										console.log(theme.theme);
 									}}
 								>
 									<div className='feature-icon'>
@@ -105,6 +102,19 @@ export const Speakers = () => {
 							<Speaker data-aos='zoom-in' speaker={speaker}></Speaker>
 						))}
 					</div>
+				</div>
+				<div className='d-flex justify-content-center pt-5'>
+					<button
+						type='button'
+						class='button button-header'
+						onClick={() => {
+							setThemeName(' all tracks ');
+							setTheme(0);
+							setSpeakers(allSpeakers);
+						}}
+					>
+						see all the speakers{' '}
+					</button>
 				</div>
 			</section>
 		</div>
