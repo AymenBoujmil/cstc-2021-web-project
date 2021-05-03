@@ -11,7 +11,7 @@ export const Sponsor = () => {
 		<div class='main-sponsor' id='sponsors'>
 			<section class='section-padding--small sponsor-bg'>
 				<div class='container'>
-					<div class='section-intro text-center pb-80px'>
+					<div class='section-intro text-center padding-title '>
 						<h2 class='primary-text'>Event Plan Sponsors</h2>
 					</div>
 				</div>

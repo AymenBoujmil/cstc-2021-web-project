@@ -31,7 +31,7 @@
 
 .banner_part:after {
 	position: absolute;
-	content: '';
+	content: "";
 	left: 0;
 	bottom: 0;
 	background-color: #0d1130;
@@ -239,6 +239,10 @@
 	color: #391f14;
 	font-size: 20px;
 	font-weight: 300;
+}
+.padding-title-hotel {
+	padding-top: 75px !important;
+	padding-bottom: 75px !important;
 }
 
 .about-font-img {

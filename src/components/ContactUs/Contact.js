@@ -53,13 +53,15 @@ export const Contact = () => {
 	return (
 		<div>
 			<div>
-				<div class='container'>
-					<div class='section-intro text-center '>
-						<h2 class='primary-text'>Contact Us</h2>
+				
+				<div class='bg-contact100'>
+				
+					<div class='container-contact100'>
+					<div class='container'>
+					<div class='section-intro text-center padding-title100  '>
+						<h2 class='primary-text color-title'>Contact Us</h2>
 					</div>
 				</div>
-				<div class='bg-contact100'>
-					<div class='container-contact100'>
 						<div class='wrap-contact100'>
 							<div class='contact100-pic js-tilt' data-tilt>
 								<img src='image/ContactUs/MailImage.svg' alt='IMG'></img>
