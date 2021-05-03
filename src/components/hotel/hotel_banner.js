@@ -21,9 +21,7 @@ export const Hotel_banner = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class='banner_img'>
+							<div class='banner_img'>
 					<img src='image/ban.jpg' alt='#' class='img-fluid'></img>
 					<img
 						src='image/banner_pattern.png '
@@ -31,6 +29,9 @@ export const Hotel_banner = () => {
 						class='pattern_img img-fluid'
 					></img>
 				</div>
+					</div>
+				</div>
+			
 			</section>
 			<section className='hotel-banner'></section>
 		</div>
