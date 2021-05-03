@@ -6,7 +6,6 @@ import OwlCarousel from 'react-owl-carousel';
 
 function AboutUs() {
 	const [hotel, setHotel] = useState(data.Hotel);
-	
 
 	return (
 		<div>
@@ -19,16 +18,9 @@ function AboutUs() {
 					<div class='row m-50 no-gutters slider-text-about align-items-center justify-content-center'>
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>About Us</h1>
-							<p class='breadcrumbs'>
-								<span class='mr-2'>
-									<a href='index.html'>
-										Home <i class='ion-ios-arrow-forward'></i>
-									</a>
-								</span>{' '}
-								<span>
-									{' '}
-									About us <i class='ion-ios-arrow-forward'></i>
-								</span>
+							<p class='breadcrumbs '>
+								“You only live once, but if you do it right, once is enough.” —
+								Mae West
 							</p>
 						</div>
 					</div>
@@ -193,7 +185,7 @@ function AboutUs() {
 						</div>
 					</div>
 				</div>
-				<div class='row justify-content-center mb-5'>
+				<div class='row justify-content-center mb-5 mt-5'>
 					<div class='col-md-8 text-center heading-section2 ftco-animate'>
 						<h2 class='mt-4 mb-4'>Our Photos</h2>
 						<p>
@@ -202,7 +194,7 @@ function AboutUs() {
 							paradisematic country
 						</p>
 					</div>
-					<OwlCarousel className='owl-theme' loop margin={10}>
+					<OwlCarousel className='owl-theme mt-5' loop margin={10}>
 						{hotel.map((img, index) => (
 							<div class='item' key={index}>
 								<img src={img.image} alt='' />
@@ -210,7 +202,6 @@ function AboutUs() {
 						))}
 					</OwlCarousel>
 				</div>
-			
 			</section>
 		</div>
 	);

@@ -28,16 +28,16 @@ function SpeakerInfo(props) {
 				{' '}
 				<div className=' container emp-profile'>
 					<div className='row'>
-						<div className='col-md-4'>
+						<div className='col-md-4 mb-2'>
 							<div className='profile-img'>
 								<img
 									src={props.speaker.image}
 									alt=''
-									style={{ borderRadius: '50%' }}
+									style={{ borderRadius: '100%' }}
 								/>
 							</div>
 						</div>
-						<div className='col-md-6'>
+						<div className='col-md-6 mt-3'>
 							<div className='profile-head'>
 								<h5>{props.speaker.name}</h5>
 								<h6>{props.speaker.job}</h6>
@@ -75,7 +75,7 @@ function SpeakerInfo(props) {
 					</div>
 					<div className='row'>
 						<div className='col-md-4'>
-							<div className='profile-work'>
+							<div className='profile-work '>
 								<p onClick={affiche}>SKILLS</p>
 								{props.speaker.skills.map((skill) => (
 									<div>
