@@ -96,10 +96,10 @@ export const Contact = () => {
 											data-validate='name is required'
 										>
 											<input
-												class='input100'
+												class='input100 name100'
 												type='text'
 												name='name'
-												placeholder='name'
+												placeholder='Name'
 												ref={register}
 											/>
 										</div>
@@ -110,10 +110,10 @@ export const Contact = () => {
 											data-validate='object is required'
 										>
 											<input
-												class='input100'
+												class='input100 object100'
 												type='text'
 												name='object'
-												placeholder='object'
+												placeholder='Object'
 												ref={register}
 											/>
 										</div>

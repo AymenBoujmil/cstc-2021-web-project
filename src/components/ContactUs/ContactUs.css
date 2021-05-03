@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -69,7 +69,7 @@
 
 .contact100-form-title {
 	display: block;
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald", sans-serif;
 	font-size: 24px;
 	color: #233e62 !important ;
 	line-height: 1.2;
@@ -83,7 +83,7 @@ input.input100 {
 	padding: 0 30px 0 50px;
 }
 
-input.input100[name='email'] {
+input.input100[name="email"] {
 	padding: 14px 30px;
 }
 
@@ -107,7 +107,7 @@ textarea.input100 {
 	display: block;
 	width: 100%;
 	background: #e6e6e6;
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #233e62;
@@ -119,14 +119,19 @@ textarea.input100 {
 	display: block !important;
 	width: 100% !important;
 	background: #e6e6e6 !important;
-	font-family: 'Oswald', sans-serif !important;
+	font-family: "Oswald", sans-serif !important;
 	font-size: 15px !important;
 	line-height: 1.5 !important;
 	color: #233e62 !important;
 	border: solid !important;
-	border-radius: 1px !important;
 	border-color: #233e62 !important;
-	border-radius: 50px !important ;
+	border-radius: 25px !important ;
+}
+.name100 {
+	padding-left: 15% !important;
+}
+.object100 {
+	padding-left: 15% !important;
 }
 /*------------------------------------------------------------------
 [ Focus ]*/
@@ -190,7 +195,7 @@ textarea.input100 {
 	border-radius: 25px;
 	border-color: #233e62;
 	background: #fff;
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #233e62;
