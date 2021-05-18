@@ -13,8 +13,8 @@ export const Banner = () => {
 			<section className='hero-banner'>
 				<div class='overlay'></div>
 
-				<div className='container text-center'>
-					<div className='around'>
+				{/* <div className='container text-center'>
+					<div className='around col-7'>
 						<div data-aos='fade-down-right'>
 							{' '}
 							<p>08 - 11 April 2021, Hammamet City </p>
@@ -24,7 +24,7 @@ export const Banner = () => {
 							<Countdown></Countdown>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</section>
 		</div>
 	);

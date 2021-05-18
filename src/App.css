@@ -175,16 +175,21 @@ h4,
 	transition: all 0.6s ease !important;
 }
 .box-shadow {
-	box-shadow: -30px 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: -0 5px 5px rgba(0, 0, 0, 0.2);
 }
 nav {
-	background-color: #233e62 !important;
+	background-color: #fff !important;
 	transition: all 0.6s ease !important;
 }
 .header_area .navbar-right {
 	min-width: 200px;
 	text-align: right;
 }
+
+.colornav {
+	/* color: #0d1130 !important; */
+}
+
 @media (max-width: 991px) {
 	.header_area .navbar-right {
 		margin: 20px 0;
@@ -212,13 +217,13 @@ nav {
 }
 .header_area .navbar-social li a:hover i,
 .header_area .navbar-social li span {
-	color: #7affbe;
+	color: #275acf;
 }
 .header_area .menu_nav {
 	width: 100%;
 }
 .header_area .navbar {
-	background: #0d1130;
+	background: #275acf;
 	border: 0px;
 	border-radius: 0px;
 	width: 100%;
@@ -234,7 +239,7 @@ nav {
 	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	font-weight: 500;
-	color: #7affbe;
+	color: #275acf;
 }
 .header_area .navbar .nav .nav-item {
 	margin-right: 38px;
@@ -242,10 +247,10 @@ nav {
 .header_area .navbar .nav .nav-item .nav-link {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
-	color: #fff;
+	color: #04287c;
 	text-transform: capitalize;
 	font-weight: 500;
-	padding: 33px 0;
+	padding: 0 5px 0 2px;
 	display: inline-block;
 	transition: all 0.6s ease !important;
 }
@@ -254,7 +259,7 @@ nav {
 }
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-	color: #7affbe;
+	color: #275acf;
 	opacity: 1;
 }
 .header_area .navbar .nav .nav-item.submenu {
@@ -750,12 +755,16 @@ nav {
 }
 .hero-banner {
 	position: relative;
-	padding-top: 15% !important;
-	background: url('./assets/images/bg1.jpg') left center no-repeat !important;
+
+	height: 100%;
+	padding-top: 60% !important;
+	background: url('./assets/images/bg1.png') center no-repeat !important;
+	background-position-x: center left !important;
+
 	/* background: url('./assets/images/conference.png') left center no-repeat !important; */
-	background-size: cover;
+	background-size: cover !important;
 }
-.hero-banner .overlay {
+/* .hero-banner .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -783,24 +792,29 @@ nav {
 	);
 	background: linear-gradient(to right, #36a871 0%, #1b9de3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 );
-}
-.hero-banner::before {
+} */
+/* .hero-banner::before {
 	position: absolute;
 	padding: 70px 0;
 	background: linear-gradient(120deg, #ee8425 0%, hsl(337, 94%, 63%) 100%),
 		linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
 	background-size: cover;
-}
-@media (min-width: 768px) {
+} */
+/* @media (min-width: 768px) {
 	.hero-banner {
-		padding: 150px 0;
+		padding: 300px 0;
 	}
 }
 @media (min-width: 1200px) {
 	.hero-banner {
-		padding: 240px 0;
+		padding: 400px 0;
 	}
 }
+@media (min-width: 200) {
+	.hero-banner {
+		padding: 200px 0;
+	}
+} */
 .hero-banner div a {
 	text-decoration: none;
 }
@@ -955,15 +969,15 @@ nav {
 	padding-top: 45px;
 }
 .clockdiv .clockdiv-day {
-	/* background: url(../img/home/countdown-day.png) left center no-repeat; */
+	 background: url(/src/assets/images/bg/countdown-day.png) left center no-repeat; 
 	background-size: cover;
 }
 .clockdiv .clockdiv-hour {
-	/* background: url(../img/home/countdown-hour.png) left center no-repeat; */
+	 background: url(/src/assets/images/bg/countdown-hour.png) left center no-repeat; 
 	background-size: cover;
 }
 .clockdiv .clockdiv-minute {
-	/* background: url(../img/home/countdown-minute.png) left center no-repeat; */
+	background: url(/src/assets/images/bg/countdown-minute.png) left center no-repeat; 
 	background-size: cover;
 }
 .card-feature {
@@ -1239,7 +1253,7 @@ schedule-card:hover > * {
 	margin-bottom: 0;
 }
 .schedule-card:hover .card-identity {
-	background: #1b9de3;
+	background: #04287c;
 }
 .schedule-card:last-child {
 	margin-bottom: 0;

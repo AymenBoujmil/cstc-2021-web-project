@@ -11,33 +11,32 @@ Primary use:
 
 @font-face {
 	font-family: Poppins-Regular;
-	src: url("../fonts/Poppins/Poppins-Regular.ttf");
+	src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
 	font-family: Poppins-Light;
-	src: url("../fonts/Poppins/Poppins-Light.ttf");
+	src: url('../fonts/Poppins/Poppins-Light.ttf');
 }
 
 @font-face {
 	font-family: Poppins-Bold;
-	src: url("../fonts/Poppins/Poppins-Bold.ttf");
+	src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
 	font-family: PlayfairDisplay-Regular;
-	src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf");
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
 }
 
 @font-face {
 	font-family: PlayfairDisplay-Italic;
-	src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf");
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf');
 }
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Form ]*/
@@ -149,7 +148,7 @@ input.input100 {
 }
 
 .alert-validate::after {
-	content: "\f071";
+	content: '\f071';
 	font-family: FontAwesome;
 	display: block;
 	position: absolute;
@@ -202,14 +201,14 @@ input.input100 {
 .m2-txt1 {
 	font-family: PlayfairDisplay-Regular;
 	font-size: 25px;
-	color: #fff;
+	color: #04287c;
 	line-height: 1.2;
 }
 
 .m2-txt2 {
 	font-family: PlayfairDisplay-Italic;
 	font-size: 18px;
-	color: #fff;
+	color: #04287c;
 	line-height: 1;
 }
 
@@ -218,15 +217,15 @@ input.input100 {
 .l1-txt1 {
 	font-family: Poppins-Bold;
 	font-size: 48px;
-	color: #fff;
+	color: #275acf;
 	line-height: 1.2;
 	text-transform: uppercase;
 }
 
 .l1-txt2 {
 	font-family: Poppins-Light;
-	font-size: 70px;
-	color: #fff;
+	font-size: 55px;
+	color: #04287c;
 	line-height: 1;
 }
 
@@ -277,7 +276,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
 .bor1 {
-	border: 2px solid rgba(255, 255, 255, 0.35);
+	border: 2px solid #275acf;
 }
 
 /*==================================================================
@@ -309,7 +308,7 @@ input.input100 {
 	z-index: 1;
 }
 .overlay1::before {
-	content: "";
+	content: '';
 	display: block;
 	position: absolute;
 	z-index: -1;
@@ -325,7 +324,7 @@ input.input100 {
 }
 
 .overlay1::after {
-	content: "";
+	content: '';
 	display: block;
 	position: absolute;
 	z-index: -1;

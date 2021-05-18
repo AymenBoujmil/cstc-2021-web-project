@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import './LearnAboutUs.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { NavLink } from 'react-router-dom';
+
 export const LearnUs = () => {
 	useEffect(() => {
 		AOS.init({

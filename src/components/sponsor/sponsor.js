@@ -28,7 +28,7 @@ export const Sponsor = () => {
 					</div>
 				</div>
 			</section>
-			<div class='rotatingList' data-aos='zoom-out'>
+			<div class='rotatingList'>
 				<div class='list'>
 					{sponsors.map((sponsor, index) => (
 						<div class='card' style={{ height: '100px' }} key={index}>

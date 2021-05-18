@@ -29,7 +29,7 @@
 	}
 }
 
-.banner_part:after {
+/* .banner_part:after {
 	position: absolute;
 	content: "";
 	left: 0;
@@ -37,7 +37,7 @@
 	background-color: #233e62;
 	width: 180px;
 	height: 618px;
-}
+} */
 
 @media (max-width: 991px) {
 	.banner_part:after {
