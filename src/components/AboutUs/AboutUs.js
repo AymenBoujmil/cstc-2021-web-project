@@ -141,7 +141,6 @@ export const AboutUs = () => {
 								</div>
 								<div className='content'>
 									<div className='pad_icon'>
-										
 										<h4>8 hrs Marathon</h4>
 									</div>
 									<p className='aboutUsP'>
@@ -179,7 +178,8 @@ export const AboutUs = () => {
 						</div>
 
 						<div
-							className='col-12 col-md-3 col-lg-3 col-sm-6'
+							className='col-12 col-md-6
+							 col-lg-3 col-sm-6'
 							data-aos='zoom-in-down'
 						>
 							<div
