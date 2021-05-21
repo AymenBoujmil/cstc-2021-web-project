@@ -64,25 +64,23 @@ export const Navbar = () => {
 									: 'navbar navbar-expand-lg bg-transparent '
 							}
 						>
-							<div className='container box_1620'>
-								<NavLink to='/' className='nav-link'>
+							<div className='container'>
+								<NavLink to='/' className='nav-link pt-3'>
 									<img src='image/logo.png' alt=''></img>
 								</NavLink>
 
-								<button
-									className='navbar-toggler'
-									type='button'
-									data-toggle='collapse'
-									data-target='#navbarSupportedContent'
-									aria-controls='navbarSupportedContent'
-									aria-expanded='false'
-									aria-label='Toggle navigation'
-								>
-									<span className='icon-bar'></span>
-									<span className='icon-bar'></span>
-									<span className='icon-bar'></span>
+								<button class="navbar-toggler" 
+								type="button" 
+								data-toggle="collapse" 
+								data-target="#navbarSupportedContent" 
+								aria-controls="navbarSupportedContent" 
+								aria-expanded="false" 
+								aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+   							    <span class="navbar-toggler-icon"></span>
+							    <span class="navbar-toggler-icon"></span>
 								</button>
-
+   								
 								<div
 									className='collapse navbar-collapse offset'
 									id='navbarSupportedContent'
@@ -93,6 +91,7 @@ export const Navbar = () => {
 											style: { padding: '0px 4px 4px 0 ' },
 										}}
 									>
+										
 										<ul className='nav navbar-nav menu_nav justify-content-end'>
 											<li className='nav-item '>
 												<NavLink
@@ -108,7 +107,7 @@ export const Navbar = () => {
 														color: '#275ACF ',
 													}}
 												>
-													<HiOutlineHome /> Home
+													<HiOutlineHome /> Home 
 												</NavLink>
 											</li>
 											<li className='nav-item'>
@@ -180,6 +179,7 @@ export const Navbar = () => {
 												</NavLink>
 											</li>
 										</ul>
+										
 									</IconContext.Provider>
 								</div>
 							</div>
