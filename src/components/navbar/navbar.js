@@ -89,7 +89,7 @@ export const Navbar = () => {
 								>
 									<IconContext.Provider
 										value={{
-											size: '22px',
+											size: '26px',
 											style: { padding: '0px 4px 4px 0 ' },
 										}}
 									>
@@ -101,7 +101,7 @@ export const Navbar = () => {
 													className={
 														colorChange || Width || Place
 															? 'nav-link colornav'
-															: 'nav-link '
+															: 'nav-link color-transp'
 													}
 													activeStyle={{
 														fontWeight: 'bold',
@@ -117,7 +117,7 @@ export const Navbar = () => {
 													className={
 														colorChange || Width || Place
 															? 'nav-link colornav'
-															: 'nav-link '
+															: 'nav-link color-transp'
 													}
 													activeStyle={{
 														fontWeight: 'bold',
@@ -134,7 +134,7 @@ export const Navbar = () => {
 													className={
 														colorChange || Width || Place
 															? 'nav-link colornav'
-															: 'nav-link '
+															: 'nav-link color-transp'
 													}
 													activeStyle={{
 														fontWeight: 'bold',
@@ -151,7 +151,7 @@ export const Navbar = () => {
 													className={
 														colorChange || Width || Place
 															? 'nav-link colornav'
-															: 'nav-link '
+															: 'nav-link color-transp'
 													}
 													activeStyle={{
 														fontWeight: 'bold',
@@ -168,7 +168,7 @@ export const Navbar = () => {
 													className={
 														colorChange || Width || Place
 															? 'nav-link colornav'
-															: 'nav-link '
+															: 'nav-link color-transp'
 													}
 													activeStyle={{
 														fontWeight: 'bold',

@@ -100,7 +100,7 @@ export const Countdown = () => {
 								Innovative With Experience <br class='d-none d-xl-block' /> UX
 								Design 2019
 							</h3>
-							<p class='h4 primary-text2 mb-3'>
+							<p class='h4 primary-text3 mb-3'>
 								Where The business World Meets
 							</p>
 							<p>
@@ -128,12 +128,9 @@ export const Countdown = () => {
 						</ul>
 
 						<div class='clockdiv-content text-center'>
-							<p class='h4 primary-text2 mb-2'>
-								January 20 -22, 2019 in Buffelo City
+							<p class='h4 primary-text3 mb-2'>
+								June 19 -22, 2021 in Hamamet City
 							</p>
-							<a class='button button-link' href='#'>
-								Get Ticket
-							</a>
 						</div>
 					</div>
 				</div>

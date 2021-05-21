@@ -65,6 +65,9 @@ h4,
 .primary-text2 {
 	color: #36a871;
 }
+.primary-text3 {
+	color: rgb(39, 90, 207);
+}
 .primary-text {
 	color: #233e62 !important;
 	font-weight: 600;
@@ -186,8 +189,8 @@ nav {
 	text-align: right;
 }
 
-.colornav {
-	/* color: #0d1130 !important; */
+.color-transp {
+	color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -244,10 +247,12 @@ nav {
 .header_area .navbar .nav .nav-item {
 	margin-right: 38px;
 }
+.colornav {
+	color: #04287c;
+}
 .header_area .navbar .nav .nav-item .nav-link {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
-	color: #04287c;
 	text-transform: capitalize;
 	font-weight: 500;
 	padding: 0 5px 0 2px;
