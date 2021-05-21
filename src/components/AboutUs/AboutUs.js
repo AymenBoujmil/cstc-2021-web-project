@@ -141,7 +141,7 @@ export const AboutUs = () => {
 								</div>
 								<div className='content'>
 									<div className='pad_icon'>
-										{' '}
+										
 										<h4>8 hrs Marathon</h4>
 									</div>
 									<p className='aboutUsP'>
