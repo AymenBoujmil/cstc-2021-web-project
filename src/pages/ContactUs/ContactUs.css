@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -16,26 +16,6 @@ html {
 }
 
 /*---------------------------------------------*/
-a {
-	font-family: "Roboto", sans-serif;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #57b846;
-}
 
 /*---------------------------------------------*/
 h1,
@@ -48,7 +28,7 @@ h6 {
 }
 
 p {
-	font-family: "Oswald", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -206,7 +186,7 @@ iframe {
 
 .contact100-form-title {
 	display: block;
-	font-family: "Oswald", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	color: #333333;
 	line-height: 1.2;
@@ -220,7 +200,7 @@ input.input100 {
 	padding: 0 30px 0 50px;
 }
 
-input.input100[name="email"] {
+input.input100[name='email'] {
 	padding: 14px 30px;
 }
 
@@ -242,7 +222,7 @@ textarea.input100 {
 	display: block;
 	width: 100%;
 	background: #e6e6e6;
-	font-family: "Oswald", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #666666;
@@ -322,7 +302,7 @@ textarea.input100 {
 	border-radius: 25px;
 	border-color: #f50136;
 	background: #fff;
-	font-family: "Oswald", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: rgb(0, 0, 0);
@@ -432,7 +412,7 @@ textarea.input100 {
 }
 
 .alert-validate::after {
-	content: "\f06a";
+	content: '\f06a';
 	font-family: FontAwesome;
 	display: block;
 	position: absolute;

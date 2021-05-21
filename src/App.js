@@ -10,6 +10,7 @@ import { Speakers } from './components/speakers/speakers';
 import speakerInfo from './components/speakers/speakerInfo';
 import { Schedule } from './components/schedule/Schedule';
 import AboutUs from './pages/About_US/aboutUs';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 	return (
@@ -17,12 +18,14 @@ function App() {
 			<Router>
 				<Navbar></Navbar>
 				<Switch>
-					<Route path='/' exact component={Home} />
-					<Route path='/aboutUs' exact component={Home} />
-					<Route path='/speakers' component={Speakers} />
-					<Route path='/schedule' component={Schedule} />
-					<Route path='/hotel' component={Hotel} />
-					<Route path='/about' component={AboutUs} />
+					<ScrollToTop>
+						<Route path='/' exact component={Home} />
+						<Route path='/aboutUs' exact component={Home} />
+						<Route path='/speakers' component={Speakers} />
+						<Route path='/schedule' component={Schedule} />
+						<Route path='/hotel' component={Hotel} />
+						<Route path='/about' component={AboutUs} />
+					</ScrollToTop>
 				</Switch>
 				<Footer></Footer>
 			</Router>
