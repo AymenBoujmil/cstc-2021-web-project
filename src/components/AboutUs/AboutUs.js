@@ -70,13 +70,13 @@ export const AboutUs = () => {
 		<div id='about'>
 			<section className='pt100 pb100'>
 				<div className='container'>
-					<div className='section_title text-center'>
-						<h3 className='title primary-text' data-aos='zoom-in-down'>
+					<div className='section_title text-center' style={{ overflowX:"hidden"}}>
+						<h3 className='title primary-text' data-aos='zoom-in-down' style={{ overflowX:"hidden"}}>
 							About the event
 						</h3>
 					</div>
-					<div className='row justify-content-center'>
-						<div className='col-12 col-md-6' data-aos='fade-down-right'>
+					<div className='row justify-content-center' style={{ overflowX:"hidden"}}>
+						<div className='col-12 col-md-6' data-aos='fade-down-right' style={{ overflowX:"hidden"}}>
 							<p className='text-part'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
 								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
@@ -85,8 +85,8 @@ export const AboutUs = () => {
 								volutpat ligula euismod.
 							</p>
 						</div>
-						<div className='col-12 col-md-6'>
-							<p className='text-part' data-aos='fade-down-left'>
+						<div className='col-12 col-md-6' style={{ overflowX:"hidden"}}>
+							<p className='text-part' data-aos='fade-down-left' style={{ overflowX:"hidden"}}>
 								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
 								accumsan. Pellentesque convallis consectetur tortor id placerat.
 								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
@@ -100,10 +100,10 @@ export const AboutUs = () => {
 						<LearnUs></LearnUs>
 					</div>
 					<br></br>
-					<div className='row justify-content-center mt30'>
+					<div className='row justify-content-center mt30' style={{ overflowX:"hidden"}}>
 						<div
 							className='col-12 col-md-6 col-lg-3 col-sm-6'
-							data-aos='zoom-in-up'
+							data-aos='zoom-in-up' style={{ overflowX:"hidden"}}
 						>
 							<div
 								className='icon_box_one'
@@ -127,9 +127,10 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
+						<div style={{ overflowX:"hidden"}}>
 						<div
 							className='col-12 col-md-6 col-lg-3 col-sm-6'
-							data-aos='zoom-in-down'
+							data-aos='zoom-in-down' style={{ overflowX:"hidden"}}
 						>
 							<div
 								className='icon_box_one'
@@ -150,9 +151,11 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						<div
+						</div>
+						<div style={{ overflowX:"hidden"}}>
+						<div 
 							className='col-12 col-md-6 col-lg-3 col-sm-6'
-							data-aos='zoom-in-up'
+							data-aos='zoom-in-up' style={{ overflowX:"hidden"}}
 						>
 							<div
 								className='icon_box_one'
@@ -176,8 +179,9 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-
-						<div
+						</div>
+						<div style={{ overflowX:"hidden"}}>
+						<div style={{ overflowX:"hidden"}}
 							className='col-12 col-md-6
 							 col-lg-3 col-sm-6'
 							data-aos='zoom-in-down'
@@ -203,6 +207,7 @@ export const AboutUs = () => {
 									</p>
 								</div>
 							</div>
+						</div>
 						</div>
 					</div>
 				</div>
