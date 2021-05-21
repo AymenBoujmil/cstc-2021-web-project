@@ -90,10 +90,11 @@ export const Countdown = () => {
 		//   </Fade>
 		<section class='section-padding--small'>
 			<div class='container'>
-				<div class='row' style={{overflowX:"hidden"}}>
+				<div class='row' style={{ overflowX: 'hidden' }}>
 					<div
-						class='col-lg-6 align-self-center mb-5 mb-lg-0' 
-						data-aos='fade-down-left' style={{overflowX:"hidden"}}
+						class='col-lg-6 align-self-center mb-5 mb-lg-0'
+						data-aos='fade-down-left'
+						style={{ overflowX: 'hidden' }}
 					>
 						<div class='innovative-wrapper'>
 							<h3 class='primary-text'>
@@ -111,8 +112,11 @@ export const Countdown = () => {
 							</p>
 						</div>
 					</div>
-					<div style={{overflowX:"hidden"}}>
-					<div class='col-lg-6 pl-xl-5' data-aos='fade-down-right' style={{overflowX:"hidden"}}>
+					<div
+						class='col-lg-6 pl-xl-5'
+						data-aos='fade-down-right'
+						style={{ overflowX: 'hidden' }}
+					>
 						<ul class='clockdiv text-center' id='clockdiv'>
 							<li class='clockdiv-single clockdiv-day'>
 								<h1 class='days'>{day || '0'}</h1>
@@ -133,7 +137,6 @@ export const Countdown = () => {
 								June 19 -22, 2021 in Hamamet City
 							</p>
 						</div>
-					</div>
 					</div>
 				</div>
 			</div>

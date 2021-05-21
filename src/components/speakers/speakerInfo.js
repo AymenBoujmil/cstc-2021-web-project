@@ -40,12 +40,12 @@ function SpeakerInfo(props) {
 						<div className='col-md-6 mt-3'>
 							<div className='profile-head'>
 								<h5>{props.speaker.name}</h5>
-								<h6>{props.speaker.job}</h6>
+								<h6 className='p-b-4'>{props.speaker.job}</h6>
 
 								<ul className='nav nav-tabs' id='myTab' role='tablist'>
-									<li className='nav-item'>
+									<li className='nav-item '>
 										<a
-											className='nav-link active'
+											className='nav-link active colorSpeakerAbout'
 											id='home-tab'
 											data-toggle='tab'
 											href='#home'
@@ -58,7 +58,7 @@ function SpeakerInfo(props) {
 									</li>
 									<li className='nav-item'>
 										<a
-											className='nav-link'
+											className='nav-link colorSpeakerAbout'
 											id='profile-tab'
 											data-toggle='tab'
 											href='#profile'

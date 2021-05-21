@@ -94,5 +94,11 @@
 	color: #0d1130;
 }
 .about-me {
-	color: #36a871 !important;
+	color: #0f867e !important;
+	margin-bottom: 4px;
+	padding-bottom: 2%;
+}
+
+.colorSpeakerAbout {
+	color: #0f867e;
 }

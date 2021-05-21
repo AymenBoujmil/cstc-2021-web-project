@@ -34,9 +34,12 @@ function AboutUs() {
 				</div>
 			</section>
 
-			<section class='ftco-section'>
+			<section
+				class='ftco-section'
+				style={{ overflowX: 'hidden', overflowY: 'hidden' }}
+			>
 				<div class='container'>
-					<div class='row d-flex' style={{ overflowX: 'hidden' }}>
+					<div class='row d-flex'>
 						<div
 							class='col-md-12 col-lg-5  col-12 order-md-last wrap-about align-items-stretch'
 							data-aos='fade-down-left'
@@ -58,36 +61,34 @@ function AboutUs() {
 								</div>
 							</div>
 						</div>
-						<div style={{ overflowX: 'hidden' }}>
-							<div
-								class='col-md-12 col-lg-7 col-12 wrap-about pr-md-4 ftco-animate'
-								data-aos='fade-down-right'
-								style={{ overflowX: 'hidden' }}
-							>
-								<h2 class='mb-4'>Welcome to Consolution</h2>
-								<p>
-									On her way she met a copy. The copy warned the Little Blind
-									Text, that where it came from it would have been rewritten a
-									thousand times and everything that was left from its origin
-									would be the word.
-								</p>
-								<p>
-									A small river named Duden flows by their place and supplies it
-									with the necessary regelialia. It is a paradisematic country,
-									in which roasted parts of sentences fly into your mouth.
-								</p>
-								<p>
-									On her way she met a copy. The copy warned the Little Blind
-									Text, that where it came from it would have been rewritten a
-									thousand times and everything that was left from its origin
-									would be the word "and" and the Little Blind Text should turn
-									around and return to its own, safe country. But nothing the
-									copy said could convince her and so it didn’t take long until
-									a few insidious Copy Writers ambushed her, made her drunk with
-									Longe and Parole and dragged her into their agency, where they
-									abused her for their
-								</p>
-							</div>
+						<div
+							class='col-md-12 col-lg-7 col-12 wrap-about pr-md-4 ftco-animate'
+							data-aos='fade-down-right'
+							style={{ overflowX: 'hidden' }}
+						>
+							<h2 class='mb-4'>Welcome to Consolution</h2>
+							<p>
+								On her way she met a copy. The copy warned the Little Blind
+								Text, that where it came from it would have been rewritten a
+								thousand times and everything that was left from its origin
+								would be the word.
+							</p>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia. It is a paradisematic country, in
+								which roasted parts of sentences fly into your mouth.
+							</p>
+							<p>
+								On her way she met a copy. The copy warned the Little Blind
+								Text, that where it came from it would have been rewritten a
+								thousand times and everything that was left from its origin
+								would be the word "and" and the Little Blind Text should turn
+								around and return to its own, safe country. But nothing the copy
+								said could convince her and so it didn’t take long until a few
+								insidious Copy Writers ambushed her, made her drunk with Longe
+								and Parole and dragged her into their agency, where they abused
+								her for their
+							</p>
 						</div>
 					</div>
 				</div>
@@ -127,32 +128,30 @@ function AboutUs() {
 								</div>
 							</div>
 						</div>
-						<div style={{ overflowX: 'hidden' }}>
-							<div
-								class='col-md-6 heading-section2 ftco-animate pl-lg-5 pt-md-0 pt-5'
-								data-aos='zoom-in-left'
-								style={{ overflowX: 'hidden' }}
-							>
-								<h2 class='mb-4'>We Are the Best Consulting Agency</h2>
-								<p>
-									Separated they live in. A small river named Duden flows by
-									their place and supplies it with the necessary regelialia. It
-									is a paradisematic country. A small river named Duden flows by
-									their place and supplies it with the necessary regelialia. It
-									is a paradisematic country, in which roasted parts of
-									sentences fly into your mouth.
-								</p>
-								<p>
-									A small river named Duden flows by their place and supplies it
-									with the necessary regelialia. It is a paradisematic country,
-									in which roasted parts of sentences fly into your mouth.
-								</p>
-							</div>
+						<div
+							class='col-md-6 heading-section2 ftco-animate pl-lg-5 pt-md-0 pt-5'
+							data-aos='zoom-in-left'
+							style={{ overflowX: 'hidden' }}
+						>
+							<h2 class='mb-4'>We Are the Best Consulting Agency</h2>
+							<p>
+								Separated they live in. A small river named Duden flows by their
+								place and supplies it with the necessary regelialia. It is a
+								paradisematic country. A small river named Duden flows by their
+								place and supplies it with the necessary regelialia. It is a
+								paradisematic country, in which roasted parts of sentences fly
+								into your mouth.
+							</p>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia. It is a paradisematic country, in
+								which roasted parts of sentences fly into your mouth.
+							</p>
 						</div>
 					</div>
 				</div>
 			</section>
-
+			{/* hata hedhy */}
 			<section
 				class='ftco-intro ftco-no-pb img'
 				style={{ backgroundImage: 'url(/image/bg_3.jpg)' }}
@@ -165,9 +164,9 @@ function AboutUs() {
 					</div>
 				</div>
 			</section>
-
+			{/* jawha behy zeda */}
 			<section class='ftco-counter' id='section-counter'>
-				<div class='container' style={{ overflowX: 'hidden' }}>
+				<div class='container'>
 					<div
 						class='row d-md-flex align-items-center justify-content-center'
 						data-aos='fade-down-left'
@@ -219,10 +218,8 @@ function AboutUs() {
 						</div>
 					</div>
 				</div>
-				<div
-					class='row justify-content-center mb-5 mt-5'
-					style={{ overflowX: 'hidden' }}
-				>
+				{/* jawha behy */}
+				<div class='row justify-content-center mb-5 mt-5'>
 					<div
 						class='col-md-8 text-center heading-section2 ftco-animate'
 						data-aos='fade-down-right'
@@ -235,21 +232,19 @@ function AboutUs() {
 							paradisematic country
 						</p>
 					</div>
-					<div style={{ overflowX: 'hidden' }}>
-						<OwlCarousel
-							data-aos='zoom-in-up'
-							style={{ overflowX: 'hidden' }}
-							className='owl-theme mt-5'
-							loop
-							margin={10}
-						>
-							{hotel.map((img, index) => (
-								<div class='item' key={index}>
-									<img src={img.image} alt='' />
-								</div>
-							))}
-						</OwlCarousel>
-					</div>
+					<OwlCarousel
+						data-aos='zoom-in-up'
+						style={{ overflowX: 'hidden' }}
+						className='owl-theme mt-5'
+						loop
+						margin={10}
+					>
+						{hotel.map((img, index) => (
+							<div class='item' key={index}>
+								<img src={img.image} alt='' />
+							</div>
+						))}
+					</OwlCarousel>
 				</div>
 			</section>
 		</div>

@@ -67,16 +67,19 @@ export const AboutUs = () => {
 	};
 
 	return (
-		<div id='about'>
+		<div id='about' style={{ overflowX: 'hidden', overflowY: 'hidden' }}>
 			<section className='pt100 pb100'>
 				<div className='container'>
-					<div className='section_title text-center' style={{ overflowX:"hidden"}}>
-						<h3 className='title primary-text' data-aos='zoom-in-down' style={{ overflowX:"hidden"}}>
+					<div
+						className='section_title text-center'
+						style={{ overflowX: 'hidden' }}
+					>
+						<h3 className='title primary-text' data-aos='zoom-in-down'>
 							About the event
 						</h3>
 					</div>
-					<div className='row justify-content-center' style={{ overflowX:"hidden"}}>
-						<div className='col-12 col-md-6' data-aos='fade-down-right' style={{ overflowX:"hidden"}}>
+					<div className='row justify-content-center' yy>
+						<div className='col-12 col-md-6' data-aos='fade-down-right'>
 							<p className='text-part'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
 								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
@@ -85,8 +88,8 @@ export const AboutUs = () => {
 								volutpat ligula euismod.
 							</p>
 						</div>
-						<div className='col-12 col-md-6' style={{ overflowX:"hidden"}}>
-							<p className='text-part' data-aos='fade-down-left' style={{ overflowX:"hidden"}}>
+						<div className='col-12 col-md-6' style={{ overflowX: 'hidden' }}>
+							<p className='text-part' data-aos='fade-down-left'>
 								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
 								accumsan. Pellentesque convallis consectetur tortor id placerat.
 								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
@@ -100,10 +103,10 @@ export const AboutUs = () => {
 						<LearnUs></LearnUs>
 					</div>
 					<br></br>
-					<div className='row justify-content-center mt30' style={{ overflowX:"hidden"}}>
+					<div className='row justify-content-center mt30'>
 						<div
 							className='col-12 col-md-6 col-lg-3 col-sm-6'
-							data-aos='zoom-in-up' style={{ overflowX:"hidden"}}
+							data-aos='zoom-in-up'
 						>
 							<div
 								className='icon_box_one'
@@ -127,10 +130,9 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						<div style={{ overflowX:"hidden"}}>
 						<div
 							className='col-12 col-md-6 col-lg-3 col-sm-6'
-							data-aos='zoom-in-down' style={{ overflowX:"hidden"}}
+							data-aos='zoom-in-down'
 						>
 							<div
 								className='icon_box_one'
@@ -151,11 +153,9 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						</div>
-						<div style={{ overflowX:"hidden"}}>
-						<div 
+						<div
 							className='col-12 col-md-6 col-lg-3 col-sm-6'
-							data-aos='zoom-in-up' style={{ overflowX:"hidden"}}
+							data-aos='zoom-in-up'
 						>
 							<div
 								className='icon_box_one'
@@ -179,9 +179,7 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						</div>
-						<div style={{ overflowX:"hidden"}}>
-						<div style={{ overflowX:"hidden"}}
+						<div
 							className='col-12 col-md-6
 							 col-lg-3 col-sm-6'
 							data-aos='zoom-in-down'
@@ -207,7 +205,6 @@ export const AboutUs = () => {
 									</p>
 								</div>
 							</div>
-						</div>
 						</div>
 					</div>
 				</div>

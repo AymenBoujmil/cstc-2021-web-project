@@ -14,8 +14,12 @@ export const LearnUs = () => {
 		<div class='about'>
 			<div class='container-fluid'>
 				<div class='row align-items-center'>
-					<div class='col-md-6' style={{overflowX:"hidden"}}>
-						<div id='video-section' data-aos='fade-up-right' style={{overflowX:"hidden"}}>
+					<div class='col-md-6'>
+						<div
+							id='video-section'
+							data-aos='fade-up-right'
+							style={{ overflowX: 'hidden' }}
+						>
 							<div
 								class='youtube-player '
 								id='video-place'
@@ -31,8 +35,11 @@ export const LearnUs = () => {
 							></iframe>
 						</div>
 					</div>
-					<div style={{overflowX:"hidden"}}>
-					<div class='col-md-6' data-aos='fade-up-left' style={{overflowX:"hidden"}}>
+					<div
+						class='col-md-6'
+						data-aos='fade-up-left'
+						style={{ overflowX: 'hidden' }}
+					>
 						<p class='text-part'>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
 							nec pretium mi. Curabitur facilisis ornare velit non vulputate.
@@ -46,10 +53,9 @@ export const LearnUs = () => {
 							Aenean consectetur convallis porttitor. Aliquam interdum at lacus
 							non blandit.
 						</p>
-						<a className='button button-header' href='#'>
-							About CSTC
-						</a>
-					</div>
+						<NavLink to='/about' className='button button-header'>
+							About CSTC{' '}
+						</NavLink>
 					</div>
 				</div>
 			</div>

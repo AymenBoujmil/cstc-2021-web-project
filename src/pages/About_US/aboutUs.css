@@ -115,10 +115,15 @@
 	-webkit-background-clip: text;
 }
 .ftco-section {
-	padding: 7em 0;
+	padding: 4em 0;
 	position: relative;
 }
-
+@media (max-width: 500px) {
+	.ftco-section {
+		padding: 2em 0;
+		position: relative;
+	}
+}
 .order-md-last {
 	-webkit-box-ordinal-group: 14;
 	-ms-flex-order: 13;
