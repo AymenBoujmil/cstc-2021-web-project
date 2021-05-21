@@ -36,10 +36,10 @@ function AboutUs() {
 
 			<section class='ftco-section'>
 				<div class='container'>
-					<div class='row d-flex'>
+					<div class='row d-flex' style={{ overflowX:"hidden"}}>
 						<div
 							class='col-md-12 col-lg-5  col-12 order-md-last wrap-about align-items-stretch'
-							data-aos='fade-down-left'
+							data-aos='fade-down-left' style={{ overflowX:"hidden"}}
 						>
 							<div class='wrap-about-border'>
 								<div
@@ -57,9 +57,10 @@ function AboutUs() {
 								</div>
 							</div>
 						</div>
+						<div style={{ overflowX:"hidden"}} >
 						<div
 							class='col-md-12 col-lg-7 col-12 wrap-about pr-md-4 ftco-animate'
-							data-aos='fade-down-right'
+							data-aos='fade-down-right' style={{ overflowX:"hidden"}}
 						>
 							<h2 class='mb-4'>Welcome to Consolution</h2>
 							<p>
@@ -85,14 +86,15 @@ function AboutUs() {
 								her for their
 							</p>
 						</div>
+						</div> 
 					</div>
 				</div>
 			</section>
 
 			<section class='ftco-section ftco-counter'>
 				<div class='container'>
-					<div class='row justify-content-center mb-5 pb-2 d-flex'>
-						<div
+					<div class='row justify-content-center mb-5 pb-2 d-flex' style={{ overflowX:"hidden"}}>
+						<div style={{ overflowX:"hidden"}}
 							class='col-md-6 align-items-stretch d-flex'
 							data-aos='zoom-in-right'
 						>
@@ -119,9 +121,10 @@ function AboutUs() {
 								</div>
 							</div>
 						</div>
+						<div style={{ overflowX:"hidden"}}>
 						<div
 							class='col-md-6 heading-section2 ftco-animate pl-lg-5 pt-md-0 pt-5'
-							data-aos='zoom-in-left'
+							data-aos='zoom-in-left' style={{ overflowX:"hidden"}}
 						>
 							<h2 class='mb-4'>We Are the Best Consulting Agency</h2>
 							<p>
@@ -137,6 +140,7 @@ function AboutUs() {
 								with the necessary regelialia. It is a paradisematic country, in
 								which roasted parts of sentences fly into your mouth.
 							</p>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -156,10 +160,10 @@ function AboutUs() {
 			</section>
 
 			<section class='ftco-counter' id='section-counter'>
-				<div class='container'>
+				<div class='container' style={{ overflowX:"hidden"}}>
 					<div
 						class='row d-md-flex align-items-center justify-content-center'
-						data-aos='fade-down-left'
+						data-aos='fade-down-left' style={{ overflowX:"hidden"}}
 					>
 						<div class='wrapper'>
 							<div class='row d-md-flex align-items-center'>
@@ -207,10 +211,10 @@ function AboutUs() {
 						</div>
 					</div>
 				</div>
-				<div class='row justify-content-center mb-5 mt-5'>
+				<div class='row justify-content-center mb-5 mt-5' style={{ overflowX:"hidden"}}>
 					<div
 						class='col-md-8 text-center heading-section2 ftco-animate'
-						data-aos='fade-down-right'
+						data-aos='fade-down-right' style={{ overflowX:"hidden"}}
 					>
 						<h2 class='mt-4 mb-4'>Our Photos</h2>
 						<p>
@@ -219,8 +223,9 @@ function AboutUs() {
 							paradisematic country
 						</p>
 					</div>
+					<div  style={{ overflowX:"hidden"}}>
 					<OwlCarousel
-						data-aos='zoom-in-up'
+						data-aos='zoom-in-up' style={{ overflowX:"hidden"}}
 						className='owl-theme mt-5'
 						loop
 						margin={10}
@@ -231,6 +236,7 @@ function AboutUs() {
 							</div>
 						))}
 					</OwlCarousel>
+					</div> 
 				</div>
 			</section>
 		</div>

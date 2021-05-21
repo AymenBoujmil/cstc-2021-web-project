@@ -187,8 +187,8 @@ export const Schedule = () => {
 				</div>
 			</section>
 
-			<div class='wrap-about pr-md-4 ftco-animate container mt-5'>
-				<div data-aos='fade-down-right'>
+			<div class='wrap-about pr-md-4 ftco-animate container mt-5' style={{overflowX:"hidden"}}>
+				<div data-aos='fade-down-right' style={{overflowX:"hidden"}}>
 					<h2 class='mb-4'>Our Main Features</h2>
 					<p>
 						On her way she met a copy. The copy warned the Little Blind Text,
@@ -209,7 +209,7 @@ export const Schedule = () => {
 								<div
 									className='card-feature mb-5 mb-lg-0'
 									style={{ cursor: 'pointer' }}
-									data-aos='fade-up'
+									data-aos='fade-up' style={{overflowX:"hidden"}}
 									onClick={() => {
 										changeDayTheme(theme.theme);
 										setThemeName(theme.track);
@@ -230,17 +230,17 @@ export const Schedule = () => {
 				</div>
 			</div>
 			<section className='section-margin mb-5 pb-5'>
-				<div className='container'>
+				<div className='container' style={{overflowX:"hidden"}}>
 					<div
 						class='section-intro section-intro-white text-center pb-98px'
-						data-aos='zoom-in-down'
+						data-aos='zoom-in-down' style={{overflowX:"hidden"}}
 					>
 						{' '}
 						<h2 className='primary-text'>Conference Schedule</h2>{' '}
 						<h4 class='primary-text'>Track : {themeName} </h4>
 					</div>
-
-					<div className='row' data-aos='zoom-out'>
+					<div style={{overflowX:"hidden"}}>
+					<div className='row' data-aos='zoom-out' style={{overflowX:"hidden"}}>
 						<div className='col-xl-10 offset-xl-1'>
 							<div className='scheduleTab'>
 								<ul className='nav nav-tabs'>
@@ -271,9 +271,11 @@ export const Schedule = () => {
 							</div>
 						</div>
 					</div>
-
-					<div className='tab-content' data-aos='zoom-out-right'>
+					</div>
+					<div style={{overflowX:"hidden"}}>
+					<div className='tab-content' data-aos='zoom-out-right' style={{overflowX:"hidden"}}>
 						<Day day={day} numDay={numDay} affiche={affiche}></Day>
+					</div>
 					</div>
 				</div>
 			</section>
