@@ -60,17 +60,13 @@ export const Navbar = () => {
 						<nav
 							className={
 								colorChange || Width || Place
-									? 'navbar navbar-expand-lg '
-									: 'navbar navbar-expand-lg bg-transparent'
+									? 'navbar navbar-expand-lg box-shadow colornav'
+									: 'navbar navbar-expand-lg bg-transparent '
 							}
 						>
 							<div className='container box_1620'>
 								<NavLink to='/' className='nav-link'>
-									<img
-										src='image/logo.png'
-										alt=''
-										style={{ maxWidth: '15%' }}
-									></img>
+									<img src='image/logo.png' alt=''></img>
 								</NavLink>
 
 								<button
@@ -102,10 +98,14 @@ export const Navbar = () => {
 												<NavLink
 													to='/'
 													exact
-													className='nav-link'
+													className={
+														colorChange || Width || Place
+															? 'nav-link colornav'
+															: 'nav-link '
+													}
 													activeStyle={{
 														fontWeight: 'bold',
-														color: '#7affbe',
+														color: '#275ACF ',
 													}}
 												>
 													<HiOutlineHome /> Home
@@ -114,10 +114,14 @@ export const Navbar = () => {
 											<li className='nav-item'>
 												<NavLink
 													to='/about'
-													className='nav-link'
+													className={
+														colorChange || Width || Place
+															? 'nav-link colornav'
+															: 'nav-link '
+													}
 													activeStyle={{
 														fontWeight: 'bold',
-														color: '#7affbe',
+														color: '#275ACF ',
 													}}
 												>
 													<HiOutlineNewspaper />
@@ -127,10 +131,14 @@ export const Navbar = () => {
 											<li className='nav-item'>
 												<NavLink
 													to='/schedule'
-													className='nav-link'
+													className={
+														colorChange || Width || Place
+															? 'nav-link colornav'
+															: 'nav-link '
+													}
 													activeStyle={{
 														fontWeight: 'bold',
-														color: '#7affbe',
+														color: '#275ACF ',
 													}}
 												>
 													<FaRegCalendarAlt />
@@ -140,10 +148,14 @@ export const Navbar = () => {
 											<li className='nav-item'>
 												<NavLink
 													to='/speakers'
-													className='nav-link'
+													className={
+														colorChange || Width || Place
+															? 'nav-link colornav'
+															: 'nav-link '
+													}
 													activeStyle={{
 														fontWeight: 'bold',
-														color: '#7affbe',
+														color: '#275ACF ',
 													}}
 												>
 													<HiOutlineSpeakerphone />
@@ -153,10 +165,14 @@ export const Navbar = () => {
 											<li className='nav-item'>
 												<NavLink
 													to='/hotel'
-													className='nav-link'
+													className={
+														colorChange || Width || Place
+															? 'nav-link colornav'
+															: 'nav-link '
+													}
 													activeStyle={{
 														fontWeight: 'bold',
-														color: '#7affbe',
+														color: '#275ACF ',
 													}}
 												>
 													<RiHotelBedLine />

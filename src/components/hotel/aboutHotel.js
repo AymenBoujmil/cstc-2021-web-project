@@ -8,9 +8,11 @@ import OwlCarousel from 'react-owl-carousel';
 export const AboutHotel = () => {
 	const [hotel, setHotel] = useState(data.Hotel);
 	return (
-		<div className='p'>
+		<div className='p pb-5'>
 			<div className='section_title text-center'>
-				<h3 className='title primary-text2 padding-title-hotel'>About the hotel</h3>
+				<h3 className='title primary-text padding-title-hotel'>
+					About the hotel
+				</h3>
 			</div>
 			<OwlCarousel className='owl-theme' loop margin={10}>
 				{hotel.map((img, index) => (

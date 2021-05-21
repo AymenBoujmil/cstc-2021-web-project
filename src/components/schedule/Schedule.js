@@ -18,7 +18,7 @@ import data33 from '../../_utils/schedule/day3-3.json';
 export const Schedule = () => {
 	const [themes, setthemes] = useState(data.themes);
 	const [theme, setTheme] = useState(1);
-	const [themeName, setThemeName] = useState(' all tracks ');
+	const [themeName, setThemeName] = useState(' track 1 ');
 
 	const [day, setDay] = useState(data1.day1);
 	const [numDay, setNumDay] = useState('day1');

@@ -1,20 +1,19 @@
 import React, { useEffect } from 'react';
 import { Countdown } from '../countdown/countdown';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 export const Banner = () => {
-	useEffect(() => {
-		AOS.init({
-			duration: 2000,
-		});
-	}, []);
 	return (
 		<div id='home'>
 			<section className='hero-banner'>
 				<div class='overlay'></div>
+			</section>
+		</div>
+	);
+};
 
-				<div className='container text-center'>
-					<div className='around'>
+{
+	/* <div className='container text-center'>
+					<div className='around col-7'>
 						<div data-aos='fade-down-right'>
 							{' '}
 							<p>08 - 11 April 2021, Hammamet City </p>
@@ -24,8 +23,5 @@ export const Banner = () => {
 							<Countdown></Countdown>
 						</div>
 					</div>
-				</div>
-			</section>
-		</div>
-	);
-};
+				</div> */
+}

@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './hotel.css';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export const Hotel_banner = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, []);
 	return (
 		<div>
-			<section class='banner_part'>
+			<section class='banner_part pb-5' data-aos='zoom-in-up'>
 				<div class='container'>
 					<div class='row align-items-center'>
 						<div class='col-md-5'>
