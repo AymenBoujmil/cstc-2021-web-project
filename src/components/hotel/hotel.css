@@ -300,7 +300,14 @@
 
 .hotel-card {
 	border: none;
-	box-shadow: 1px 1px 10px #7affbe;
+	box-shadow: 1px 1px 5px #7affbe;
 	border-radius: 0;
 	margin-bottom: 5px;
+	width: 90%;
+}
+
+.map-responsive {
+}
+.map-responsive iframe {
+	width: 100%;
 }
