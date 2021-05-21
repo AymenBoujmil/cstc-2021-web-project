@@ -15,7 +15,7 @@ import { FaRegCalendarAlt, FaHotel } from 'react-icons/fa';
 export const Navbar = () => {
 	const [Shadow, setShadow] = useState(false);
 	const [Place, setPlace] = useState(false);
-	const [Width, setWidth] = useState(false);
+	const [Width, setWidth] = useState(window.innerWidth < 1000);
 	const changeShadow = () => {
 		console.log(window.scrollY);
 		if (window.scrollY > 550) {
@@ -42,6 +42,7 @@ export const Navbar = () => {
 	const active = (e) => {};
 	const location = useLocation();
 	useEffect(() => {
+		
 		const currentPath = location.pathname;
 
 		if (currentPath !== '/') {
