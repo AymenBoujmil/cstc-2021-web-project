@@ -28,6 +28,11 @@ h3,
 	color: #838383;
 	font-weight: 300;
 }
+@media (max-width: 500px) {
+	.aboutUsP {
+		text-align: center;
+	}
+}
 .icon_box_one {
 	background-color: #f0f2f6;
 	padding: 0;
@@ -68,13 +73,13 @@ h3,
 	transition: all 0.4s ease-in-out;
 }
 .icon_box_one:hover {
-	background-image: linear-gradient(120deg, #1b9de3 0%, #233e62 100%),
-		linear-gradient(120deg, #233e62 0%, #1b9de3 100%);
+	background-image: linear-gradient(120deg, #1b9de3 0%, #0a44c9 100%),
+		linear-gradient(120deg, #1b9de3 0%, #0a44c9 100%);
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
 .lnr-mic:before {
-	content: "fas fa-microphone";
+	content: 'fas fa-microphone';
 }
 .icon_box_one i {
 	margin-top: -10px;
@@ -108,4 +113,9 @@ h3,
 	line-height: 1.5;
 	margin-top: 0;
 	margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+	.pad_icon {
+		margin-left: 35%;
+	}
 }

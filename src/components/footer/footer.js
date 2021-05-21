@@ -113,9 +113,9 @@ export const footer = () => {
 									style: { padding: '2px 3px 0 0 ' },
 								}}
 							>
-								<div class='single-footer-widget'>
+								<div class='single-footer-widget '>
 									<h6>Contact</h6>
-									<ul>
+									<ul style={{ paddingLeft: '5%' }}>
 										<li>
 											<div className='row'>
 												{/* <i class={MdEmail} style={contactStyle}></i>{' '} */}
@@ -156,17 +156,11 @@ export const footer = () => {
 									<MdCopyright></MdCopyright> Copyright All rights{' '}
 								</p>
 								<div className='col-lg-4 col-sm-12 footer-social text-center text-lg-right'>
-									<a href='#'>
+									<a href='https://www.facebook.com/CSTcongress'>
 										<i className='fab fa-facebook-f'></i>
 									</a>
-									<a href='#'>
-										<i className='fab fa-twitter'></i>
-									</a>
-									<a href='#'>
-										<i className='fab fa-dribbble'></i>
-									</a>
-									<a href='#'>
-										<i className='fab fa-behance'></i>
+									<a href='https://www.instagram.com/cst_congress/?hl=fr'>
+										<i className='fab fa-instagram'></i>
 									</a>
 								</div>
 							</div>

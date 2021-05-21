@@ -14,7 +14,7 @@ export const AboutUs = () => {
 		});
 	}, []);
 	const onStyle = {
-		padding: '0 10px',
+		padding: '0 15px',
 		fontSize: '72px',
 		verticalAlign: 'middle',
 		color: '#233e62',
@@ -101,15 +101,25 @@ export const AboutUs = () => {
 					</div>
 					<br></br>
 					<div className='row justify-content-center mt30'>
-						<div className='col-12 col-md-6 col-lg-3' data-aos='zoom-in-up'>
+						<div
+							className='col-12 col-md-6 col-lg-3 col-sm-6'
+							data-aos='zoom-in-up'
+						>
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverMic}
 								onMouseOver={onMouseOutMic}
 							>
-								<GiMicrophone size='120px' style={styleMic} />{' '}
+								<div className='justify-content-center'>
+									<div className='pad_icon'>
+										<GiMicrophone size='120px' style={styleMic} />{' '}
+									</div>
+								</div>
 								<div className='content'>
-									<h4>9 Speakers</h4>
+									<div className='pad_icon'>
+										{' '}
+										<h4>9 Speakers</h4>
+									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
 										rhoncus massa nec graviante.
@@ -117,15 +127,23 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						<div className='col-12 col-md-6 col-lg-3' data-aos='zoom-in-down'>
+						<div
+							className='col-12 col-md-6 col-lg-3 col-sm-6'
+							data-aos='zoom-in-down'
+						>
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverRocket}
 								onMouseOver={onMouseOutrocket}
 							>
-								<IoRocket size='120px' style={styleRocket}></IoRocket>{' '}
+								<div className='pad_icon'>
+									<IoRocket size='120px' style={styleRocket}></IoRocket>{' '}
+								</div>
 								<div className='content'>
-									<h4>8 hrs Marathon</h4>
+									<div className='pad_icon'>
+										
+										<h4>8 hrs Marathon</h4>
+									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
 										rhoncus massa nec graviante.
@@ -133,16 +151,25 @@ export const AboutUs = () => {
 								</div>
 							</div>
 						</div>
-						<div className='col-12 col-md-6 col-lg-3' data-aos='zoom-in-up'>
+						<div
+							className='col-12 col-md-6 col-lg-3 col-sm-6'
+							data-aos='zoom-in-up'
+						>
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOverBull}
 								onMouseOver={onMouseOutBull}
 							>
-								<ImBullhorn size='120px' style={styleBullhorn}></ImBullhorn>
+								<div className='pad_icon'>
+									{' '}
+									<ImBullhorn size='120px' style={styleBullhorn}></ImBullhorn>
+								</div>
 
 								<div className='content'>
-									<h4>Live Broadcast</h4>
+									<div className='pad_icon'>
+										{' '}
+										<h4>Live Broadcast</h4>{' '}
+									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
 										rhoncus massa nec graviante.
@@ -151,16 +178,25 @@ export const AboutUs = () => {
 							</div>
 						</div>
 
-						<div className='col-12 col-md-6 col-lg-3' data-aos='zoom-in-down'>
+						<div
+							className='col-12 col-md-3 col-lg-3 col-sm-6'
+							data-aos='zoom-in-down'
+						>
 							<div
 								className='icon_box_one'
 								onMouseOut={onMouseOver}
 								onMouseOver={onMouseOut}
 							>
-								<IoIosClock size='120px' style={styleAlarm}></IoIosClock>
+								<div className='pad_icon'>
+									{' '}
+									<IoIosClock size='120px' style={styleAlarm}></IoIosClock>
+								</div>
 
 								<div className='content'>
-									<h4>Early Bird</h4>
+									<div className='pad_icon'>
+										{' '}
+										<h4>Early Bird</h4>{' '}
+									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
 										rhoncus massa nec graviante.
