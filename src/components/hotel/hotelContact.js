@@ -14,7 +14,7 @@ const HotelContact = () => {
 		border: '0',
 	};
 	return (
-		<div className='container'>
+		<div className='container m-t-5'>
 			<div className='row'>
 				<div className='col-lg-6 col-md-6 col-sm-12'>
 					<div class='card hotel-card  h-90'>

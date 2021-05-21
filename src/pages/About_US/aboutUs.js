@@ -39,7 +39,7 @@ function AboutUs() {
 					<div class='row d-flex'>
 						<div
 							class='col-md-12 col-lg-5  col-12 order-md-last wrap-about align-items-stretch'
-							data-aos='fade-down-left'
+							// data-aos='fade-down-left'
 						>
 							<div class='wrap-about-border'>
 								<div
@@ -59,7 +59,7 @@ function AboutUs() {
 						</div>
 						<div
 							class='col-md-12 col-lg-7 col-12 wrap-about pr-md-4 ftco-animate'
-							data-aos='fade-down-right'
+							// data-aos='fade-down-right'
 						>
 							<h2 class='mb-4'>Welcome to Consolution</h2>
 							<p>

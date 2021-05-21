@@ -10,8 +10,8 @@ export const Hotel_banner = () => {
 	}, []);
 	return (
 		<div>
-			<section class='banner_part pb-5' data-aos='zoom-in-up'>
-				<div class='container'>
+			<section class='banner_part pb-5 ' data-aos='zoom-in-up'>
+				<div class='container mb-5'>
 					<div class='row align-items-center'>
 						<div class='col-md-5'>
 							<div class='banner_text'>
@@ -38,7 +38,7 @@ export const Hotel_banner = () => {
 					></img>
 				</div>
 			</section>
-			<section className='hotel-banner'></section>
+			<section className='hotel-banner mb-5'></section>
 		</div>
 	);
 };
