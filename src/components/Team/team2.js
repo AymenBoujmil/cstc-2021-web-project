@@ -24,7 +24,7 @@ function Team() {
 
 					<div class='row'>
 						{team.map((member) => (
-							<div class='col-lg-4 col-sm-6 mb-4 mb-lg-0' data-aos='zoom-in'>
+							<div class='col-lg-3 col-sm-6 mb-4 mb-lg-0' data-aos='zoom-in'>
 								<div class='team'>
 									<figure>
 										<img

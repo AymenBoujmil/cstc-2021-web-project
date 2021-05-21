@@ -1,37 +1,38 @@
 {
 	"Team": [
 		{
-			"name": "Aymen",
-			"position": "web dev",
-			"image": "image/Team/teammate1.jpg",
+			"name": "Fedi Kessenitni",
+			"position": "Sponsoring Manager",
+			"image": "image/Team/fedi.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
 		{
-			"name": "amin",
-			"position": "dev",
-			"image": "image/Team/teammate2.jpg",
+			"name": "Omar Jridi",
+			"position": "Project Manager",
+			"image": "image/Team/Omar.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
 		{
-			"name": "aymen",
-			"position": "web dev",
-			"image": "image/Team/teammate3.jpg",
+			"name": "Syrine Doukali",
+			"position": "General Secretary",
+			"image": "image/Team/syrine.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
 		{
-			"name": "amin",
-			"position": "dev",
-			"image": "image/Team/teammate4.jpg",
+			"name": "Sana Jebali",
+			"position": "Media Off Manager",
+			"image": "image/Team/sana.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
+
 		{
 			"name": "aymen",
 			"position": "web dev",
