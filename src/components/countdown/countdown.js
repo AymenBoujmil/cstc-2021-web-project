@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../../assets/css/countdown.css';
-import Fade from 'react-reveal/Fade';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export const Countdown = () => {
 	const [countdownDate] = useState(new Date('6/12/2021').getTime());
 	const [state, setState] = useState({
@@ -12,6 +13,9 @@ export const Countdown = () => {
 
 	useEffect(() => {
 		setInterval(() => setNewTime(), 1000);
+		AOS.init({
+			duration: 2000,
+		});
 	}, []);
 
 	const setNewTime = () => {
@@ -87,7 +91,10 @@ export const Countdown = () => {
 		<section class='section-padding--small'>
 			<div class='container'>
 				<div class='row'>
-					<div class='col-lg-6 align-self-center mb-5 mb-lg-0'>
+					<div
+						class='col-lg-6 align-self-center mb-5 mb-lg-0'
+						data-aos='fade-down-left'
+					>
 						<div class='innovative-wrapper'>
 							<h3 class='primary-text'>
 								Innovative With Experience <br class='d-none d-xl-block' /> UX
@@ -104,7 +111,7 @@ export const Countdown = () => {
 							</p>
 						</div>
 					</div>
-					<div class='col-lg-6 pl-xl-5'>
+					<div class='col-lg-6 pl-xl-5' data-aos='fade-down-right'>
 						<ul class='clockdiv text-center' id='clockdiv'>
 							<li class='clockdiv-single clockdiv-day'>
 								<h1 class='days'>{day || '0'}</h1>

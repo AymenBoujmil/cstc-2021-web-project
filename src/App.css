@@ -969,15 +969,17 @@ nav {
 	padding-top: 45px;
 }
 .clockdiv .clockdiv-day {
-	 background: url(/src/assets/images/bg/countdown-day.png) left center no-repeat; 
+	background: url(/src/assets/images/bg/countdown-day.png) left center no-repeat;
 	background-size: cover;
 }
 .clockdiv .clockdiv-hour {
-	 background: url(/src/assets/images/bg/countdown-hour.png) left center no-repeat; 
+	background: url(/src/assets/images/bg/countdown-hour.png) left center
+		no-repeat;
 	background-size: cover;
 }
 .clockdiv .clockdiv-minute {
-	background: url(/src/assets/images/bg/countdown-minute.png) left center no-repeat; 
+	background: url(/src/assets/images/bg/countdown-minute.png) left center
+		no-repeat;
 	background-size: cover;
 }
 .card-feature {

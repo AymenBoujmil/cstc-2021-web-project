@@ -1,6 +1,6 @@
 .banner_part {
 	position: relative;
-	height: 782px;
+	height: 682px;
 	display: flex;
 	align-items: center;
 }
@@ -29,15 +29,15 @@
 	}
 }
 
-/* .banner_part:after {
+.banner_part:after {
 	position: absolute;
-	content: "";
+	content: '';
 	left: 0;
 	bottom: 0;
 	background-color: #233e62;
-	width: 180px;
+	width: 100px;
 	height: 618px;
-} */
+}
 
 @media (max-width: 991px) {
 	.banner_part:after {
@@ -59,18 +59,18 @@
 
 @media (max-width: 991px) {
 	.banner_part .banner_text {
-		margin-top: -150px;
+		margin-top: -100px;
 	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.banner_part .banner_text {
-		margin-top: -150px;
+		margin-top: -100px;
 	}
 }
 
 .banner_part .banner_text h1 {
-	color: #36a871;
+	color: #233e62;
 	font-size: 68px;
 	font-weight: 500;
 	line-height: 78px;
@@ -300,7 +300,7 @@
 
 .hotel-card {
 	border: none;
-	box-shadow: 5px 5px 15px #7affbe;
+	box-shadow: 1px 1px 10px #7affbe;
 	border-radius: 0;
 	margin-bottom: 5px;
 }
