@@ -21,7 +21,6 @@ export const Contact = () => {
 	};
 
 	const onSubmit = async (data) => {
-		alert(data.name);
 		console.log(data);
 		console.log('name ', data.name);
 		console.log('object', data.object);
@@ -35,12 +34,16 @@ export const Contact = () => {
 				email: data.email,
 				message: data.message,
 			};
-
+			console.log(process.env);
+			console.log(
+				process.env.REACT_APP_SERVICE_PSD,
+				process.env.REACT_APP_TEMPLATE_PSD
+			);
 			await emailjs.send(
-				'service_k26tw38',
-				'template_xfnqa5i',
+				process.env.REACT_APP_SERVICE_PSD,
+				process.env.REACT_APP_TEMPLATE_PSD,
 				templateParams,
-				'user_HYwquAFDNWv3tt1tP6xPZ'
+				process.env.REACT_APP_USER_PSD
 			);
 
 			reset();
@@ -53,15 +56,13 @@ export const Contact = () => {
 	return (
 		<div>
 			<div>
-				
 				<div class='bg-contact100'>
-				
 					<div class='container-contact100'>
-					<div class='container'>
-					<div class='section-intro text-center padding-title100  '>
-						<h2 class='primary-text color-title'>Contact Us</h2>
-					</div>
-				</div>
+						<div class='container'>
+							<div class='section-intro text-center padding-title100  '>
+								<h2 class='primary-text color-title'>Contact Us</h2>
+							</div>
+						</div>
 						<div class='wrap-contact100'>
 							<div class='contact100-pic js-tilt' data-tilt>
 								<img src='image/ContactUs/MailImage.svg' alt='IMG'></img>

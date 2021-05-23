@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Navbar } from './components/navbar/navbar';
 import { footer as Footer } from './components/footer/footer';
 import { ContactUs } from './pages/ContactUs/ContactUs';
