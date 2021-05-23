@@ -1,17 +1,52 @@
 {
 	"day2": [
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": " Breakfast ",
+			"image": "image/schedule/breakfast.png",
+			"date": "7.00 AM - 9.00 AM",
+			"title": " Breakfast ",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
+			"name": "Workshops ",
+			"image": "image/schedule/presentation.png",
 			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"title": "Deep learning",
+			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
+		},
+		{
+			"name": "Coffee Break ",
+			"image": "image/schedule/coffee-time.png",
+			"date": "10.30 AM - 11.00 AM",
+			"title": "Coffee Break",
+			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
+		},
+		{
+			"name": "Workshops ",
+			"image": "image/schedule/presentation (1).png",
+			"date": "11.00 AM - 12.30 AM",
+			"title": "Digital marketing ",
+			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
+		},
+		{
+			"name": "Lunch ",
+			"image": "image/schedule/lunch.png",
+			"date": "12.30 PM",
+			"title": "Lunch",
+			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
+		},
+		{
+			"name": "Forum ",
+			"image": "image/schedule/chat-group.png",
+			"date": "2.00 PM",
+			"title": "Forum",
+			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
+		},
+		{
+			"name": "Dinner",
+			"image": "image/schedule/Dinner.png",
+			"date": "7.30 PM - 9.30 PM",
+			"title": "Dinner",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		}
 	]

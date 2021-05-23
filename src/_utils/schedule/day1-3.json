@@ -1,45 +1,45 @@
 {
 	"day1": [
 		{
-			"name": "Adam Jamsmith 3",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "",
+			"image": "image/schedule/checked.png",
+			"date": "12.00 PM - 3.00 PM",
+			"title": "Check In",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "Opening",
+			"image": "image/schedule/opening.png",
+			"date": "3.00 PM - 4.00 PM",
+			"title": "Opening Ceremony  ",
+			"content": "•Introduction to the theme : social media its impact on generations and its innovations.\n•Presentation of the congress : (plan of the congress , speech of the chairwoman,introducing the team, introducing the competition  ..) \n•Launch of data fest . \n•Partners and sponsors ."
+		},
+		{
+			"name": "Conference",
+			"image": "image/schedule/politician.png",
+			"date": "4.00 PM - 6.00 PM",
+			"title": "social media’s impact on elections: success or manipulation ? ",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith 3",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "Debate",
+			"image": "image/schedule/politicians.png",
+			"date": "6.00 PM - 7.30 PM",
+			"title": "Debate",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "Dinner",
+			"image": "image/schedule/Dinner.png",
+			"date": "7.30 PM - 9.30 PM",
+			"title": "Dinner",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
-			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
-		},
-		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "Teambuilding",
+			"image": "image/schedule/team-building.png",
+			"date": "9.30 PM - 00.00 AM",
+			"title": "Teambuilding",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		}
 	]

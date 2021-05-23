@@ -15,8 +15,8 @@ export const Hotel = () => {
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>Hotel</h1>
 							<p class='breadcrumbs'>
-								“You only live once, but if you do it right, once is enough.” —
-								Mae West
+							“Social media’s like a bakery. You can lose credibility, goodwill and fans by serving up stale and boring content.”
+— Mike Houdeshell
 							</p>
 						</div>
 					</div>

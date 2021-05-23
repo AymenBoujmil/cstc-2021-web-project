@@ -21,9 +21,11 @@ export const footer = () => {
 							<div className='single-footer-widget'>
 								<h6>About CSTC</h6>
 								<p>
-									The world has become so fast paced that people don’t want to
-									stand by reading a page of information to be they would much
-									rather look at a presentation and understand the message.
+									The Computer Society Tech Congress (CSTC) is a national event
+									that will be hosted by the IEEE INSAT Computer Society Student
+									Branch Chapter. Our participants will be able to attend
+									workshops and conferences about the latest technological
+									developments.
 								</p>
 							</div>
 						</div>
@@ -126,14 +128,14 @@ export const footer = () => {
 										<li>
 											<div className='row'>
 												<MdPhone></MdPhone>
-												<p>99-999-999</p>
+												<p>55 475 319</p>
 											</div>
 										</li>
 										<li>
 											<div className='row'>
 												<MdEmail></MdEmail>
 
-												<p>cstc.donotreply@gmail.com</p>
+												<p>cstcongress@gmail.com</p>
 											</div>
 										</li>
 									</ul>

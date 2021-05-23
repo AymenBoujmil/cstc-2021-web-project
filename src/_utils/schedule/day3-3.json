@@ -1,31 +1,38 @@
 {
 	"day3": [
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": " Breakfast ",
+			"image": "image/schedule/breakfast.png",
+			"date": "7.00 AM - 8.00 AM",
+			"title": " Breakfast ",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "Competition ",
+			"image": "image/schedule/businessman.png",
+			"date": "8.00 AM - 11.30 AM",
+			"title": "Pitching of the participants ",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
+			"name": "Workshops ",
+			"image": "image/schedule/competence.png",
 			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"title": "Soft skills workshops ",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		},
 		{
-			"name": "Adam Jamsmith",
-			"image": "image/schedule/testimonial1.png",
-			"date": "9.00 AM - 10.30 AM",
-			"title": "Previous Year achivement",
+			"name": "Closing ",
+			"image": "image/schedule/close.png",
+			"date": "11h30 AM - 1.00 PM",
+			"title": "Closing ceremony",
+			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
+		},
+		{
+			"name": "Check Out ",
+			"image": "image/schedule/check-out.png",
+			"date": "1.00 PM - 3.00 PM",
+			"title": "Check Out",
 			"content": "And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning"
 		}
 	]

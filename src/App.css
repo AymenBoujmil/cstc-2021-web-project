@@ -74,7 +74,7 @@ h4,
 .primary-text {
 	color: #233e62 !important;
 	font-weight: 600;
-	padding: 10px;
+	/* padding: 10px; */
 }
 .primary-bg {
 	/* background-color: #f50136; */
@@ -249,6 +249,11 @@ nav {
 }
 .header_area .navbar .nav .nav-item {
 	margin-right: 38px;
+}
+@media (max-width: 500px) {
+	.header_area .navbar .nav .nav-item {
+		padding-left: 5%;
+	}
 }
 .colornav {
 	color: #04287c;
@@ -1239,8 +1244,9 @@ schedule-card:hover > * {
 .card-identity img {
 	width: 80px;
 	height: 80px;
+	object-fit: contain;
 	display: inline-block;
-	border-radius: 50%;
+	border-radius: 40%;
 	margin-bottom: 15px;
 }
 .card-identity h3 {

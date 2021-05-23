@@ -15,11 +15,7 @@ export const LearnUs = () => {
 			<div class='container-fluid'>
 				<div class='row align-items-center'>
 					<div class='col-md-6'>
-						<div
-							id='video-section'
-							data-aos='fade-up-right'
-							style={{ overflowX: 'hidden' }}
-						>
+						<div id='video-section' data-aos='fade-up-right'>
 							<div
 								class='youtube-player '
 								id='video-place'
@@ -35,23 +31,23 @@ export const LearnUs = () => {
 							></iframe>
 						</div>
 					</div>
-					<div
-						class='col-md-6'
-						data-aos='fade-up-left'
-						style={{ overflowX: 'hidden' }}
-					>
+					<div class='col-md-6' data-aos='fade-up-left'>
 						<p class='text-part'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-							nec pretium mi. Curabitur facilisis ornare velit non vulputate.
-							Aliquam metus tortor, auctor id gravida condimentum, viverra quis
-							sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean
-							consectetur convallis porttitor. Aliquam interdum at lacus non
-							blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-							vulputate. Aliquam metus tortor, auctor id gravida condimentum,
-							viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.
-							Aenean consectetur convallis porttitor. Aliquam interdum at lacus
-							non blandit.
+							In its very first edition, the congress theme will be Social
+							Networks: "The rise of Social Media: our World in Data". This
+							theme will allow us to discuss the tools and technology that give
+							social media its power. We will also discuss the impact of social
+							networks on our personal and professional lives.{' '}
+							<p className='text-part'>
+								To properly analyze the subject, we invited Tunisian experts in
+								this field. Thanks to their rich backgrounds in practical
+								experiences in major companies(Google, Facebook, Amazon ...),
+								our speakers will transmit the advances in knowledge and
+								innovation of the digital world. Furthermore, a psychologist
+								will be present among us to discuss this topic. As for soft
+								skills, participants will attend workshops provided by highly
+								qualified Tunisian coaches.
+							</p>
 						</p>
 						<NavLink to='/about' className='button button-header'>
 							About CSTC{' '}

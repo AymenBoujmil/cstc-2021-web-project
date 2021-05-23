@@ -43,8 +43,9 @@ export const Speakers = () => {
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>Speakers</h1>
 							<p class='breadcrumbs'>
-								“You only live once, but if you do it right, once is enough.” —
-								Mae West
+								“Social media is not just a spoke on the wheel of marketing.
+								It’s becoming the way entire bicycles are built.”
+								<br /> — Ryan Lilly
 							</p>
 						</div>
 					</div>

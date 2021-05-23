@@ -180,8 +180,8 @@ export const Schedule = () => {
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>Schedule</h1>
 							<p class='breadcrumbs'>
-								“You only live once, but if you do it right, once is enough.” —
-								Mae West
+								“Transparency may be the most disruptive and far-reaching
+								innovation to come out of social media.” — Paul Gillin
 							</p>
 						</div>
 					</div>
@@ -261,19 +261,19 @@ export const Schedule = () => {
 												onClick={changeDay}
 											>
 												<h4>Day 1</h4>
-												<p>23 April, 2021</p>
+												<p>19 June, 2021</p>
 											</a>
 										</li>
 										<li className='nav-item text-center'>
 											<a data-toggle='tab' href='#day2' onClick={changeDay}>
 												<h4>Day 2</h4>
-												<p>24 April, 2021</p>
+												<p>20 June, 2021</p>
 											</a>
 										</li>
 										<li className='nav-item text-center'>
 											<a data-toggle='tab' href='#day3' onClick={changeDay}>
 												<h4>Day 3</h4>
-												<p>25 April, 2021</p>
+												<p>21 June, 2021</p>
 											</a>
 										</li>
 									</ul>

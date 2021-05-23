@@ -23,7 +23,7 @@ export const Sponsor = () => {
 							style={{ paddingTop: '15%' }}
 							data-aos='zoom-in-down'
 						>
-							Event Plan Sponsors
+							Sponsors & Partners
 						</h2>
 					</div>
 				</div>
@@ -33,50 +33,86 @@ export const Sponsor = () => {
 					{sponsors.map((sponsor, index) => (
 						<div class='card' style={{ height: '100px' }} key={index}>
 							{' '}
-							<img src={sponsor.image} alt='' />
+							<img
+								src={sponsor.image}
+								style={{ width: '200px', height: '100px',objectFit:'cover' }}
+								alt=''
+							/>
 						</div>
 					))}
 					{sponsors.map((sponsor, index) => (
 						<div class='card' style={{ height: '100px' }} key={index}>
 							{' '}
-							<img src={sponsor.image} alt='' />
+							<img
+								src={sponsor.image}
+								style={{ width: '220px', height: '100px',objectFit:'cover' }}
+								alt=''
+							/>
 						</div>
 					))}
 					<div class='card' style={{ height: '100px' }}>
 						{' '}
-						<img src={sponsors[0].image} alt='' />
+						<img
+							src={sponsors[0].image}
+							style={{ width: '188px', height: '100px' ,objectFit:'cover'}}
+							alt=''
+						/>
 					</div>
 					<div class='card' style={{ height: '100px' }}>
 						{' '}
-						<img src={sponsors[1].image} alt='' />
+						<img
+							src={sponsors[1].image}
+							style={{ width: '188px', height: '100px',objectFit:'cover' }}
+							alt=''
+						/>
 					</div>
 				</div>
 				<div class='list-bis'>
 					{sponsors.map((sponsor, index) => (
 						<div class='card' style={{ height: '100px' }} key={index}>
 							{' '}
-							<img src={sponsor.image} alt='' />
+							<img
+								src={sponsor.image}
+								style={{ width: '188px', height: '100px',objectFit:'cover' }}
+								alt=''
+							/>
 						</div>
 					))}
 					{sponsors.map((sponsor, index) => (
 						<div class='card' style={{ height: '100px' }} key={index}>
 							{' '}
-							<img src={sponsor.image} alt='' />
+							<img
+								src={sponsor.image}
+								style={{ width: '188px', height: '100px',objectFit:'cover' }}
+								alt=''
+							/>
 						</div>
 					))}
 					{sponsors.map((sponsor, index) => (
 						<div class='card' style={{ height: '100px' }} key={index}>
 							{' '}
-							<img src={sponsor.image} alt='' />
+							<img
+								src={sponsor.image}
+								style={{ width: '188px', height: '100px',objectFit:'cover' }}
+								alt=''
+							/>
 						</div>
 					))}
 					<div class='card' style={{ height: '100px' }}>
 						{' '}
-						<img src={sponsors[0].image} alt='' />
+						<img
+							src={sponsors[0].image}
+							style={{ width: '188px', height: '100px' ,objectFit:'cover'}}
+							alt=''
+						/>
 					</div>
 					<div class='card' style={{ height: '100px' }}>
 						{' '}
-						<img src={sponsors[1].image} alt='' />
+						<img
+							src={sponsors[1].image}
+							style={{ width: '188px', height: '100px',objectFit:'cover' }}
+							alt=''
+						/>
 					</div>
 				</div>
 			</div>

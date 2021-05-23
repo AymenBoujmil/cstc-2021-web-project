@@ -1,9 +1,9 @@
 {
   "sponsors" : [
-      {"name": "first Sponsor",
-			"image": "image/sponsor/sponsor1.png"},
-      {"name": "second Sponsor",
-			"image": "image/sponsor/sponsor2.png"},
+      {"name": "INSAT Press",
+			"image": "image/sponsor/InsatPress.png"},
+      {"name": "CS IEEE",
+			"image": "image/sponsor/csTunisiaSection.png"},
         {"name": "third Sponsor",
 			"image": "image/sponsor/sponsor3.png"}
 

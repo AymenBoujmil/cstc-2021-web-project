@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './aboutUs.css';
 import { LearnUs } from '../LearnAboutUs/LearnUs';
 import { IoIosClock } from 'react-icons/io';
-import { ImBullhorn } from 'react-icons/im';
+import { ImBullhorn, ImRoad } from 'react-icons/im';
+import { RiGitBranchFill, RiGitBranchLine } from 'react-icons/ri';
 import { GiMicrophone } from 'react-icons/gi';
 import { IoRocket } from 'react-icons/io5';
 import AOS from 'aos';
@@ -10,7 +11,7 @@ import 'aos/dist/aos.css';
 export const AboutUs = () => {
 	useEffect(() => {
 		AOS.init({
-			duration: 2000,
+			duration: 3000,
 		});
 	}, []);
 	const onStyle = {
@@ -81,20 +82,19 @@ export const AboutUs = () => {
 					<div className='row justify-content-center' yy>
 						<div className='col-12 col-md-6' data-aos='fade-down-right'>
 							<p className='text-part'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer
-								iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a
-								accumsan. Pellentesque convallis consectetur tortor id placerat.
-								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
-								volutpat ligula euismod.
+								The CS Chapter helps boost the skills of developers and future
+								engineers by providing a variety of professional pieces of
+								training, which allows them to test their skills through yearly
+								competitions and teaches them teamwork by integrating them in
+								the IEEE family.
 							</p>
 						</div>
 						<div className='col-12 col-md-6' style={{ overflowX: 'hidden' }}>
 							<p className='text-part' data-aos='fade-down-left'>
-								In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a
-								accumsan. Pellentesque convallis consectetur tortor id placerat.
-								Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at
-								volutpat ligula euismod quis. Maecenas ornare, ex in malesuada
-								tempus.
+								The Computer Society Tech Congress (CSTC) is a 3-day congress
+								organized by IEEE CS INSAT SBC. This event has 20 ambassadors
+								from several Tunisian universities. As a result, it is estimated
+								that 250 students will participate in this congress.
 							</p>
 						</div>
 					</div>
@@ -121,7 +121,7 @@ export const AboutUs = () => {
 								<div className='content'>
 									<div className='pad_icon'>
 										{' '}
-										<h4>9 Speakers</h4>
+										<h4>4 Speakers</h4>
 									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -144,7 +144,7 @@ export const AboutUs = () => {
 								</div>
 								<div className='content'>
 									<div className='pad_icon'>
-										<h4>8 hrs Marathon</h4>
+										<h4>48 hrs Competition</h4>
 									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -170,7 +170,7 @@ export const AboutUs = () => {
 								<div className='content'>
 									<div className='pad_icon'>
 										{' '}
-										<h4>Live Broadcast</h4>{' '}
+										<h4>Debate</h4>{' '}
 									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -191,13 +191,16 @@ export const AboutUs = () => {
 							>
 								<div className='pad_icon'>
 									{' '}
-									<IoIosClock size='120px' style={styleAlarm}></IoIosClock>
+									<RiGitBranchLine
+										size='120px'
+										style={styleAlarm}
+									></RiGitBranchLine>
 								</div>
 
 								<div className='content'>
 									<div className='pad_icon'>
 										{' '}
-										<h4>Early Bird</h4>{' '}
+										<h4>3 Tracks</h4>{' '}
 									</div>
 									<p className='aboutUsP'>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In

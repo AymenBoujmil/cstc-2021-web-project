@@ -3,7 +3,7 @@ import '../../assets/css/countdown.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export const Countdown = () => {
-	const [countdownDate] = useState(new Date('6/12/2021').getTime());
+	const [countdownDate] = useState(new Date('6/19/2021').getTime());
 	const [state, setState] = useState({
 		days: 0,
 		hours: 0,
@@ -98,17 +98,15 @@ export const Countdown = () => {
 					>
 						<div class='innovative-wrapper'>
 							<h3 class='primary-text'>
-								Innovative With Experience <br class='d-none d-xl-block' /> UX
-								Design 2019
+								CSTC 2021 {/*<br class='d-none d-xl-block' /> */}
 							</h3>
 							<p class='h4 primary-text3 mb-3'>
-								Where The business World Meets
+								Advancing Technology for Humanity
 							</p>
-							<p>
-								Morning steas great earth for divide our good sixth called
-								abunda itseld appear fisrd seaton upon above may bearing all
-								moveth morning make subdue stars they are a goreat eart divide
-								our good sixth one of that
+							<p className='text-part'>
+								IEEE and its members inspire a global community through
+								highly-cited publications, conferences, technology standards,
+								and professional and educational activities.
 							</p>
 						</div>
 					</div>
@@ -134,7 +132,7 @@ export const Countdown = () => {
 
 						<div class='clockdiv-content text-center'>
 							<p class='h4 primary-text3 mb-2'>
-								June 19 -22, 2021 in Hamamet City
+								June 19 -21, 2021 in Hamamet City
 							</p>
 						</div>
 					</div>

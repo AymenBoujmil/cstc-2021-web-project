@@ -32,19 +32,27 @@
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
-
 		{
-			"name": "Abessi Haroun",
-			"position": "Media On Manager",
-			"image": "image/Team/haroun.png",
+			"name": "Rim Besbes",
+			"position": "Program Manager",
+			"image": "image/Team/rim.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
 		{
-			"name": "Emna Ben Othmen",
-			"position": "Contact Manager",
-			"image": "image/Team/emna.png",
+			"name": "Aymen Boujmil",
+			"position": "Web Master",
+			"image": "image/Team/aymen.png",
+			"facebook": "https://www.facebook.com/",
+			"twitter": "https://twitter.com/",
+			"instagram": "https://instagram.com/"
+		},
+
+		{
+			"name": "Abessi Haroun",
+			"position": "Media On Manager",
+			"image": "image/Team/haroun.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
@@ -58,21 +66,14 @@
 			"instagram": "https://instagram.com/"
 		},
 		{
-			"name": "Sinda Ben Marzouk",
-			"position": "Treasure",
-			"image": "image/Team/sinda.png",
+			"name": "Emna Ben Othmen",
+			"position": "Contact Manager",
+			"image": "image/Team/emna.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
-		{
-			"name": "Rim Besbes",
-			"position": "Program Manager",
-			"image": "image/Team/rim.png",
-			"facebook": "https://www.facebook.com/",
-			"twitter": "https://twitter.com/",
-			"instagram": "https://instagram.com/"
-		},
+
 		{
 			"name": "Salma Borcheni",
 			"position": "Logistics Manager",
@@ -89,11 +90,10 @@
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
 		},
-
 		{
-			"name": "Aymen Boujmil",
-			"position": "Web Master",
-			"image": "image/Team/teammate1.jpg",
+			"name": "Sinda Ben Marzouk",
+			"position": "Treasure",
+			"image": "image/Team/sinda.png",
 			"facebook": "https://www.facebook.com/",
 			"twitter": "https://twitter.com/",
 			"instagram": "https://instagram.com/"
