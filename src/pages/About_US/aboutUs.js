@@ -51,12 +51,14 @@ function AboutUs() {
 									style={{ backgroundImage: 'url(/image/about.jpg)' }}
 								></div>
 								<div class='text'>
-									<h3>Read Our Success Story for Inspiration</h3>
+									{/* <h3>Read Our Success Story for Inspiration</h3> */}
 									<p>
-										Far far away, behind the word mountains, far from the
-										countries Vokalia and Consonantia, there live the blind
-										texts. Separated they live in Bookmarksgrove right at the
-										coast of the Semantics, a large language ocean.
+										The IEEE Computer Society INSAT SB has been and still is the
+										most active University club since its foundation in 2015 by
+										a small number of students who wanted to bring Computer
+										Science closer to INSAT students. Since then, the Chapter
+										grew exponentially better and larger every year, and became
+										the largest CS chapter in the whole country.
 									</p>
 								</div>
 							</div>
@@ -66,7 +68,7 @@ function AboutUs() {
 							data-aos='fade-down-right'
 							style={{ overflowX: 'hidden' }}
 						>
-							<h2 class='mb-4'>Welcome to Consolution</h2>
+							<h2 class='mb-4'>About IEEE CS chapter</h2>
 							<p>
 								IEEE INSAT CS Chapter offers multiple Hard Skills and Soft
 								Skills training throughout the year collaborating other
@@ -141,19 +143,25 @@ function AboutUs() {
 							data-aos='zoom-in-left'
 							style={{ overflowX: 'hidden' }}
 						>
-							<h2 class='mb-4'>We Are the Best Consulting Agency</h2>
+							<h2 class='mb-4'>About CSTC</h2>
 							<p>
-								Separated they live in. A small river named Duden flows by their
-								place and supplies it with the necessary regelialia. It is a
-								paradisematic country. A small river named Duden flows by their
-								place and supplies it with the necessary regelialia. It is a
-								paradisematic country, in which roasted parts of sentences fly
-								into your mouth.
+								CSTC, or the Computer Society Tech Congress, is a national event
+								that highlights the newest technologies. It holds workshops and
+								conferences about various computer science domains around a
+								central theme. This year’s editions is all about “The rise of
+								Social Media : our World in Data”. It is a unique opportunity to
+								forge and improve both, hard and soft skills since it offers
+								several workshops in Big Data, Artificial Intelligence,
+								security, marketing, Data Science, etc. Besides soft skills
+								trainings such as pitching, and boosting self-confidence. The
+								sessions are conducted by highly qualified national and
+								international experts in various domains and expertise.
 							</p>
 							<p>
-								A small river named Duden flows by their place and supplies it
-								with the necessary regelialia. It is a paradisematic country, in
-								which roasted parts of sentences fly into your mouth.
+								CSTC has also 2 competitions: one is for all participants to
+								compete and win valuable prizes, and the other is for all the
+								IEEE CS chapters in Tunisia to earn the Best CS chapter award,
+								in collaboration with the IEEE CS Tunisia Section.
 							</p>
 						</div>
 					</div>
@@ -235,9 +243,8 @@ function AboutUs() {
 					>
 						<h2 class='mt-4 mb-4'>Our Photos</h2>
 						<p>
-							Separated they live in. A small river named Duden flows by their
-							place and supplies it with the necessary regelialia. It is a
-							paradisematic country
+							Take a sneak peek to our achievements throughout the years, and
+							get inspired!
 						</p>
 					</div>
 					<OwlCarousel

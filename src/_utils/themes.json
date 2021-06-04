@@ -1,21 +1,24 @@
 {
 	"themes": [
-		{	"track": "track 1",
-			"title": "Always First Service",
-			"text": "His likeness beast moved domini moved above meat all fly blessedgreater creepeth you itself living room",
-			"icon": "fa fa-trophy",
+		{
+			"track": "track 1",
+			"title": "Machine learning",
+			"text": "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ",
+			"icon": "fas fa-cogs",
 			"theme": 1
 		},
-		{	"track": "track 2",
-			"title": "International Business",
-			"text": "His likeness beast moved domini moved above meat all fly blessed greater creepeth you itself living room",
-			"icon": "fas fa-globe",
+		{
+			"track": "track 2",
+			"title": "Big data ",
+			"text": "Big data is a term that describes the large volume of data – both structured and unstructured , that inundates a business on a day-to-day basis. But it’s not the amount of data that’s important. ",
+			"icon": "fas fa-database",
 			"theme": 2
 		},
-		{	"track": "track 3",
-			"title": "World Great Speake",
-			"text": "His likeness beast moved domini moved above meat all fly blessedgreater creepeth you itself living room",
-			"icon": "fas fa-microphone-alt",
+		{
+			"track": "track 3",
+			"title": "Deep learning",
+			"text": "Deep learning is an artificial intelligence (AI) function that imitates the workings of the human brain in processing data and creating patterns for use in decision making. ",
+			"icon": "fas fa-robot",
 			"theme": 3
 		}
 	]

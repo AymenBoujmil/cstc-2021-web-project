@@ -76,14 +76,12 @@ function SpeakerInfo(props) {
 					<div className='row'>
 						<div className='col-md-4'>
 							<div className='profile-work '>
-								<p onClick={affiche}>SKILLS</p>
-								{props.speaker.skills.map((skill) => (
-									<div>
-										{' '}
-										<a href=''>{skill}</a>
-										<br />{' '}
-									</div>
-								))}
+								<p onClick={affiche}>Conference Format </p>
+
+								<div>
+									<a href=''>{props.speaker.Conference_Format}</a>
+									<br />{' '}
+								</div>
 							</div>
 						</div>
 						<div className='col-md-8'>
@@ -104,18 +102,10 @@ function SpeakerInfo(props) {
 									</div>
 									<div className='row'>
 										<div className='col-md-6'>
-											<label>Email</label>
+											<label>Presentation Title</label>
 										</div>
 										<div className='col-md-6'>
-											<p> {props.speaker.email} </p>
-										</div>
-									</div>
-									<div className='row'>
-										<div className='col-md-6'>
-											<label>Phone</label>
-										</div>
-										<div className='col-md-6'>
-											<p> {props.speaker.phone} </p>
+											<p> {props.speaker.Presentation_Title} </p>
 										</div>
 									</div>
 									<div className='row'>
@@ -126,15 +116,23 @@ function SpeakerInfo(props) {
 											<p> {props.speaker.job} </p>
 										</div>
 									</div>
-
 									<div className='row'>
 										<div className='col-md-6'>
-											<label>Facebook</label>
+											<label>Time</label>
 										</div>
 										<div className='col-md-6'>
-											<p>{props.speaker.facebook}</p>
+											<p> {props.speaker.Time} </p>
 										</div>
 									</div>
+									<div className='row'>
+										<div className='col-md-6'>
+											<label>Duration</label>
+										</div>
+										<div className='col-md-6'>
+											<p>{props.speaker.duration}</p>
+										</div>
+									</div>
+
 									<div className='row'>
 										<div className='col-md-6'>
 											<label>Linkedin</label>
@@ -144,6 +142,7 @@ function SpeakerInfo(props) {
 										</div>
 									</div>
 								</div>
+
 								<div
 									className='tab-pane fade'
 									id='profile'

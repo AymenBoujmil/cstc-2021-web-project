@@ -76,12 +76,17 @@
 	line-height: 78px;
 	margin-bottom: 10px;
 }
-
+.banner_text_iner2 {
+	font-size: 18px !important;
+}
 @media (max-width: 576px) {
 	.banner_part .banner_text h1 {
 		font-size: 30px;
 		margin-bottom: 15px;
 		line-height: 1.3;
+	}
+	.banner_text_iner2 {
+		font-size: 12px !important;
 	}
 }
 

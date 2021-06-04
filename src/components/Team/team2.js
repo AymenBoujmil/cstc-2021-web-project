@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import data from '../../_utils/Team/team.json';
 import './Team.css';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Team() {
@@ -40,18 +40,13 @@ function Team() {
 
 									<ul class='social-block'>
 										<li>
-											<a href={member.twitter}>
-												<FaTwitter /> ||{' '}
-											</a>
-										</li>
-										<li>
 											<a href={member.facebook}>
 												<FaFacebook /> ||{' '}
 											</a>
 										</li>
 										<li>
 											<a href={member.instagram}>
-												<FaInstagram />{' '}
+												<FaLinkedin />{' '}
 											</a>
 										</li>
 									</ul>

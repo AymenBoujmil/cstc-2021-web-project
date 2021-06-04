@@ -15,8 +15,9 @@ export const Hotel = () => {
 						<div class='col-md-9 ftco-animate text-center'>
 							<h1 class='mb-2 bread'>Hotel</h1>
 							<p class='breadcrumbs'>
-							“Social media’s like a bakery. You can lose credibility, goodwill and fans by serving up stale and boring content.”
-— Mike Houdeshell
+								On the coastline of Hammamet lies vincci NOZHA beach. A
+								four-star hotel that will accommodate the CSTC's guests and will
+								exceed their expectations.
 							</p>
 						</div>
 					</div>

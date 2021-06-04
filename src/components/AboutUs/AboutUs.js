@@ -147,8 +147,12 @@ export const AboutUs = () => {
 										<h4>48 hrs Competition</h4>
 									</div>
 									<p className='aboutUsP'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-										rhoncus massa nec graviante.
+										This year’s theme raises a lot of intriguing questions and
+										we believe you have the answers because we are change makers
+										and this century is certainly ours . So we invite you to
+										participate in our 48-hour competition and pitch your
+										brilliant ideas in front of the jury .Needless to say, a lot
+										of valuable prizes are to be won.
 									</p>
 								</div>
 							</div>
@@ -173,8 +177,10 @@ export const AboutUs = () => {
 										<h4>Debate</h4>{' '}
 									</div>
 									<p className='aboutUsP'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-										rhoncus massa nec graviante.
+										This part of the event is about YOU and your creative ideas.
+										Let us all think out loud with our beloved guests and
+										inspire each other. Let us hear what you think. So what's
+										your own definition of mindful use of social media ?
 									</p>
 								</div>
 							</div>
@@ -203,8 +209,13 @@ export const AboutUs = () => {
 										<h4>3 Tracks</h4>{' '}
 									</div>
 									<p className='aboutUsP'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-										rhoncus massa nec graviante.
+										Our event will revolve around three tracks. Machine
+										learning, big data and deep learning. We will discover how
+										social media integrate AI and big data to analyze social
+										data in order to extract useful insights. Our exploration
+										will be through various workshops that range from
+										introductory levels to intermediate, held by experts in the
+										field.
 									</p>
 								</div>
 							</div>

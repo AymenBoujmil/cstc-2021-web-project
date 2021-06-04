@@ -1,148 +1,57 @@
 {
 	"speakers": [
 		{
-			"name": "Donald Markin 1",
-			"job": "UX/UI Designer Microsoft",
+			"name": "Mr.Skander Hannachi",
+			"job": "AI/ML Specialist",
 			"image": "image/speakers/speaker-2.png",
 			"theme": 1,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
+			"Conference_Format": "Virtual",
+			"Time": "16h",
+			"duration": "30 minutes",
+			"Presentation_Title ": "The Why and How of ML Ops",
+			"linkedin": "https://www.linkedin.com/in/skander-hannachi-3835618/",
+			"aboutMe": "Skander Hannachi is an AI/ML Specialist with Google Cloud's Customer Engineering team in Seattle, Washington, United States. He works on developing ML models and solution architectures for Google Cloud's customers, as well as collaborating with Google product teams to shape AI/ML solutions for customer needs.Before joining Google, he worked for 5 years as a data scientist for Nordstrom's demand forecasting and replenishment team and also held various consulting roles in which he implementedretail forecasting and planning solutions for multiple retailers. He holds a Ph.D in computational intelligence from Tokyo Institute of Technology, and a degree in Instrumentation and Maintenance Engineering from INSAT, Tunisia, and has done academic research on neural networks and fuzzy logic, both from a theoretical point of view, as well as applied to fisheries and environmental sciences."
 		},
+
 		{
-			"name": "Jhon Leonar2",
-			"job": "UX/UI Designer Microsoft",
+			"name": "Amél Sellami",
+			"job": "Research Engineer",
 			"image": "image/speakers/speaker-1.png",
 			"theme": 2,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
+			"Conference_Format": "In-person",
+			"time": "16h30",
+			"Presentation_Title ": "",
+
+			"duration": " 20 minutes",
 			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
+			"linkedin": "https://www.linkedin.com/in/amelsellami1994/",
+			"aboutMe": "Amel is a Research Engineer at InstaDeep, Google Developer Expert in Machine learning, and was the host of the OpenMined Ask me anything sessions. She was invited and sponsored by Facebook to take part in the F8 hackathon and conference. She is a mentor at the first Google For startups class in the Middle East and North Africa region. She is a volunteer speaker in various events like Gitex, Google4Mena, Deep Learning Indaba. She has a software engineer background acquired from the National school of computer science(ENSI) in Tunisia."
 		},
 		{
-			"name": "Jhon Leonar 1",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-3.png",
-			"theme": 1,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar 1",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-1.png",
-			"theme": 1,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar 2",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-2.png",
-			"theme": 2,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar 2",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-3.png",
-			"theme": 2,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Donald Markin 1",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-2.png",
-			"theme": 1,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar2",
-			"job": "UX/UI Designer Microsoft",
+			"name": "Bahia Nar",
+			"job": "CEO and founder of Fireworks consultanc",
 			"image": "image/speakers/speaker-1.png",
 			"theme": 2,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
+			"Conference_Format": "In-person",
+			"time": " 17h00",
+			"duration": " 20 minutes",
 			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
+			"linkedin": "https://www.linkedin.com/in/amelsellami1994/",
+			"aboutMe": "Communication expert, digital evangelist, Trainer, international speaker ,podcaster & mentor Startup Grind Tunis Chapter Director. Bahia Nar is the CEO and founder of Fireworks consultancy and is a communication and socialmedia expert and trainer with more than 10 years of experience. Bahia is also an international speaker who has been to several conferences in Morocco, Congo,Dubai, Abidjan, besides her home town Tunisia.She is also a podcaster and a university teacher. Bahia is also a mentor for entrepreneurs and part of several programs"
 		},
 		{
-			"name": "Jhon Leonar 1",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-3.png",
-			"theme": 3,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar 3",
-			"job": "UX/UI Designer Microsoft",
+			"name": "Mr.Arbi Soussi",
+			"job": "Research Engineer",
 			"image": "image/speakers/speaker-1.png",
-			"theme": 3,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar 2",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-2.png",
 			"theme": 2,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
+			"Conference_Format": "In-person",
+			"time": " 17h30",
+			"Presentation_Title ": "Impacts des réseaux sociaux sur les élections : succès ou manipulations",
+
+			"duration": " 20 minutes",
 			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
-		},
-		{
-			"name": "Jhon Leonar 3",
-			"job": "UX/UI Designer Microsoft",
-			"image": "image/speakers/speaker-3.png",
-			"theme": 3,
-			"skills": ["Web Designer", "Web Developer", "WordPress", "WooCommerce"],
-			"email": "kshitighelani@gmail.com",
-			"phone": "123 456 7890",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "Linkedin.com/blablabla",
-			"aboutMe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum alias placeat aperiam deleniti provident officiis quo iure in quisquam, dicta rem repudiandae dolore omnis soluta sed autem ab harum eos accusantium laudantium quas enim possimus quaerat. Sapiente eveniet harum asperiores perspiciatis doloribus dignissimos minus placeat tempore ab, corporis quaerat ex aliquid obcaecati, assumenda facilis recusandae. Beatae minima porro nam recusandae consectetur quibusdam. Perspiciatis magnam vel placeat, omnis quidem ipsum deserunt aliquam eius voluptate voluptatum dolorem inventore alias in eos distinctio iusto nemo qui voluptatem. Minus voluptas velit dolores at. Qui quibusdam doloremque dolor neque minima distinctio numquam libero perferendis!"
+			"linkedin": "https://www.linkedin.com/in/amelsellami1994/",
+			"aboutMe": "Online marketing expert, political and institutional communications advisor Strategist, speaker, and trainer Working with government and NGO (NDI, CoE, DRI, DW..) Former cabinet member of the head of government. 5 Years in the prime minister's communication team, preparing and implementing digital communication plans headed by the government. In charge of personal branding for heads of government, marketing of major events, and covering the most important events and visits “More than 30 foreign missions and visits to 18 countries”. Trainer for politicians, deputies, ministers in political communication. Adviser and trainer at international institutions in Tunisia and abroad: the National Democratic Institute (NDI) and the Deutsche Welle, Démocratie Reporting (DRI), etc. Practicing trainer in NLP and expert in digital communication, (20 years of experience in the field). CEO of influence consulting agency"
 		}
 	]
 }

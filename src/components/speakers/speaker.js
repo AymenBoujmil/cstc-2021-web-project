@@ -40,18 +40,7 @@ export const Speaker = (props) => {
 					<ul class='speaker-social'>
 						<li>
 							<a href='#'>
-								<i class='fab fa-facebook-f' style={styleIcon}></i>
-							</a>
-						</li>
-						<li>
-							<a href='#'>
 								<i class='fab fa-linkedin-in' style={styleIcon}></i>
-							</a>
-						</li>
-
-						<li>
-							<a href='#'>
-								<i class='fab fa-instagram' style={styleIcon}></i>
 							</a>
 						</li>
 					</ul>

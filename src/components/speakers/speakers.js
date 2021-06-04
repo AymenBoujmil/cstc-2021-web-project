@@ -61,7 +61,7 @@ export const Speakers = () => {
 						word. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 					</p>
 				</div>
-				<div id='themes'>
+				{/* <div id='themes'>
 					<div className='mt-5'>
 						<div className='d-lg-flex justify-content-between'>
 							{themes.map((theme) => (
@@ -84,7 +84,7 @@ export const Speakers = () => {
 							))}
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 			<section class='speaker-bg section-padding'>
 				<div class='container'>
@@ -96,7 +96,7 @@ export const Speakers = () => {
 						<h2 class='primary-text' style={primary_text} onClick={affiche}>
 							Meet The Speakers
 						</h2>
-						<h4 class='primary-text'>Track : {themeName} </h4>
+						{/* <h4 class='primary-text'>Track : {themeName} </h4> */}
 					</div>
 					<div class='row'>
 						{speakers.map((speaker) => (
@@ -104,7 +104,7 @@ export const Speakers = () => {
 						))}
 					</div>
 				</div>
-				<div className='d-flex justify-content-center pt-5'>
+				{/* <div className='d-flex justify-content-center pt-5'>
 					<button
 						type='button'
 						class='button button-header'
@@ -116,7 +116,7 @@ export const Speakers = () => {
 					>
 						see all the speakers{' '}
 					</button>
-				</div>
+				</div> */}
 			</section>
 		</div>
 	);
