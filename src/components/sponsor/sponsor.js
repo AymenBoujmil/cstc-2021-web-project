@@ -35,7 +35,7 @@ export const Sponsor = () => {
 							{' '}
 							<img
 								src={sponsor.image}
-								style={{ width: '200px', height: '100px',objectFit:'cover' }}
+								//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 								alt=''
 							/>
 						</div>
@@ -45,7 +45,7 @@ export const Sponsor = () => {
 							{' '}
 							<img
 								src={sponsor.image}
-								style={{ width: '220px', height: '100px',objectFit:'cover' }}
+								//	style={{ width: '100px', height: '100px',objectFit:'cover' }}
 								alt=''
 							/>
 						</div>
@@ -54,7 +54,7 @@ export const Sponsor = () => {
 						{' '}
 						<img
 							src={sponsors[0].image}
-							style={{ width: '188px', height: '100px' ,objectFit:'cover'}}
+							//style={{ width: '100px', height: '100px' ,objectFit:'cover'}}
 							alt=''
 						/>
 					</div>
@@ -62,7 +62,7 @@ export const Sponsor = () => {
 						{' '}
 						<img
 							src={sponsors[1].image}
-							style={{ width: '188px', height: '100px',objectFit:'cover' }}
+							//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 							alt=''
 						/>
 					</div>
@@ -73,7 +73,7 @@ export const Sponsor = () => {
 							{' '}
 							<img
 								src={sponsor.image}
-								style={{ width: '188px', height: '100px',objectFit:'cover' }}
+								//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 								alt=''
 							/>
 						</div>
@@ -83,7 +83,7 @@ export const Sponsor = () => {
 							{' '}
 							<img
 								src={sponsor.image}
-								style={{ width: '188px', height: '100px',objectFit:'cover' }}
+								//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 								alt=''
 							/>
 						</div>
@@ -93,7 +93,7 @@ export const Sponsor = () => {
 							{' '}
 							<img
 								src={sponsor.image}
-								style={{ width: '188px', height: '100px',objectFit:'cover' }}
+								//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 								alt=''
 							/>
 						</div>
@@ -102,7 +102,7 @@ export const Sponsor = () => {
 						{' '}
 						<img
 							src={sponsors[0].image}
-							style={{ width: '188px', height: '100px' ,objectFit:'cover'}}
+							//style={{ width: '100px', height: '100px' ,objectFit:'cover'}}
 							alt=''
 						/>
 					</div>
@@ -110,7 +110,7 @@ export const Sponsor = () => {
 						{' '}
 						<img
 							src={sponsors[1].image}
-							style={{ width: '188px', height: '100px',objectFit:'cover' }}
+							//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 							alt=''
 						/>
 					</div>

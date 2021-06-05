@@ -171,8 +171,13 @@ export const Schedule = () => {
 		<div id='schedule'>
 			<section
 				class='hero-wrap hero-wrap-2'
-				style={{ backgroundImage: 'url(/image/bg_1.jpg)' }}
-				style={{ overflowX: 'hidden', overflowY: 'hidden' }}
+				style={{
+					overflowX: 'hidden',
+					overflowY: 'hidden',
+					backgroundImage: 'url(/image/insat.jpg)',
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: 'center',
+				}}
 			>
 				<div class='overlay'></div>
 				<div class='container'>
@@ -190,17 +195,13 @@ export const Schedule = () => {
 
 			<div class='wrap-about pr-md-4 ftco-animate container mt-5'>
 				<div data-aos='fade-down-right' style={{ overflowX: 'hidden' }}>
-					<h2 class='mb-4'>Our Main Features</h2>
+					<h2 class='mb-4'>Our Program</h2>
 					<p>
-						On her way she met a copy. The copy warned the Little Blind Text,
-						that where it came from it would have been rewritten a thousand
-						times and everything that was left from its origin would be the
-						word. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
-						aliquid beatae nihil eius iure necessitatibus, eos non ex. Odio
-						voluptatibus illum itaque inventore quam mollitia nisi ipsam,
-						laborum placeat iusto sed nemo, architecto, vitae alias similique
-						quod voluptas? Aspernatur adipisci qui ullam laudantium aut vel
-						quisquam autem beatae nesciunt neque?
+						To present our theme for this year we prepared a diversified
+						program. During 3 days there will be conferences, debates, and
+						different tracks for workshops so you can choose the ones that fit
+						your learning goals the best. It also includes networking activities
+						as the congress will welcome students from across the country
 					</p>
 				</div>
 				<div id='themes'>

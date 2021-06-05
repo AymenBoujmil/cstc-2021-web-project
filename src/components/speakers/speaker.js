@@ -24,7 +24,7 @@ export const Speaker = (props) => {
 		});
 	}, []);
 	return (
-		<div class='col-lg-4 col-sm-6 mb-4 mb-lg-0' data-aos='zoom-in'>
+		<div class='col-lg-6 col-sm-6 mb-6 mb-lg-0' data-aos='zoom-in'>
 			<div
 				class='card-speaker'
 				onClick={() => {

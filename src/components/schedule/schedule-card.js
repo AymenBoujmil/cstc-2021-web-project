@@ -21,7 +21,7 @@ export const Schedule_card = (props) => {
 							</a>
 							<p className='schedule-date mb-2'>{props.day.date}</p>
 
-							<p style={{}}>{props.day.content}</p>
+							{/* <p style={{}}>{props.day.content}</p> */}
 						</div>
 					</div>
 				</div>

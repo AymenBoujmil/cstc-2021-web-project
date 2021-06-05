@@ -35,7 +35,12 @@ export const Speakers = () => {
 		<div id='speakers'>
 			<section
 				class='hero-wrap hero-wrap-2'
-				style={{ backgroundImage: 'url(/image/bg_1.jpg)' }}
+				style={{
+					backgroundImage: 'url(/image/bg_1.jpg)',
+					backgroundImage: 'url(/image/insat.jpg)',
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: 'center',
+				}}
 			>
 				<div class='overlay'></div>
 				<div class='container'>
@@ -55,10 +60,8 @@ export const Speakers = () => {
 				<div data-aos='fade-down-right'>
 					<h2 class='mb-4'>Our Speakers</h2>
 					<p>
-						On her way she met a copy. The copy warned the Little Blind Text,
-						that where it came from it would have been rewritten a thousand
-						times and everything that was left from its origin would be the
-						word. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						The CSTC speakers will only speak the truth, discuss hope, and open
+						minds.
 					</p>
 				</div>
 				{/* <div id='themes'>

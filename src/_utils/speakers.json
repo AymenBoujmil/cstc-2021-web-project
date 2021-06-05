@@ -2,8 +2,8 @@
 	"speakers": [
 		{
 			"name": "Mr.Skander Hannachi",
-			"job": "AI/ML Specialist",
-			"image": "image/speakers/speaker-2.png",
+			"job": "AI/ML Specialist at Google Cloud",
+			"image": "image/speakers/skander.jpg",
 			"theme": 1,
 			"Conference_Format": "Virtual",
 			"Time": "16h",
@@ -12,37 +12,10 @@
 			"linkedin": "https://www.linkedin.com/in/skander-hannachi-3835618/",
 			"aboutMe": "Skander Hannachi is an AI/ML Specialist with Google Cloud's Customer Engineering team in Seattle, Washington, United States. He works on developing ML models and solution architectures for Google Cloud's customers, as well as collaborating with Google product teams to shape AI/ML solutions for customer needs.Before joining Google, he worked for 5 years as a data scientist for Nordstrom's demand forecasting and replenishment team and also held various consulting roles in which he implementedretail forecasting and planning solutions for multiple retailers. He holds a Ph.D in computational intelligence from Tokyo Institute of Technology, and a degree in Instrumentation and Maintenance Engineering from INSAT, Tunisia, and has done academic research on neural networks and fuzzy logic, both from a theoretical point of view, as well as applied to fisheries and environmental sciences."
 		},
-
-		{
-			"name": "Amél Sellami",
-			"job": "Research Engineer",
-			"image": "image/speakers/speaker-1.png",
-			"theme": 2,
-			"Conference_Format": "In-person",
-			"time": "16h30",
-			"Presentation_Title ": "",
-
-			"duration": " 20 minutes",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "https://www.linkedin.com/in/amelsellami1994/",
-			"aboutMe": "Amel is a Research Engineer at InstaDeep, Google Developer Expert in Machine learning, and was the host of the OpenMined Ask me anything sessions. She was invited and sponsored by Facebook to take part in the F8 hackathon and conference. She is a mentor at the first Google For startups class in the Middle East and North Africa region. She is a volunteer speaker in various events like Gitex, Google4Mena, Deep Learning Indaba. She has a software engineer background acquired from the National school of computer science(ENSI) in Tunisia."
-		},
-		{
-			"name": "Bahia Nar",
-			"job": "CEO and founder of Fireworks consultanc",
-			"image": "image/speakers/speaker-1.png",
-			"theme": 2,
-			"Conference_Format": "In-person",
-			"time": " 17h00",
-			"duration": " 20 minutes",
-			"facebook": "facebook.com/blablabla",
-			"linkedin": "https://www.linkedin.com/in/amelsellami1994/",
-			"aboutMe": "Communication expert, digital evangelist, Trainer, international speaker ,podcaster & mentor Startup Grind Tunis Chapter Director. Bahia Nar is the CEO and founder of Fireworks consultancy and is a communication and socialmedia expert and trainer with more than 10 years of experience. Bahia is also an international speaker who has been to several conferences in Morocco, Congo,Dubai, Abidjan, besides her home town Tunisia.She is also a podcaster and a university teacher. Bahia is also a mentor for entrepreneurs and part of several programs"
-		},
 		{
 			"name": "Mr.Arbi Soussi",
-			"job": "Research Engineer",
-			"image": "image/speakers/speaker-1.png",
+			"job": "Online marketing expert, political and institutional communications advisor Strategist",
+			"image": "image/speakers/arbi.jpg",
 			"theme": 2,
 			"Conference_Format": "In-person",
 			"time": " 17h30",
@@ -51,7 +24,35 @@
 			"duration": " 20 minutes",
 			"facebook": "facebook.com/blablabla",
 			"linkedin": "https://www.linkedin.com/in/amelsellami1994/",
-			"aboutMe": "Online marketing expert, political and institutional communications advisor Strategist, speaker, and trainer Working with government and NGO (NDI, CoE, DRI, DW..) Former cabinet member of the head of government. 5 Years in the prime minister's communication team, preparing and implementing digital communication plans headed by the government. In charge of personal branding for heads of government, marketing of major events, and covering the most important events and visits “More than 30 foreign missions and visits to 18 countries”. Trainer for politicians, deputies, ministers in political communication. Adviser and trainer at international institutions in Tunisia and abroad: the National Democratic Institute (NDI) and the Deutsche Welle, Démocratie Reporting (DRI), etc. Practicing trainer in NLP and expert in digital communication, (20 years of experience in the field). CEO of influence consulting agency"
+			"aboutMe": "Online marketing expert, political and institutional communications advisor Strategist, speaker, and trainer Working with government and NGO (NDI, CoE, DRI, DW..).Former cabinet member of the head of government. 5 Years in the prime minister's communication team, preparing and implementing digital communication plans headed by the government. In charge of personal branding for heads of government, marketing of major events, and covering the most important events and visits “More than 30 foreign missions and visits to 18 countries”. Trainer for politicians, deputies, ministers in political communication. Adviser and trainer at international institutions in Tunisia and abroad: the National Democratic Institute (NDI) and the Deutsche Welle, Démocratie Reporting (DRI), etc. Practicing trainer in NLP and expert in digital communication, 20 years of experience in the field. CEO of influence consulting agency"
+		},
+		{
+			"name": "Mme.Faten Ben Aissa",
+			"job": "Communication, public relations and business training consultant.",
+			"image": "image/speakers/faten.jpg",
+			"theme": 2,
+			"Conference_Format": "In-person",
+			"time": "9h30",
+			"Presentation_Title ": "Le recrutement et les réseaux sociaux/Se distinguer sur Linkedin",
+
+			"duration": " 1h30",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "https://www.linkedin.com/in/faten-ben-aissa-31253096/",
+			"aboutMe": ""
+		},
+		{
+			"name": "Mme Asma Hassouna",
+			"job": "Coach certifiée en développement personnel",
+			"image": "image/speakers/asma.jpg",
+			"theme": 2,
+			"Conference_Format": "In-person",
+			"time": "9h30",
+			"Presentation_Title ": "Confiance en soi",
+
+			"duration": " 1h30",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "#",
+			"aboutMe": "Coach certifiée en développement personnel. Master RH Economie et Psychologie coaching Théâtral. Formatrice Soft Skills. TeamBuilding."
 		}
 	]
 }

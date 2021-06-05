@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './aboutUs.css';
-import data from '../../_utils/hotel/hotel.json';
+import data from '../../_utils/ieee.json';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -18,7 +18,11 @@ function AboutUs() {
 		<div>
 			<section
 				class='hero-wrap hero-wrap-2'
-				style={{ backgroundImage: 'url(/image/bg_1.jpg)' }}
+				style={{
+					backgroundImage: 'url(/image/insat.jpg)',
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: 'center',
+				}}
 			>
 				<div class='overlay'></div>
 				<div class='container'>
@@ -48,7 +52,12 @@ function AboutUs() {
 							<div class='wrap-about-border'>
 								<div
 									class='img'
-									style={{ backgroundImage: 'url(/image/about.jpg)' }}
+									style={{
+										backgroundImage: 'url(/image/cs.jpg)',
+										backgroundRepeat: 'no-repeat',
+										backgroundSize: 'contain',
+										backgroundPosition: 'center',
+									}}
 								></div>
 								<div class='text'>
 									{/* <h3>Read Our Success Story for Inspiration</h3> */}
@@ -194,9 +203,9 @@ function AboutUs() {
 									<div class='block-18'>
 										<div class='text'>
 											<strong class='number' data-number='705'>
-												130
+												250
 											</strong>
-											<span>Projects Completed</span>
+											<span>Participants </span>
 										</div>
 									</div>
 								</div>
@@ -204,9 +213,9 @@ function AboutUs() {
 									<div class='block-18'>
 										<div class='text'>
 											<strong class='number' data-number='809'>
-												202
+												12
 											</strong>
-											<span>Satisfied Customer</span>
+											<span>Committee</span>
 										</div>
 									</div>
 								</div>
@@ -214,9 +223,9 @@ function AboutUs() {
 									<div class='block-18'>
 										<div class='text'>
 											<strong class='number' data-number='335'>
-												758
+												04
 											</strong>
-											<span>Awwards Received</span>
+											<span>Sponsors </span>
 										</div>
 									</div>
 								</div>
@@ -224,9 +233,9 @@ function AboutUs() {
 									<div class='block-18'>
 										<div class='text'>
 											<strong class='number' data-number='35'>
-												678
+												01
 											</strong>
-											<span>Years of Experienced</span>
+											<span>Editions </span>
 										</div>
 									</div>
 								</div>

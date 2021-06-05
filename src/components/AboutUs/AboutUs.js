@@ -124,8 +124,11 @@ export const AboutUs = () => {
 										<h4>4 Speakers</h4>
 									</div>
 									<p className='aboutUsP'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-										rhoncus massa nec graviante.
+										Our Congress is the best, because we have the best speakers
+										in the entire world brought to you to discuss the trendiest
+										topics in the Tech industry within a fun and innovative
+										environment. So, are you ready to get to know them and talk
+										Science and Technology with them?
 									</p>
 								</div>
 							</div>

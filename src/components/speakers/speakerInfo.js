@@ -121,7 +121,7 @@ function SpeakerInfo(props) {
 											<label>Time</label>
 										</div>
 										<div className='col-md-6'>
-											<p> {props.speaker.Time} </p>
+											<p> {props.speaker.time} </p>
 										</div>
 									</div>
 									<div className='row'>

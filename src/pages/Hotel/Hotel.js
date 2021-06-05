@@ -7,7 +7,11 @@ export const Hotel = () => {
 		<div>
 			<section
 				class='hero-wrap hero-wrap-2'
-				style={{ backgroundImage: 'url(/image/bg_1.jpg)' }}
+				style={{
+					backgroundImage: 'url(/image/insat.jpg)',
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: 'center',
+				}}
 			>
 				<div class='overlay'></div>
 				<div class='container'>

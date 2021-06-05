@@ -1,11 +1,7 @@
 {
-  "sponsors" : [
-      {"name": "INSAT Press",
-			"image": "image/sponsor/InsatPress.png"},
-      {"name": "CS IEEE",
-			"image": "image/sponsor/csTunisiaSection.png"},
-        {"name": "third Sponsor",
-			"image": "image/sponsor/sponsor3.png"}
-
-        ]
+	"sponsors": [
+		{ "name": "INSAT Press", "image": "image/sponsor/stb.png" },
+		{ "name": "Stb", "image": "image/sponsor/dailyn.png" },
+		{ "name": "third Sponsor", "image": "image/sponsor/press.png" }
+	]
 }

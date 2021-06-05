@@ -1,0 +1,22 @@
+{
+	"Hotel": [
+		{
+			"image": "image/ieee/ieee1.jpg"
+		},
+		{
+			"image": "image/ieee/ieee2.jpg"
+		},
+		{
+			"image": "image/ieee/ieee3.jpg"
+		},
+		{
+			"image": "image/ieee/ieee4.jpg"
+		},
+		{
+			"image": "image/ieee/ieee5.jpg"
+		},
+		{
+			"image": "image/ieee/ieee6.jpg"
+		}
+	]
+}

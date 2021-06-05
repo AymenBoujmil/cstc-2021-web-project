@@ -16,7 +16,7 @@ export const Hotel_banner = () => {
 						<div class='col-md-5'>
 							<div class='banner_text'>
 								<div class='banner_text_iner '>
-									<h1 className='primary-text2 '>Best hama Hotel</h1>
+									<h1 className='primary-text2 '>Vincci Nozha Beach</h1>
 									<p className='banner_text_iner2'>
 										As soon as you enter the building , you will be welcomed by
 										the courteous hotel staff whowill make you feel at home and
@@ -41,7 +41,7 @@ export const Hotel_banner = () => {
 					</div>
 				</div>
 				<div class='banner_img'>
-					<img src='image/ban.jpg' alt='#' class='img-fluid'></img>
+					<img src='image/bannn.jpg' alt='#' class='img-fluid'></img>
 					<img
 						src='image/banner_pattern.png '
 						alt='#'
