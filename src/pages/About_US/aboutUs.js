@@ -213,9 +213,9 @@ function AboutUs() {
 									<div class='block-18'>
 										<div class='text'>
 											<strong class='number' data-number='809'>
-												12
+												20
 											</strong>
-											<span>Committee</span>
+											<span>Ambassadors</span>
 										</div>
 									</div>
 								</div>
