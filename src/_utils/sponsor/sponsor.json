@@ -2,6 +2,8 @@
 	"sponsors": [
 		{ "name": "INSAT Press", "image": "image/sponsor/stb.png" },
 		{ "name": "Stb", "image": "image/sponsor/dailyn.png" },
-		{ "name": "third Sponsor", "image": "image/sponsor/press.png" }
+		{ "name": "third Sponsor", "image": "image/sponsor/press.png" },
+		{ "name": "Stb", "image": "image/sponsor/cschap.png" },
+		{ "name": "third Sponsor", "image": "image/sponsor/escape.png" }
 	]
 }
