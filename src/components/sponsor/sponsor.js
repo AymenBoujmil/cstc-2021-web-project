@@ -50,7 +50,7 @@ export const Sponsor = () => {
 							/>
 						</div>
 					))}
-					<div class='card' style={{ height: '100px' }}>
+					{/* <div class='card' style={{ height: '100px' }}>
 						{' '}
 						<img
 							src={sponsors[0].image}
@@ -65,7 +65,7 @@ export const Sponsor = () => {
 							//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 							alt=''
 						/>
-					</div>
+					</div> */}
 				</div>
 				<div class='list-bis'>
 					{sponsors.map((sponsor, index) => (
@@ -98,7 +98,7 @@ export const Sponsor = () => {
 							/>
 						</div>
 					))}
-					<div class='card' style={{ height: '100px' }}>
+					{/* <div class='card' style={{ height: '100px' }}>
 						{' '}
 						<img
 							src={sponsors[0].image}
@@ -113,7 +113,7 @@ export const Sponsor = () => {
 							//style={{ width: '100px', height: '100px',objectFit:'cover' }}
 							alt=''
 						/>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

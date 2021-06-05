@@ -16,7 +16,7 @@ export const AboutHotel = () => {
 		});
 	}, []);
 	return (
-		<div className='p pb-5 m-t-5'>
+		<div className='p pb-5 m-t-5 marginnn'>
 			<div className='section_title text-center'>
 				<h3
 					className='title primary-text padding-title-hotel'

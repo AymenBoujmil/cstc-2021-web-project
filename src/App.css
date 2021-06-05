@@ -1017,6 +1017,7 @@ nav {
 	width: 99px;
 	height: 97px;
 	line-height: 97px;
+	cursor: pointer;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
