@@ -60,8 +60,10 @@ export const Speakers = () => {
 				<div data-aos='fade-down-right'>
 					<h2 class='mb-4'>Our Speakers</h2>
 					<p>
-						The CSTC speakers will only speak the truth, discuss hope, and open
-						minds.
+						Our hand-picked speakers will break down the subject to give you a
+						better understanding of the workings of social media. We promise you
+						that, by the end of the conferences ,you will be conscious of how
+						social media makes you feel and you will learn how to use it wisely.
 					</p>
 				</div>
 				{/* <div id='themes'>
