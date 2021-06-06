@@ -79,8 +79,8 @@ function AboutUs() {
 						>
 							<h2 class='mb-4'>About IEEE CS chapter</h2>
 							<p>
-								IEEE INSAT CS Chapter offers multiple Hard Skills and Soft
-								Skills training throughout the year collaborating other
+								IEEE CS INSAT STUDENT BRANCH CHAPTER offers multiple Hard Skills
+								and Soft Skills training throughout the year collaborating other
 								organizations and individuals. Last year, they began strong with
 								the "Summer School" series of workshops in web development,
 								Blockchain technologies and Bioinformatics... Throughout the
