@@ -19,7 +19,7 @@ const HotelContact = () => {
 				<div className='col-lg-6 col-md-6 col-sm-12'>
 					<div class='card hotel-card  h-90'>
 						<div class='card-body'>
-							<h4 class='card-title text-primary'> Hotel Name</h4>
+							<h4 class='card-title text-primary'> Hotel Contact</h4>
 
 							<div className='contact-body'>
 								<IconContext.Provider
