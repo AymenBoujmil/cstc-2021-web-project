@@ -274,6 +274,11 @@ img {
 	height: 2px;
 	background: #1b9ce3;
 }
+@media (max-width: 575px) {
+	.ftco-counter .text strong.number:after {
+		left: 41%;
+	}
+}
 .ftco-counter .text span {
 	display: block;
 	font-size: 14px;

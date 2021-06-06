@@ -100,10 +100,16 @@ h3,
 .icon_box_one .content h4 {
 	color: #233e62;
 	margin-bottom: 12%;
+
 	margin-top: 10%;
 	text-transform: capitalize;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
+}
+@media (max-width: 575px) {
+	.icon_box_one .content h4 {
+		text-align: justify !important;
+	}
 }
 .icon_box_one:hover i {
 	color: #fff;
