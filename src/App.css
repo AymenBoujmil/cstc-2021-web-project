@@ -12,6 +12,11 @@ p {
 	font-family: 'Nunito Sans', Arial, sans-serif !important;
 	color: gray;
 }
+@media (max-width: 575px) {
+	body {
+		text-align: center !important;
+	}
+}
 ul {
 	list-style-type: none;
 	margin: 0;
