@@ -5,7 +5,7 @@ export const Banner = () => {
 	return (
 		<div id='home'>
 			<section>
-				<img src='/image/bg1.png' alt='' className='hero-banner-img'></img>
+				<img src='/image/bg1.webp' alt='' className='hero-banner-img'></img>
 			</section>
 		</div>
 	);
