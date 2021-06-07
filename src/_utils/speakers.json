@@ -8,7 +8,7 @@
 			"Conference_Format": "Virtual",
 			"Time": "16h",
 			"duration": "30 minutes",
-			"Presentation_Title ": "The Why and How of ML Ops",
+			"Presentation_Title": "The Why and How of ML Ops",
 			"linkedin": "https://www.linkedin.com/in/skander-hannachi-3835618/",
 			"aboutMe": "Skander Hannachi is an AI/ML Specialist with Google Cloud's Customer Engineering team in Seattle, Washington, United States. He works on developing ML models and solution architectures for Google Cloud's customers, as well as collaborating with Google product teams to shape AI/ML solutions for customer needs.Before joining Google, he worked for 5 years as a data scientist for Nordstrom's demand forecasting and replenishment team and also held various consulting roles in which he implementedretail forecasting and planning solutions for multiple retailers. He holds a Ph.D in computational intelligence from Tokyo Institute of Technology, and a degree in Instrumentation and Maintenance Engineering from INSAT, Tunisia, and has done academic research on neural networks and fuzzy logic, both from a theoretical point of view, as well as applied to fisheries and environmental sciences."
 		},
@@ -19,7 +19,7 @@
 			"theme": 2,
 			"Conference_Format": "In-person",
 			"time": " 17h30",
-			"Presentation_Title ": "Impacts des réseaux sociaux sur les élections : succès ou manipulations",
+			"Presentation_Title": "Impacts des réseaux sociaux sur les élections : succès ou manipulations",
 
 			"duration": " 20 minutes",
 			"facebook": "facebook.com/blablabla",
@@ -33,7 +33,7 @@
 			"theme": 2,
 			"Conference_Format": "In-person",
 			"time": "9h30",
-			"Presentation_Title ": "Le recrutement et les réseaux sociaux/Se distinguer sur Linkedin",
+			"Presentation_Title": "Le recrutement et les réseaux sociaux/Se distinguer sur Linkedin",
 
 			"duration": " 1h30",
 			"facebook": "facebook.com/blablabla",
@@ -41,18 +41,32 @@
 			"aboutMe": ""
 		},
 		{
-			"name": "Mme Asma Hassouna",
+			"name": "Mme.Asma Hassouna",
 			"job": "Coach certifiée en développement personnel",
 			"image": "image/speakers/asma.jpg",
 			"theme": 2,
 			"Conference_Format": "In-person",
 			"time": "9h30",
-			"Presentation_Title ": "Confiance en soi",
+			"Presentation_Title": "Confiance en soi",
 
 			"duration": " 1h30",
 			"facebook": "facebook.com/blablabla",
 			"linkedin": "#",
 			"aboutMe": "Coach certifiée en développement personnel. Master RH Economie et Psychologie coaching Théâtral. Formatrice Soft Skills. TeamBuilding."
+		},
+		{
+			"name": "Mr.Alaeddine Aziz",
+			"job": "CEO & Founder Hydatis",
+			"image": "image/speakers/alaeddin.jpg",
+			"theme": 2,
+			"Conference_Format": "In-person",
+			"time": "16h30",
+			"Presentation_Title": "",
+
+			"duration": "  18 minutes",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "https://www.linkedin.com/in/alaeddineaziz/ ",
+			"aboutMe": "Expert spécialisé dans la transformation digitale des entreprises, en intelligence artificielle et en marketing digital.Coach Formateur en innovation et entrepreneuriat. CEO & Founder Hydatis."
 		}
 	]
 }

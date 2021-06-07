@@ -121,7 +121,7 @@ export const AboutUs = () => {
 								<div className='content'>
 									<div className='pad_icon'>
 										{' '}
-										<h4>4 Speakers</h4>
+										<h4>5 Speakers</h4>
 									</div>
 									<p className='aboutUsP'>
 										Our Congress is the best, because we have the best speakers
