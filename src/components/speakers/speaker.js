@@ -39,7 +39,7 @@ export const Speaker = (props) => {
 				<div class='speaker-overlay'>
 					<ul class='speaker-social'>
 						<li>
-							<a href='#'>
+							<a href={props.speaker.linkedin}>
 								<i class='fab fa-linkedin-in' style={styleIcon}></i>
 							</a>
 						</li>

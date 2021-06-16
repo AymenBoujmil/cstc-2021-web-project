@@ -67,6 +67,20 @@
 			"facebook": "facebook.com/blablabla",
 			"linkedin": "https://www.linkedin.com/in/alaeddineaziz/ ",
 			"aboutMe": "Expert spécialisé dans la transformation digitale des entreprises, en intelligence artificielle et en marketing digital.Coach Formateur en innovation et entrepreneuriat. CEO & Founder Hydatis."
+		},
+		{
+			"name": "Kaouther Boussema",
+			"job": "Experte Oracle ERP-Cloud & IA PhD",
+			"image": "image/speakers/bousemaa.png",
+			"theme": 2,
+			"Conference_Format": "In-person",
+			"time": "16h30",
+			"Presentation_Title": "Role of AI in social media",
+
+			"duration": " 18 min ",
+			"facebook": "facebook.com/blablabla",
+			"linkedin": "https://www.linkedin.com/in/kaouther-boussema-5284411/",
+			"aboutMe": "Kaouther Boussema, docteur en Intelligence Artificielle, CEO de la société Kin'Yu Consulting experte ERP-Cloud d'Oracle est chargée des études du Master Big Data à l'université Dauphone |Tunis . Elle obtient en 1988 son doctorat en Intelligence Artificielle à l'université Paris Dauphine ; ses travaux de recherches ont portés sur les systèmes de génération et d'apprentissage automatique. Durant sa thèse, tout en occupant le poste d'ATER aux Universités Paris-Assas et Paris Dauphine, elle participe au projet Descartes à la Direction des Etudes et Recherches d'EDF Clamarten 2015, elle obtient la certification du DSSP 'Data Science' de l'ecole polytechnique l'X en France.Kaouther a une expertise de 22 ans sur les ERP d'Oracle, dont 22 ans au sein des équipes de développement d'ORACLE CORP Durance ces 11 années, Kaouther a conçu le noyau(Kernel) des applications Subledger Accounting (SLA), Financial Accounting hub (FAH) et Transaction Account Builder (TAB), En 2010, Kaouther crée sa propre société Kin'Yu Consulting, société d'expertise autour d'Oracle Applications dont elle est la Présidente. En parallèle, Kaouther se lance en 2016 dans une nouvelle aventure rejoignant l'équipe pédagogique de l'Université Paris Dauphine | Tunis pour prendre en charge le Master Big Data (Intelligence Artificille, Système, Données)"
 		}
 	]
 }
